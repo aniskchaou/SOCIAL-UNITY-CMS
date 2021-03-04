@@ -1,0 +1,41 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Post Reactions\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-03-17 12:36+0000\n"
+"PO-Revision-Date: 2021-01-20 13:48+0000\n"
+"Last-Translator: Crumina <info@crumina.net>\n"
+"Language-Team: English (United States)\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+#: ../../plugins/unyson/framework/extensions/post-reaction/settings-options.php:21
+msgid "Amazed"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/post-reaction/settings-options.php:25
+msgid "Anger"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/post-reaction/settings-options.php:29
+msgid "Bad"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/post-reaction/settings-options.php:33
+msgid "Cool"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/post-reaction/settings-options.php:37
+msgid "Joy"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/post-reaction/settings-options.php:41
+msgid "Like"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/post-reaction/settings-options.php:45
+msgid "Lol"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/post-reaction/views/reactions.php:12
+#: ../../plugins/unyson/framework/extensions/post-reaction/views/reactions-count-all.php:13
+#, php-format
+msgid "Remove my %s reaction"
+msgstr ""

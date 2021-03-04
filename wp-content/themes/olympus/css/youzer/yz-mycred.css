@@ -1,0 +1,128 @@
+.yz-user-balance-box {
+  background-color: #7c5ac2;
+  background-color: var(--third-accent-color);
+  background-image: url(../../images/youzer-balance.png), linear-gradient(to left, #7c5ac2, #3D28A7);
+  background-image: url(../../images/youzer-balance.png), -webkit-linear-gradient(right, #7c5ac2, #3D28A7); }
+
+.yz-user-balance-box .yz-box-head {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: 0;
+  text-transform: capitalize; }
+
+.yz-user-balance-box .yz-user-points {
+  font-family: inherit; }
+
+.yz-user-balance-box .yz-user-points-slash {
+  font-family: inherit; }
+
+.yz-user-balance-box .yz-user-points-title {
+  font-weight: 500;
+  font-family: inherit; }
+
+.yz-user-balance-box .yz-user-level-title {
+  font-family: inherit; }
+
+.mycred-history #buddypress.youzer .mycred-table thead th,
+.mycred-history #buddypress.youzer .mycred-table tfoot th {
+  color: #828282;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 10px 5px; }
+
+#buddypress.youzer .mycred-table tbody td {
+  padding: 20px 5px;
+  color: #515365;
+  color: var(--heading-font-color);
+  font-size: 14px; }
+
+.youzer .tablenav-pages .displaying-num {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-size: 14px;
+  font-weight: 500; }
+
+.youzer .tablenav-pages a,
+.youzer .tablenav-pages .tablenav-pages-navspan {
+  font-size: 14px;
+  font-weight: 500; }
+
+.youzer .tablenav-pages #table-paging {
+  font-size: 14px; }
+
+.yz-tab-title-box {
+  background-image: url("../../images/badges-bg.jpg") !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important; }
+
+.yz-tab-title-box .yz-tab-title-content h2 {
+  font-weight: 500;
+  font-family: inherit; }
+
+.yz-tab-title-box .yz-tab-title-content span {
+  font-size: 14px;
+  font-weight: 500; }
+
+.yz-user-badges-tab .yz-user-badge-item .yz-user-badge-title {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color); }
+
+.yz-user-badges-tab .yz-mycred-badge-level {
+  font-size: 14px; }
+
+.yz-user_badges .yz-user-badges-more-text.yz-more-items a {
+  font-size: 14px;
+  font-weight: 500;
+  border-top: 1px solid #e6ecf5; }
+
+.yz-user_badges .yz-user-badges-more-box.yz-more-items a {
+  font-size: 14px;
+  font-weight: 500;
+  border-top: 1px solid #e6ecf5; }
+
+.yzb-user-badges .yz-more-items a,
+.yz-md-user-badges .yz-more-items a {
+  font-weight: 500;
+  border-top: 1px solid #e6ecf5; }
+
+.yz-md-user-badges .yz-user-badges .yz-more-items,
+.yzb-user-badges .yz-user-badges .yz-more-items {
+  margin: 0 5px 5px 5px; }
+
+.myCRED-leaderboard .yz-leaderboard-position {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.myCRED-leaderboard .yz-leaderboard-username {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-size: 14px;
+  font-weight: 500; }
+  .myCRED-leaderboard .yz-leaderboard-username:hover {
+    color: #ff5e3a;
+    color: var(--primary-accent-color); }
+
+.myCRED-leaderboard .yz-leaderboard-points {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-weight: 500; }
+
+.widget-content .myCRED-balance {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.widget-content .myCRED-history li {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-size: 14px;
+  font-weight: 500; }
+
+#mycred-users-badges.row {
+  margin-left: 0;
+  margin-right: 0; }

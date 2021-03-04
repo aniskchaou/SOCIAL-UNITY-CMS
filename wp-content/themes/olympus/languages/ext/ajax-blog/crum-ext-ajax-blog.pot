@@ -1,0 +1,104 @@
+#, fuzzy
+#: class-fw-extension-ajax-blog.php:70
+msgid "Ajax preloader"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:71
+msgid "Work with ajax panels"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:74
+msgid "Ajax Categories"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:75
+msgid "Ajax Filter options"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:79
+msgid "Reaction"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:80
+msgid "Sort posts by user reactions"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:84 class-fw-extension-ajax-blog.php:97
+#: class-fw-extension-ajax-blog.php:110 class-fw-extension-ajax-blog.php:123
+#: class-fw-extension-ajax-blog.php:137
+msgid "Enable"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:88 class-fw-extension-ajax-blog.php:101
+#: class-fw-extension-ajax-blog.php:114 class-fw-extension-ajax-blog.php:127
+#: class-fw-extension-ajax-blog.php:141
+msgid "Disable"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:93
+msgid "Categories"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:106
+msgid "Order"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:119
+msgid "Order By"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:132
+msgid "Search box"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:133
+msgid "Enable posts search from panel"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:152
+msgid "Loadmore"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:186
+msgid "DESC"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:187
+msgid "ASC"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:193
+msgid "Order by date"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:194
+msgid "Order by number of comments"
+msgstr ""
+
+#: class-fw-extension-ajax-blog.php:195
+msgid "Order by author"
+msgstr ""
+
+#: manifest.php:9
+msgid "Ajax blog"
+msgstr ""
+
+#: views/nav.php:10
+msgid "Previous"
+msgstr ""
+
+#: views/nav.php:11
+msgid "Next"
+msgstr ""
+
+#: views/panel-ajax-cats.php:5
+msgid "All Categories"
+msgstr ""
+
+#: views/panel-filters.php:32
+msgid "Filter By"
+msgstr ""
+
+#: views/panel-filters.php:35 views/panel-filters.php:71
+msgid "Search Blog Posts..."
+msgstr ""

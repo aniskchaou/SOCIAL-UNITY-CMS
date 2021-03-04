@@ -1,0 +1,32 @@
+/*------------- #VARIABLES --------------*/
+/*------------- #SHOP --------------*/
+ul.wpp-list li {
+  padding: 15px 25px; }
+
+ul.wpp-list .wpp-post-title {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  color: #515365;
+  color: var(--heading-font-color);
+  font-weight: 600;
+  margin-bottom: 10px; }
+  ul.wpp-list .wpp-post-title:hover {
+    color: #ff5e3a;
+    color: var(--primary-accent-color); }
+
+ul.wpp-list .wpp-thumbnail {
+  float: none;
+  margin: 0 0 10px 0;
+  display: block; }
+
+ul.wpp-list .wpp-excerpt {
+  display: block;
+  margin-bottom: 10px; }
+
+ul.wpp-list .wpp-meta a {
+  color: #515365;
+  color: var(--heading-font-color); }
+  ul.wpp-list .wpp-meta a:hover {
+    color: #ff5e3a;
+    color: var(--primary-accent-color); }

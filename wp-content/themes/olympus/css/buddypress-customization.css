@@ -1,0 +1,47 @@
+/*------------- #VARIABLES --------------*/
+/*------------- #RT-Media --------------*/
+.olympus-theme #buddypress {
+  margin: 30px 0; }
+  .olympus-theme #buddypress div.dir-search input[type="text"] {
+    width: auto; }
+  .olympus-theme #buddypress #whats-new-form {
+    margin: 20px 0; }
+  .olympus-theme #buddypress .bp-navs ul li a,
+  .olympus-theme #buddypress ul.subnav a,
+  .olympus-theme #buddypress div.item-list-tabs ul li a,
+  .olympus-theme #buddypress .acomment-meta a,
+  .olympus-theme #buddypress .activity-header a,
+  .olympus-theme #buddypress .comment-meta a {
+    color: #515365;
+    color: var(--heading-font-color); }
+    .olympus-theme #buddypress .bp-navs ul li a:hover,
+    .olympus-theme #buddypress ul.subnav a:hover,
+    .olympus-theme #buddypress div.item-list-tabs ul li a:hover,
+    .olympus-theme #buddypress .acomment-meta a:hover,
+    .olympus-theme #buddypress .activity-header a:hover,
+    .olympus-theme #buddypress .comment-meta a:hover {
+      color: #ff5e3a;
+      color: var(--primary-accent-color); }
+  .olympus-theme #buddypress div.dir-search {
+    margin: 0; }
+  .olympus-theme #buddypress .member-header-actions {
+    padding-left: 0; }
+  .olympus-theme #buddypress .member-header-actions a {
+    height: auto; }
+  .olympus-theme #buddypress .bp-messages-content .thread-participants ul {
+    padding-left: 0; }
+  .olympus-theme #buddypress #message-threads li {
+    padding: .5em; }
+  .olympus-theme #buddypress .notifications-options-nav input#notification-bulk-manage {
+    line-height: 1;
+    margin-left: 15px; }
+  .olympus-theme #buddypress button[data-bp-close] span::before {
+    font-size: 20px; }
+  .olympus-theme #buddypress .buddypress-wrap .bp-feedback {
+    padding: 10px; }
+  .olympus-theme #buddypress #bbp-reply-search-form div {
+    display: -ms-flexbox;
+    display: flex; }
+  .olympus-theme #buddypress ul.rtmedia-album-list li.rtmedia-list-item {
+    width: 31%;
+    margin: 1%; }

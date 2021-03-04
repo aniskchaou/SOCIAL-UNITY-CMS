@@ -1,0 +1,82 @@
+/*------------- #VARIABLES --------------*/
+/*------------- #WPADVERTS CUSTOMIZATION --------------*/
+.olympus-theme .adverts-search .advert-input input[type="text"] {
+  border-radius: 0.25rem;
+  border: 1px solid #e6ecf5;
+  padding: 1.1rem 1.1rem; }
+
+.olympus-theme .adverts-options {
+  border: 1px solid #e6ecf5;
+  border-bottom-color: #e6ecf5;
+  border-bottom: 2px solid #e6ecf5;
+  background-color: #fff; }
+
+.olympus-theme .adverts-button-small {
+  padding: 0.5rem 1.7rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 0.2rem;
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color);
+  border: none;
+  color: #fff;
+  height: initial; }
+
+.olympus-theme .advert-img {
+  margin-bottom: 20px; }
+
+.olympus-theme .advert-price {
+  color: #fff;
+  border: none;
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color); }
+
+.olympus-theme .advert-item span.advert-link .advert-link-text {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.olympus-theme .advert-item {
+  border: 1px solid #e6ecf5;
+  border-radius: 5px;
+  overflow: hidden; }
+
+.olympus-theme .adverts-price-box {
+  border-radius: 0.2rem;
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color); }
+
+.olympus-theme input[type="submit"].adverts-button,
+.olympus-theme .adverts-button,
+.olympus-theme .adverts-upload-actions a.button {
+  height: initial;
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color);
+  padding: 0.5rem 1.7rem;
+  color: #fff !important;
+  border: none; }
+  .olympus-theme input[type="submit"].adverts-button:hover,
+  .olympus-theme .adverts-button:hover,
+  .olympus-theme .adverts-upload-actions a.button:hover {
+    border: none;
+    color: #fff !important; }
+
+.olympus-theme .adverts-contact-box a {
+  color: #515365;
+  color: var(--heading-font-color); }
+  .olympus-theme .adverts-contact-box a:hover {
+    color: #ff5e3a;
+    color: var(--primary-accent-color); }
+
+.olympus-theme .adverts-list {
+  border-radius: 5px;
+  padding: 20px;
+  background: #fff; }
+
+.olympus-theme .adverts-widget-recent .adverts-widget-recent-title a,
+.olympus-theme .adverts-widget-recent .adverts-widget-recent-title a:visited {
+  color: #515365;
+  color: var(--heading-font-color); }
+  .olympus-theme .adverts-widget-recent .adverts-widget-recent-title a:hover,
+  .olympus-theme .adverts-widget-recent .adverts-widget-recent-title a:visited:hover {
+    color: #ff5e3a;
+    color: var(--primary-accent-color); }

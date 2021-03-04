@@ -1,0 +1,111 @@
+/*------------- #VARIABLES --------------*/
+/*------------- #LEARN PRESS CUSTOMIZATION --------------*/
+.olympus-theme .learn-press-breadcrumb a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme ul.learn-press-nav-tabs .course-nav a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme ul.learn-press-nav-tabs {
+  border-bottom: 1px solid #e6ecf5; }
+
+.olympus-theme.learnpress-page .lp-button {
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color);
+  color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: 0 3rem;
+  border-radius: 3px; }
+
+.olympus-theme .course-curriculum ul.curriculum-sections .section-content .course-item .section-item-link {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .course-curriculum ul.curriculum-sections .section-content .course-item.item-locked .course-item-status::before {
+  color: #ff5e3a;
+  color: var(--primary-accent-color); }
+
+.olympus-theme .lp-single-course .course-author .author-name a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme #learn-press-profile-header {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color);
+  border-radius: 5px 5px 0 0; }
+
+.olympus-theme #learn-press-profile-nav {
+  background-color: #f4f4f4; }
+
+.olympus-theme #learn-press-profile-nav .tabs > li.active > a {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color);
+  color: #fff; }
+
+.olympus-theme #learn-press-profile-nav .tabs > li a,
+.olympus-theme #learn-press-profile-nav .tabs > li > a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme #learn-press-profile-nav .tabs > li a {
+  padding: 10px 20px; }
+
+.olympus-theme #learn-press-profile-header .lp-profile-avatar img {
+  border-radius: 100%; }
+
+.olympus-theme .lp-sub-menu {
+  padding-left: 0; }
+
+.olympus-theme .profile-heading {
+  margin-bottom: 15px; }
+
+.olympus-theme .lp-sub-menu li a {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.olympus-theme .lp-sub-menu li span {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .lp-tab-sections .section-tab a {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.olympus-theme .lp-tab-sections .section-tab span {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme #lp-upload-photo {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color);
+  color: #fff;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  padding: .3rem 1rem;
+  border-radius: 3px; }
+
+.olympus-theme .lp-list-table tbody tr td a,
+.olympus-theme .lp-list-table tbody tr th a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .order-recover input[name="order-key"] {
+  padding: 14px 20px; }
+
+.olympus-theme #course-item-content-header .course-title a,
+.olympus-theme .course-instructor a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .quiz-result .result-statistic .result-statistic-field {
+  margin-bottom: 5px;
+  border-bottom: 1px solid #e6ecf5;
+  padding-bottom: 5px; }
+
+.olympus-theme body.course-item-popup #learn-press-course-curriculum .section-header .section-desc {
+  margin-bottom: 15px; }

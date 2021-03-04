@@ -1,0 +1,6 @@
+.kc-components ul.kc-components-list li .cpicon.kc-extended-search-icon,
+.kc-element-icon .cpicon.kc-extended-search-icon {
+    background-image: url(../img/builder-ico.svg);
+    background-size: contain;
+    background-position: center center;
+}

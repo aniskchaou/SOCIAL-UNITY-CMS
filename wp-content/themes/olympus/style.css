@@ -1,0 +1,43 @@
+/*
+Theme Name: Olympus
+Theme URI: https://olympus.crumina.net/
+Author: crumina
+Author URI: http://crumina.net
+Description: Social Network
+Version: 3.11
+Tested up to: 5.4.2
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: olympus
+Tags: one-column, two-columns, right-sidebar, custom-menu, editor-style, featured-images, microformats, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+Main theme styles can be found in file:
+--------------------------------
+css/styles.css
+--------------------------------
+*/
+
+
+.sticky {
+	position: relative;
+}
+
+.bypostauthor {
+	position: relative;
+}
+
+.wp-caption {
+	position: relative;
+}
+
+.wp-caption-text {
+	position: relative;
+}
+
+.gallery-caption {
+	position: relative;
+}

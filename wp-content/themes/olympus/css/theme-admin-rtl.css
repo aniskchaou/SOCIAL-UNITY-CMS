@@ -1,0 +1,79 @@
+body.rtl .fw-backend-side-tabs #fw-backend-option-fw-option-footer_settings-html_label,
+#fw-backend-option-fw-option-footer_settings-copyright_top,
+#fw-backend-option-fw-option-footer_settings-copyright_bottom {
+  float: right; }
+
+body.rtl .fw-backend-side-tabs #fw-backend-option-fw-option-footer_settings-html_label {
+  padding-right: 27px;
+  padding-left: 27px; }
+
+body.rtl .button.fw-advanced-button {
+  margin-right: 30px;
+  margin-left: 0; }
+
+body.rtl .fw-option-type-color-palette .fw-palette {
+  right: 0;
+  top: 0; }
+
+body.rtl .fw-option-type-color-palette .predefined .fw-option.fw-option-type-radio label {
+  top: -5px; }
+
+body.rtl .fw-option.fw-option-type-tf-typography .fw-option-tf-typography-option {
+  text-align: right; }
+
+body.rtl .fw-option-tf-animation-option-type {
+  padding-right: 0;
+  padding-left: 5px; }
+
+body.rtl .fw-checkbox-float-left div {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px; }
+
+body.rtl .fw-option-type-color-palette .predefined .fw-option-type-radio div:first-child {
+  margin-right: inherit; }
+
+body.rtl .fw-option-type-color-palette .predefined .fw-option-type-radio div {
+  margin-right: 7px;
+  margin-left: 0; }
+
+body.rtl .fw-option-type-color-palette input[type=radio] {
+  right: 5px;
+  left: initial;
+  margin-right: 0;
+  margin-left: 10px; }
+
+body.rtl .fw-option-type-tf-typography .fw-option-type-color-palette input {
+  margin-right: 0;
+  margin-left: 6px; }
+
+body.rtl .fw-option-type-tf-typography .fw-inner {
+  padding-left: 0; }
+
+body.rtl #fw-backend-options-group-padding_group .fw-backend-option-type-html {
+  float: right;
+  padding-right: 27px;
+  padding-left: 0; }
+
+/* Selectize inptut not suported RTl */
+body.rtl .fw-option-type-tf-typography .fw-option-tf-typography-option-family .selectize-control.single .selectize-input:after {
+  left: auto;
+  right: 8px; }
+
+body.rtl .fw-option-type-tf-typography div.selectize-input.items.full.has-options.has-items {
+  text-align: right;
+  padding-right: 20px; }
+
+body.rtl .fw-option-tf-animation-option-type .selectize-control.single .selectize-input:after {
+  left: auto;
+  right: 8px; }
+
+body.rtl .selectize-control.fw-option-tf-animation-option-type-input.single.rtl .selectize-input {
+  padding-right: 20px; }
+
+/* Responsive For Theme Parent */
+@media (max-width: 782px) {
+  /* Style for all form RTl and not RTl */
+  .fw-option-type-tf-typography .fw-option-type-color-palette input[type="radio"] {
+    width: 25px;
+    height: 25px; } }

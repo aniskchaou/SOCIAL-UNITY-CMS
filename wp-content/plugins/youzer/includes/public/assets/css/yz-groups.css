@@ -1,0 +1,1823 @@
+/**
+ * Create Group Form.
+ */
+
+#youzer #create-group-form {
+	width: 80%;
+	margin: 50px auto;
+	max-width: 850px;
+}
+
+.youzer.yz-create-new-group-page .item-list-tabs {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+}
+
+.youzer.yz-create-new-group-page .item-list-tabs li a {
+    margin: 0;
+}
+
+.youzer.yz-create-new-group-page .bp-cover-image-manage {
+    margin-bottom: 35px;
+}
+
+.youzer .yz-boxed-navbar {
+    margin: 0 auto;
+}
+/** # Group steps **/
+
+#group-create-tabs li {
+	font-size: 13px;
+	font-weight: 600;
+	min-width: 100px;
+    line-height: 18px;
+	padding: 10px 15px;
+    text-align: center;
+    margin:0 12px 20px 0;
+    display: inline-block;
+    background-color: #fff;
+}
+
+#group-create-tabs li.current {
+	display: inline-block;
+}
+
+#group-create-tabs li,
+#group-create-tabs li a {
+	color: #8a8a8a;
+}
+
+#group-create-tabs li.current,
+#group-create-tabs li.current a {
+	color: #fff;
+}
+
+/** # Group Steps Body **/
+
+#group-create-body,
+#group-settings-form {
+	padding: 35px;
+    margin-bottom: 35px;
+	background-color: #fff;
+}
+
+.membership-requests #group-settings-form,
+.manage-members #group-settings-form {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+}
+
+/*#group-settings-form p a */
+.yz-group-settings-tab p a {
+    color: #898989;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/*#group-settings-form p*/
+.yz-group-settings-tab p {
+    color: #8a8a8a;
+    font-size: 13px;
+    line-height: 26px;
+}
+
+.yz-group-settings-tab p.description,
+#group-settings-form p.description {
+    margin-bottom: 25px;
+}
+
+.yz-group-settings-tab .yz-group-field-item,
+#group-settings-form .yz-group-field-item {
+	margin-bottom: 35px;
+}
+
+#youzer .yz-group-settings-tab .radio label,
+#youzer #group-settings-form .radio label,
+#youzer .yz-group-settings-tab label,
+#youzer #group-settings-form label {
+	display: block;
+    color: #898989;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.yz-group-settings-tab .yz-group-field-item input[type=text],
+#group-settings-form .yz-group-field-item input[type=text] {
+	width: 50%;
+    height: 40px;
+    color: #898989;
+    font-size: 13px;
+    padding: 8px 15px;
+    border: 1px solid #eee;
+}
+
+.yz-group-settings-tab .yz-group-field-item textarea:focus,
+.yz-group-settings-tab .yz-group-field-item textarea:active,
+.yz-group-settings-tab .yz-group-field-item input[type=text]:focus,
+.yz-group-settings-tab .yz-group-field-item input[type=text]:active,
+#group-settings-form .yz-group-field-item textarea:focus,
+#group-settings-form .yz-group-field-item textarea:active,
+#group-settings-form .yz-group-field-item input[type=text]:focus,
+#group-settings-form .yz-group-field-item input[type=text]:active {
+    border-color: #ddd;
+    color: #898989;
+}
+
+.yz-group-settings-tab input[type=radio],
+.yz-group-settings-tab input[type=checkbox],
+#group-settings-form input[type=radio],
+#group-settings-form input[type=checkbox] {
+	vertical-align: middle;
+    margin-right: 5px;
+}
+
+#youzer .yz-group-settings-tab textarea,
+#youzer #group-settings-form textarea {
+	width: 100%;
+    height: 150px;
+    color: #898989;
+    font-size: 13px;
+    padding: 8px 15px;
+    line-height: 26px;
+}
+
+.yz-group-settings-tab input,
+.yz-group-settings-tab textarea,
+#group-settings-form input,
+#group-settings-form textarea {
+    border: 1px solid #eee;
+}
+
+.yz-group-settings-tab .yz-group-submit-form,
+#group-settings-form .yz-group-submit-form {
+	margin-bottom: 0;
+}
+
+.yz-group-settings-tab fieldset,
+#group-settings-form fieldset {
+	padding: 25px;
+    margin-bottom: 35px;
+	border: 1px solid #eee;
+}
+
+#yz-group-body h3,
+#group-settings-form h3 {
+    color: #777;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+#yz-group-body form input[type=submit]:not(#members_search_submit) {
+    width: 100%;
+    height: 55px;
+    padding: 0;
+}
+
+.yz-group-settings-tab fieldset legend,
+#group-settings-form fieldset legend {
+    padding: 0 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/*#yz-group-body p,*/
+#group-settings-form p,
+.yz-group-settings-tab fieldset p,
+#group-settings-form fieldset p {
+	color: #777;
+	font-size: 14px;
+    line-height: 22px;
+	margin-bottom: 25px;
+}
+
+#group-settings-form p:last-of-type {
+    /*margin-bottom: 0;*/
+}
+
+.yz-group-settings-tab fieldset ul,
+#group-settings-form fieldset ul {
+    padding-left: 35px;
+	margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+
+.rtl .yz-group-settings-tab fieldset ul,
+.rtl #group-settings-form fieldset ul {
+    padding-left: 0;
+    padding-right: 35px;
+}
+
+.yz-group-settings-tab fieldset ul#hidden-group-description,
+#group-settings-form fieldset ul#hidden-group-description {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	border-bottom: none;
+}
+
+.yz-group-settings-tab fieldset ul li,
+#group-settings-form fieldset ul li {
+	color: #8a8a8a;
+	font-size: 13px;
+	line-height: 26px;
+    list-style-type: disc;
+}
+
+.yz-group-settings-tab .yz-group-submit-form #group-creation-previous,
+#group-settings-form .yz-group-submit-form #group-creation-previous {
+	color: #8a8a8a;
+	margin-bottom: 15px;
+	background-color: #f6f6f6;
+}
+
+.yz-group-settings-tab .yz-group-submit-form #group-creation-previous,
+#group-settings-form .yz-group-submit-form #group-creation-previous,
+#send-invite-form .submit input,
+.yz-group-settings-tab input[type="submit"],
+#group-settings-form input[type="submit"] {
+    width: 100%;
+	border: none;
+    height: auto;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 20px 25px;
+    text-transform: uppercase;
+}
+
+.yz-group-settings-tab .yz-create-group-avatar img,
+#group-settings-form .yz-create-group-avatar img {
+	display: block;
+	margin: 0 auto 35px;
+}
+
+.yz-group-settings-tab .main-column p,
+#group-settings-form .main-column p {
+	color: #8a8a8a;
+	font-size: 14px;
+	line-height: 26px;
+    margin-bottom: 15px;
+}
+
+.yz-group-settings-tab .yz-create-group-avatar,
+#group-settings-form .yz-create-group-avatar {
+    margin-bottom: 35px;
+}
+
+.yz-group-create-forum-step #group-create-body.yz-group-settings-tab h4 {
+    display: none;
+}
+
+#group-create-body .bp-avatar-status {
+    margin-top: 25px;
+}
+
+#group-create-body .bp-avatar-status p.warning {
+    padding: 12px;
+    color: #898989;
+    margin-bottom: 25px;
+    background-color: #f6f5f5;
+    border-left: 5px solid #c3c1c1;
+}
+
+.yz-group-create-forum-step .yz-group-settings-tab p {
+    margin-bottom: 15px;
+}
+
+.yz-group-create-forum-step #group-create-body.yz-group-settings-tab .checkbox {
+    margin-bottom: 25px;
+}
+
+/** # Notices **/
+.yz-create-new-group-page #message {
+    background-color: #fff;
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+/**
+ * # Delete Photos
+ **/
+
+.youzer .yz-delete-group-tab #message {
+    background-color: #f9f9f9;
+}
+
+.youzer .yz-delete-group-tab #delete-group-button:disabled {
+    background-color: #898989;
+}
+
+.youzer .yz-delete-group-tab #delete-group-button {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 12px 25px;
+    letter-spacing: 0.03em;
+    background-color: #f8483e;
+    text-transform: uppercase;
+}
+
+/**
+ * Invite List.
+ */
+
+#send-invite-form {
+    margin-bottom: 35px;
+}
+
+#group-settings-form #invite-list ul li {
+    list-style-type: none;
+}
+
+#invite-list {
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+
+#invite-list ul {
+    padding: 12px 25px;
+}
+
+#invite-list ul li {
+    padding: 12px 0;
+}
+
+#invite-list ul li label img {
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 12px;
+    width: 35px;
+    height: 35px;
+}
+
+#invite-list ul li label {
+    color: #7c838a;
+    font-size: 13px;
+    font-weight: 600;
+    vertical-align: middle;
+    text-transform: capitalize;
+}
+
+#invite-list .list-title {
+    color: #969696;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 15px 25px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+#invite-list .list-title i {
+    width: 35px;
+    height: 35px;
+    font-size: 13px;
+    margin-right: 12px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+/* # Checkbox Field. */
+
+#invite-list ul li .yz_cs_checkbox_field {
+    padding-left: 35px;
+}
+
+#invite-list ul li .yz_cs_checkbox_field .yz_field_indication {
+    top: 6px;
+    width: 22px;
+    height: 22px;
+}
+
+/**
+ * Group Navbar.
+ */
+
+#yz-profile-navmenu {
+    z-index: 1;
+    position: relative;
+    background-color: #fff;
+}
+
+#create-group-form:after,
+.youzer .yz-group-navmenu:after {
+    content: "";
+    clear: both;
+    display: block;
+    overflow: hidden;
+}
+
+#yz-profile-navmenu .yz-inner-content {
+    width: 100%;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+}
+
+.yz-horizontal-layout .yz-group-navmenu li a {
+    min-width: 130px;
+}
+
+.yz-vertical-layout .yz-group-navmenu li a {
+    min-width: 130px;
+}
+
+.yz-group-navmenu li a {
+    padding: 25px;
+    color: #939BA3;
+    cursor: pointer;
+    font-weight: 600;
+    line-height: 20px;
+    font-size: 12.5px;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+}
+
+.yz-group-navmenu ul > li {
+    float: left;
+}
+
+.rtl .yz-group-navmenu ul>li {
+    float: right;
+}
+
+.yz-group-navmenu li.current {
+    border-bottom: 4px solid;
+}
+
+/** Pages Tabs Icons **/
+
+.yz-group-navmenu a#home:before {
+    content: '\f015';
+}
+
+.yz-group-navmenu a#nav-forum:before {
+    content: '\f4ad';
+}
+
+.yz-group-navmenu a#nav-buddydrive:before {
+    content: '\f0a0';
+}
+
+.yz-group-navmenu a#events:before {
+    content: "\f784";
+}
+
+.youzer div.item-list-tabs li a#group-media-all:before,
+.youzer div.item-list-tabs li a#media-all:before {
+    content: '\f87c';
+}
+
+.youzer div.item-list-tabs li a#group-media-photos:before,
+.youzer div.item-list-tabs li a#media-photos:before {
+    content: '\f03e';
+}
+
+.youzer div.item-list-tabs li a#group-media-videos:before,
+.youzer div.item-list-tabs li a#media-videos:before {
+    content: '\f008';
+}
+
+.youzer div.item-list-tabs li a#group-media-audios:before,
+.youzer div.item-list-tabs li a#media-audios:before {
+    content: '\f028';
+}
+
+.youzer div.item-list-tabs li a#group-media-files:before,
+.youzer div.item-list-tabs li a#media-files:before {
+    content: '\f56f';
+}
+
+.youzer div.item-list-tabs li a#notifications:before,
+.yz-group-navmenu a#nav-notifications:before {
+    content: '\f658';
+}
+
+.yz-group-navmenu #membership-requests-groups-li a span,
+.yz-group-navmenu a#members span {
+    font-size: 11px;
+    min-width: 20px;
+    margin-left: 5px;
+    padding: 2px 5px;
+    text-align: center;
+    display: inline-block;
+    background-color: #eee;
+}
+
+.rtl .yz-group-navmenu #membership-requests-groups-li a span,
+.rtl .yz-group-navmenu a#members span {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.yz-group-navmenu a#members:before {
+    content: '\f0c0';
+}
+
+.yz-group-navmenu a#invite:before {
+    content: '\f1d8';
+}
+
+.yz-group-navmenu a#nav-leaderboard:before {
+    content: '\f0cb';
+}
+
+.youzer div.item-list-tabs li a#media-setting:before,
+.yz-group-navmenu a#media:before,
+.yz-group-navmenu a#group-media:before {
+    content: '\f87c';
+}
+
+.yz-group-navmenu a#group-info:before {
+    content: '\f129';
+}
+
+.yz-group-navmenu a#admin:before {
+    content: '\f013';
+}
+
+.yz-group-navmenu a#request-membership:before {
+    content: '\f2b5';
+}
+
+.yz-group-navmenu #membership-requests-groups-li a:before {
+    content: '\f2b5';
+}
+
+/* Responsive Menu */
+
+.show-responsive-menu {
+    display: block !important;
+}
+
+.yz-responsive-menu {
+    display: none;
+    margin: 0;
+    top: 24px;
+    padding: 0;
+    left: 35px;
+    width: 22px;
+    height: 20px;
+    font-size: 0;
+    z-index: 9999;
+    overflow: hidden;
+    position: absolute;
+    text-indent: -9999px;
+    box-shadow: none;
+    border-radius: 0;
+    border: none;
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.yz-responsive-menu:focus {
+    outline: none;
+}
+
+.yz-responsive-menu span {
+    display: block;
+    position: absolute;
+    top: 7px;
+    left: 0px;
+    right: 0px;
+    height: 3px;
+    background: #868E96;
+}
+
+.yz-responsive-menu span::before,
+.yz-responsive-menu span::after {
+    content: "";
+    left: 0;
+    width: 100%;
+    height: 3px;
+    display: block;
+    position: absolute;
+    background-color: #868E96;
+}
+
+.yz-responsive-menu:hover,
+.yz-responsive-menu {
+    background-color: transparent;
+}
+
+.yz-responsive-menu span::before,
+.yz-responsive-menu span::after {
+    transition-duration: 0.3s, 0.3s;
+    transition-delay: 0.3s, 0s;
+}
+
+.yz-responsive-menu span::before {
+    top: -7px;
+    transition-property: top, transform;
+}
+
+.yz-responsive-menu span::after {
+    bottom: -7px;
+    transition-property: bottom, transform;
+}
+
+.yz-responsive-menu.is-active {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    -webkit-tap-highlight-color: transparent;
+    background-color: transparent;
+}
+
+.youzer .yz-responsive-menu.is-active span {
+    background: none !important;
+}
+
+.yz-responsive-menu.is-active span::before {
+    top: 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.yz-responsive-menu.is-active span::after {
+    bottom: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.yz-responsive-menu.is-active span::before,
+.yz-responsive-menu.is-active span::after {
+    transition-delay: 0s, 0.3s;
+}
+
+
+/**
+ * Group Header Buttons.
+ */
+#yz-profile-navmenu #yz-group-buttons {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.youzer .yz-boxed-navbar #yz-group-buttons {
+    padding: 0 35px;
+}
+
+#yz-group-buttons .group-button a {
+    font-size: 13px;
+    min-width: 150px;
+    font-weight: 600;
+    padding: 0;
+    line-height: 24px;
+    padding: 12px 20px;
+    text-align: center;
+    display: inline-block;
+    height: initial;
+    letter-spacing: initial;
+}
+
+#yz-group-buttons a.leave-group,
+#yz-group-buttons a.membership-requested {
+    color: #8a8a8a;
+    margin-top: 1px;
+    min-width: 170px;
+    border: 1px solid #eee;
+    background-color: transparent;
+}
+
+/**
+ * My Friends
+ */
+
+.youzer #yz-members-list li:last-of-type .yzm-user-data {
+    margin-bottom: 28px;
+}
+
+.youzer #yz-members-list li .yzm-user-data {
+    width: 100%;
+    padding: 25px;
+    display: table;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.youzer #yz-members-list .yz-item-avatar,
+.youzer #yz-members-list .item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.youzer #yz-members-list .yz-item-avatar {
+    margin-right: 15px;
+}
+
+.rtl .youzer #yz-members-list .yz-item-avatar {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.youzer #yz-members-list .yz-item-avatar img {
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+.youzer #yz-members-list .item .item-title a {
+    color: #7c838a;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.youzer #yz-members-list .item .item-meta span {
+    display: block;
+    color: #898989;
+    margin-top: 8px;
+    font-size: 10px;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.youzer #yz-members-list .yzm-user-actions {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.rtl .youzer #yz-members-list .yzm-user-actions {
+    text-align: left;
+}
+
+.youzer #yz-members-list .yzm-user-actions div {
+    display: inline-block;
+}
+
+.youzer #yz-members-list .yzm-user-actions a i {
+    margin-right: 8px;
+}
+
+.youzer #yz-members-list .yzm-user-actions a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 13px;
+    min-width: 110px;
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    padding: 12px 20px;
+    display: inline-block;
+    background-color: #f6f6f6;
+    text-transform: capitalize;
+}
+
+.youzer #yz-members-list .yzm-user-actions .follow-button a {
+    color: #8a8a8a;
+    background-color: #f2f2f2;
+}
+
+.youzer #yz-members-list .yzm-user-actions a.yz-send-message {
+    color: #898989;
+    border: 1px solid #eee;
+    background-color: transparent;
+}
+
+/**
+ * Search Area.
+ */
+.group-members #search-members-form {
+    vertical-align: middle;
+}
+
+.group-members #search-members-form label {
+    margin: 0 5px 0;
+    vertical-align: middle;
+}
+
+.group-members #search-members-form label input {
+    margin: 0;
+    height: 42px;
+    width: 180px;
+    color: #898989;
+    font-size: 13px;
+    padding: 0 12px;
+    font-weight: 600;
+    line-height: 42px;
+    border: 1px solid #eee;
+}
+
+.group-members #search-members-form label input::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #8c9094;
+    font-family: open sans, sans-serif;
+}
+
+.group-members #search-members-form label input:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family: open sans, sans-serif;
+    color: #8c9094;
+    opacity:  1;
+}
+
+.group-members #search-members-form label input::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: open sans, sans-serif;
+    color: #8c9094;
+    opacity:  1;
+}
+
+.group-members #search-members-form label input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    font-family: open sans, sans-serif;
+    color: #8c9094;
+}
+
+.group-members #search-members-form label input::-ms-input-placeholder { /* Microsoft Edge */
+    font-family: open sans, sans-serif;
+    color: #8c9094;
+}
+
+.group-members #search-members-form #members_search_submit {
+    color: #fff;
+    width: auto;
+    height: 42px;
+    border: none;
+    padding: 0 15px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+/**
+ * Manage Members Search Form.
+ */
+
+.yz-group-manage-members-search {
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+
+.yz-group-manage-members-search:empty {
+    display: none;
+}
+
+.yz-group-manage-members-search #search-members-form {
+    padding: 25px;
+}
+
+.yz-group-manage-members-search #search-members-form label {
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    width: calc( 100% - 110px );
+}
+
+.yz-group-manage-members-search #search-members-form #members_search {
+    margin: 0;
+    width: 100%;
+    height: 42px;
+    color: #898989;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 8px 15px;
+    border: 1px solid #eee;
+}
+
+.yz-group-manage-members-search #search-members-form #members_search::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    opacity: 1;
+    color: #8c9094;
+    font-family: Open sans, sans-serif;
+}
+
+.yz-group-manage-members-search #search-members-form #members_search:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    opacity: 1;
+    color: #8c9094;
+    font-family: Open sans, sans-serif;
+}
+
+.yz-group-manage-members-search #search-members-form #members_search::-moz-placeholder { /* Mozilla Firefox 19+ */
+    opacity: 1;
+    color: #8c9094;
+    font-family: Open sans, sans-serif;
+}
+
+.yz-group-manage-members-search #search-members-form #members_search:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    opacity: 1;
+    color: #8c9094;
+    font-family: Open sans, sans-serif;
+}
+
+.yz-group-manage-members-search #search-members-form #members_search::-ms-input-placeholder { /* Microsoft Edge */
+    opacity: 1;
+    color: #8c9094;
+    font-family: Open sans, sans-serif;
+}
+
+.yz-group-manage-members-search #members_search_submit {
+    color: #fff;
+    height: 42px;
+    width: 100px;
+    border: none;
+    font-size: 12px;
+    margin-left: 5px;
+    font-weight: 600;
+    padding: 5px 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.rtl .yz-group-manage-members-search #members_search_submit {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+/**
+ * Group Members List.
+ */
+
+.main-column .section-header,
+.group-members-list .section-header {
+    color: #8c8fa0;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.group-members-list .section-header i {
+    width: 35px;
+    height: 35px;
+    color: #fff;
+    line-height: 35px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.rtl .group-members-list .section-header i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+.group-members-list .section-header i {
+    background-color: #8BC34A;
+}
+
+.group-admins-list .section-header i {
+    background-color: #ff5c50;
+}
+
+.group-mods-list .section-header i {
+    background-color: #ffc107;
+}
+
+.youzer .group-members-list li {
+    width: 100%;
+    padding: 25px;
+    display: table;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+
+.youzer .group-members-list li:hover .action {
+    opacity: 1;
+}
+
+.youzer .group-members-list .item {
+    width: calc( 100% - 60px );
+}
+
+.youzer .group-members-list .item-avatar,
+.youzer .group-members-list .item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.youzer .group-members-list .item-avatar {
+    margin-right: 15px;
+}
+
+.rtl .youzer .group-members-list .item-avatar {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.youzer .group-members-list .item-avatar img {
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+#youzer .group-members-list .item .item-meta {
+    color: #969696;
+    font-size: 10px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.youzer .group-members-list .item .item-title a {
+    color: #7c838a;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.youzer .group-members-list .action:empty {
+    display: none;
+}
+
+.youzer .group-members-list .action {
+    opacity: 0;
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+.rtl .youzer .group-members-list .action {
+    text-align: left;
+}
+
+.youzer .group-members-list .action div {
+    display: inline-block;
+}
+
+.youzer .group-members-list .action a i {
+    margin: 0;
+    padding: 0;
+    width: 35px;
+    height: 35px;
+    color: #7c838a;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.youzer .group-members-list .action a {
+    padding: 0;
+    margin: 5px;
+    display: inline-block;
+    border: none;
+    background: transparent;
+}
+
+.youzer .group-members-list .item .item-title .banned {
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    margin-left: 3px;
+    padding: 2px 8px 3px;
+    display: inline-block;
+    background-color: #F44336;
+    text-transform: uppercase;
+}
+
+#youzer .group-members-list .item .item-meta {
+    margin: 0;
+    color: #969696;
+    font-size: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+    display: inline-block;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+
+/** # Memebrs List - Messages **/
+
+.youzer .group-members-list #message {
+    margin-bottom: 25px;
+}
+
+/**
+ * Group Infos List.
+ */
+.yz-group-infos-widget {
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+
+.yz-group-infos-widget .yz-group-widget-title {
+    margin: 0;
+    color: #858f94;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    padding: 15px 35px;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.yz-group-infos-widget .yz-group-widget-title i {
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    margin-right: 10px;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.rtl .yz-group-infos-widget .yz-group-widget-title i {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.yz-group-infos-widget .yz-group-widget-content {
+    display: inline-block;
+    padding: 25px 40px;
+    line-height: 26px;
+    font-size: 14px;
+    color: #898989;
+}
+
+/**
+ * Group Request List.
+ */
+
+.group-request-list .section-header {
+    color: #8c8fa0;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.youzer .group-request-list li {
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: #fff;
+}
+
+.youzer .group-request-list li .item-data {
+    width: 100%;
+    display: table;
+}
+
+.youzer .group-request-list .item-avatar,
+.youzer .group-request-list .item {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.youzer .group-request-list .item {
+    width: calc( 100% - 65px );
+}
+
+.youzer .group-request-list .item-avatar {
+    margin-right: 15px;
+}
+
+.youzer .group-request-list .item-avatar img {
+    width: 45px;
+    height: 45px;
+    display: block;
+}
+
+.youzer .group-request-list .item .item-title a {
+    color: #7c838a;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+.youzer .group-request-list .item .item-meta {
+    color: #969696;
+    font-size: 10px;
+    margin-top: 5px;
+    font-weight: 600;
+    line-height: 18px;
+    display: inline-block;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+}
+
+.youzer .group-request-list .action {
+    text-align: right;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.youzer .group-request-list .action a,
+.youzer .group-request-list .action div {
+    display: inline-block;
+}
+
+.youzer .group-request-list .action a {
+    color: #fff;
+    margin: 0 5px;
+    font-size: 13px;
+    min-width: 110px;
+    font-weight: 600;
+    line-height: 18px;
+    padding: 12px 20px;
+    text-align: center;
+    background-color: #f6f6f6;
+    text-transform: capitalize;
+}
+
+.youzer .group-request-list .action a i {
+    margin-right: 8px;
+}
+
+.youzer .group-request-list .action .accept a:before {
+    content: '\f164';
+}
+
+.youzer .group-request-list .action .reject a {
+    color: #8a8a8a;
+    border: 1px solid #f5f5f5;
+    background-color: transparent;
+}
+
+.youzer .group-request-list .action .reject a:before {
+    content: '\f165';
+}
+
+#youzer .group-request-list .action a.remove {
+    color: #8a8a8a;
+    border: 1px solid #eee;
+    background-color: transparent;
+}
+
+.youzer .group-request-list .action a.remove:before {
+    content: '\f2ed';
+}
+
+.youzer .group-request-list .request-comment {
+    display: block;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #f6f6f6;
+}
+
+.youzer .group-request-list .request-comment .request-title {
+    color: #7e7c7c;
+    font-size: 10px;
+    padding: 5px 8px;
+    font-weight: 600;
+    line-height: 13px;
+    margin-bottom: 10px;
+    display: inline-block;
+    background-color: #eee;
+    text-transform: uppercase;
+}
+
+.youzer .group-request-list .request-comment .request-msg {
+    display: block;
+    color: #8a8a8a;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+/**
+ * Leader Board.
+ */
+#yz-group-body {
+    position: relative;
+}
+
+#yz-group-body h1:before {
+    content: "\f0cb";
+    font-weight: 600;
+    background: #fff;
+    width: 50px;
+    display: inline-block;
+    height: 50px;
+    border-radius: 3px;
+    text-align: center;
+    left: 0;
+    line-height: 50px;
+    color: #898989;
+    position: absolute;
+    font-size: 26px !important;
+}
+
+#yz-group-body h1 {
+    height: 50px;
+    display: inline-block;
+    color: #7c7c7c;
+    padding: 0 35px;
+    font-size: 14px;
+    font-weight: 600;
+    background: white;
+    border-radius: 3px;
+    margin-left: 60px;
+    text-align: center;
+    line-height: 50px;
+    margin-bottom: 35px;
+}
+
+/**
+ * Email Subscription Styling
+ **/
+#ass-email-subscriptions-options-page {
+    padding: 25px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+
+#ass-email-subscriptions-options-page form input[type=submit] {
+    margin-top: 20px;
+}
+
+#yz-group-body .ass-email-type {
+    margin: 0 0 20px;
+}
+
+#ass-email-subscriptions-options-page label {
+    color: #898989;
+    font-size: 13px;
+}
+
+#ass-email-subscriptions-options-page div {
+    color: #898989;
+    font-size: 13px;
+}
+
+#ass-email-subscriptions-options-page b {
+    color: #898989;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+/**
+ * Mutual Css.
+ */
+.youzer .bp-widget.group-members-list .pagination .pagination-links {
+    margin-top: 18px;
+}
+
+.yz-group-avatar-settings .yz-group-avatar-form-basic {
+    display: none;
+}
+
+#yz-group-body h1:before,
+.yz-group-navmenu a:before,
+.youzer .group-request-list .action a:before,
+#group-settings-form #avatar-crop-actions a.avatar-crop-submit:before,
+#group-settings-form #bp-delete-cover-image:before,
+#group-settings-form #bp-delete-avatar:before {
+    display: inline-block;
+    font-family: "Font Awesome 5 Free" !important;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+
+.rtl .yz-group-navmenu a:before,
+.rtl .youzer .group-request-list .action a:before,
+.rtl #group-settings-form #avatar-crop-actions a.avatar-crop-submit:before,
+.rtl #group-settings-form #bp-delete-cover-image:before,
+.rtl #group-settings-form #bp-delete-avatar:before {
+    margin-left: 10px;
+    margin-right: 0;
+}
+
+#group-create-body,
+.youzer .group-request-list li,
+#group-settings-form #message p,
+.youzer .group-members-list .item .item-title .banned {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.youzer .yz-boxed-navbar,
+#group-create-tabs li,
+.youzer .group-members-list li,
+.yz-group-manage-members-search,
+#send-invite-form .submit input,
+#group-settings-form textarea,
+.yz-group-navmenu a#members span,
+.group-members-list .section-header i,
+.youzer #yz-members-list li .yzm-user-data,
+.group-members #search-members-form label input,
+.youzer .yz-delete-group-tab #delete-group-button,
+.yz-group-settings-tab .yz-group-submit-form input,
+#group-settings-form .yz-group-submit-form input,
+.yz-group-manage-members-search #members_search_submit,
+.yz-group-navmenu #membership-requests-groups-li a span,
+.yz-page-btns-border-radius .group-request-list .action a,
+.group-members #search-members-form #members_search_submit,
+.youzer .group-request-list .request-comment .request-title,
+.yz-page-btns-border-radius #yz-group-buttons .group-button a,
+#group-settings-form .yz-group-field-item input[type=text],
+.yz-page-btns-border-radius #yz-members-list .yzm-user-actions a,
+.yz-group-manage-members-search #search-members-form #members_search {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+#invite-list,
+#group-settings-form,
+.yz-group-infos-widget {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.yz-page-btns-border-oval .group-request-list .action a,
+.yz-page-btns-border-oval #yz-group-buttons .group-button a,
+.yz-page-btns-border-oval #yz-members-list .yzm-user-actions a {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+#invite-list .list-title i,
+#invite-list ul li label img,
+#group-settings-form .left-menu img,
+.youzer .group-members-list .action a i,
+.youzer .group-members-list .action a i,
+.youzer .group-request-list .item-avatar img,
+.youzer #yz-members-list .yz-item-avatar img,
+.youzer .group-members-list .item-avatar img,
+.yz-group-infos-widget .yz-group-widget-title i,
+#invite-list ul li .yz_cs_checkbox_field .yz_field_indication {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+#group-settings-form textarea,
+#send-invite-form .submit input,
+#group-settings-form input[type="submit"],
+.group-members #search-members-form label input,
+.group-members #search-members-form #members_search_submit,
+#group-settings-form .yz-group-field-item input[type=text],
+.yz-group-manage-members-search #search-members-form #members_search,
+.yz-group-manage-members-search #members_search_submit {
+    font-family: 'Open Sans', sans-serif;
+}
+
+@media screen and ( max-width: 1024px ) {
+
+    #invite-list,
+    #yz-group-body h1,
+    .youzer .yz-profile-header,
+    #send-invite-form,
+    .youzer .group-members-list li,
+    .youzer #yz-members-list li .yzm-user-data,
+    .youzer #yz-members-list li:last-of-type .yzm-user-data,
+    #group-settings-form,
+    .yz-group-manage-members-search,
+    .youzer-sidebar .widget-content,
+    .yz-group-infos-widget,
+    .youzer .group-request-list li,
+    .yz-my-account-widget,
+    .yz-wp-widget-box a {
+        margin-bottom: 15px !important;
+    }
+
+    #group-settings-form .yz-group-field-item, .yz-group-settings-tab .yz-group-field-item {
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and ( max-width: 768px ) {
+
+    .yz-open-nav {
+        height: 65px;
+        float: left;
+    }
+
+    #yz-profile-navmenu #yz-group-buttons {
+        top: 6px;
+        padding: 0;
+        right: 15px;
+        position: absolute;
+    }
+
+    .youzer .yz-profile-navmenu {
+        right: 0;
+        clear: both;
+        display: none;
+        width: initial;
+    }
+
+    .yz-group-navmenu li a:before {
+        width: 35px;
+        text-align: center;
+    }
+
+    .yz-group .yz-group-navmenu li a {
+        padding: 15px 25px;
+    }
+
+    .yz-group .yz-group-navmenu li.current {
+        border: none;
+        border-left: 4px solid;
+    }
+
+    .yz-responsive-menu {
+        display: block;
+    }
+
+    .youzer .yz-profile-navmenu > li,
+    .youzer .yz-profile-navmenu > .yz-navbar-item {
+        margin: 0;
+        float: none;
+        display: block;
+        text-align: left;
+        padding: 0;
+        /*padding: 0 20px 0 15px;*/
+    }
+
+    .youzer .yz-profile-navmenu > .yz-navbar-item:nth-last-child(2) {
+        border-bottom: none;
+    }
+
+    .youzer .yz-profile-navmenu .yz-navbar-item:first-child {
+        margin-top: 0;
+    }
+
+    .youzer .yz-profile-navmenu .yz-navbar-item a {
+        margin: 0;
+        width: 100%;
+        border: none;
+        font-size: 13px;
+        padding: 10px 0;
+    }
+
+    .youzer .yz-profile-navmenu .yz-navbar-item a .count {
+        float: none;
+    }
+
+    .youzer .yz-profile-navmenu .yz-navbar-item a > i {
+        margin: 0;
+        width: 50px;
+        text-align: center;
+    }
+
+    .yz-navbar-block-icons .yz-navbar-item a i {
+        display: inline-block;
+    }
+
+    .yz-profile-navmenu .yz-navbar-item.yz-active-menu {
+        border: none;
+        border-left: 4px solid;
+    }
+
+    .youzer .group-members-list .action {
+        opacity: 1;
+    }
+
+    .group-members #youzer #search-members-form label input {
+        width: 100%;
+    }
+
+    .group-members #youzer #search-members-form label {
+        margin: 0;
+        width: 100%;
+    }
+
+    .group-members #search-members-form #members_search_submit {
+        width: 100%;
+        height: 45px;
+        margin-top: 12px;
+        line-height: 45px;
+    }
+
+/*
+    #invite-list,
+    #send-invite-form,
+    #group-settings-form,
+    .yz-group-manage-members-search,
+    .youzer-sidebar .widget-content,
+    .yz-group-infos-widget,
+    .yz-my-account-widget,
+    .yz-wp-widget-box a {
+        margin-bottom: 35px !important;
+    }*/
+
+    #create-group-form {
+        margin: 0;
+        width: 100%;
+        padding: 25px;
+        max-width: initial;
+    }
+
+    #create-group-form #group-settings-form {
+        margin: 0 !important;
+    }
+
+}
+
+@media screen and ( max-width: 475px ) {
+
+    #group-settings-form {
+        padding: 25px;
+    }
+
+    #create-group-form #group-settings-form {
+        padding: 25px;
+    }
+
+    #yz-profile-navmenu #yz-group-buttons {
+        clear: both;
+        display: block;
+        position: initial;
+    }
+
+    #yz-profile-navmenu #yz-group-buttons .group-button {
+        margin: 0 35px;
+        padding: 25px 0;
+        border-top: 1px solid #f6f6f6;
+    }
+
+    #yz-profile-navmenu #yz-group-buttons .group-button a {
+        margin: 0;
+        width: 100%;
+        display: block;
+        padding: 15px;
+    }
+
+    .youzer #yz-members-list .yzm-user-actions div,
+    .youzer #yz-members-list li .yzm-user-data {
+        display: block;
+    }
+
+    .youzer #yz-members-list .yzm-user-actions {
+        display: block;
+    }
+
+    .youzer #yz-members-list .yzm-user-actions div:first-of-type:before {
+        content: '';
+        width: 100%;
+        display: block;
+        margin-top: 25px;
+        padding-top: 25px;
+        text-align: center;
+        border-top: 1px solid #f5f5f5;
+    }
+
+    #youzer #yz-members-list .yzm-user-actions a {
+        margin: 0;
+        width: 100%;
+        padding: 15px;
+        display: block;
+    }
+
+    .youzer .group-request-list .item-data {
+        display: block;
+    }
+
+    .youzer .group-request-list .action {
+        width: 100%;
+        display: block;
+        margin-top: 25px;
+        padding-top: 25px;
+        text-align: center;
+        border-top: 1px solid #f5f5f5;
+    }
+
+    #youzer #friend-list.group-request-list .action a {
+        margin: 0;
+        width: 100%;
+        padding: 15px;
+        display: block;
+    }
+
+    #youzer #yz-members-list .yzm-user-actions a {
+        margin-top: 12px;
+    }
+
+    #youzer #yz-members-list .yzm-user-actions div:first-child a {
+        margin-top: 0;
+    }
+
+    .youzer .item-list-tabs:not(.activity-type-tabs-subnav) ul li.last {
+        float: none;
+        display: block;
+        margin-top: 15px;
+        text-align: center;
+        padding: 20px 0 7px;
+        border-top: 1px solid #f6f6f6;
+    }
+
+    body.my-groups:not(.my-account) .youzer .item-list-tabs ul li.last {
+        padding: 0;
+        border-top: none;
+    }
+
+    .youzer .group-request-list .action .reject a {
+        margin-top: 12px;
+    }
+
+    .youzer .group-request-list .action a,
+    .youzer .group-request-list .action div,
+    .youzer .item-list-tabs li.groups-members-search {
+        display: block;
+    }
+
+    .rtl .youzer .group-members-list .action,
+    .youzer .group-members-list .action {
+        float: none;
+        display: block;
+        margin-top: 25px;
+        padding-top: 20px;
+        text-align: center;
+        border-top: 1px solid #f6f6f6;
+    }
+    /*
+    #invite-list,
+    #send-invite-form,
+    #group-settings-form,
+    .yz-group-manage-members-search,
+    .youzer #yz-members-list li:last-of-type .yzm-user-data,
+    .youzer-sidebar .widget-content,
+    .yz-group-infos-widget,
+    .yz-my-account-widget,
+    .yz-wp-widget-box a {
+        margin-bottom: 25px !important;
+    }
+    */
+    .youzer .group-request-list .item-avatar,
+    .youzer #yz-members-list .yz-item-avatar {
+        margin-right: 12px;
+    }
+
+    #group-settings-form .yz-group-field-item input[type=text] {
+        width: 100%;
+    }
+
+}
+
+@media screen and ( max-width: 375px ) {
+    #yz-group-body h1 {
+        padding: 0 25px;
+        font-size: 13px;
+    }
+
+    #create-group-form #group-settings-form,
+    #create-group-form {
+        padding: 15px;
+    }
+/*
+    #invite-list,
+    #send-invite-form,
+    #group-settings-form,
+    .youzer .group-request-list li,
+    .yz-group-manage-members-search,
+    .youzer #yz-members-list li:last-of-type .yzm-user-data,
+    .youzer-sidebar .widget-content,
+    .yz-group-infos-widget,
+    .yz-my-account-widget,
+    .yz-wp-widget-box a {
+        margin-bottom: 15px !important;
+    }*/
+
+    #yz-profile-navmenu #yz-group-buttons .group-button {
+        margin: 0 20px;
+    }
+
+    .yz-group-manage-members-search #search-members-form label {
+        width: 100%;
+    }
+
+    .yz-group-manage-members-search #members_search_submit {
+        width: 100%;
+        margin: 12px 0 0 0;
+    }
+
+    .youzer-sidebar .widget_bp_core_login_widget form {
+        padding: 25px;
+    }
+
+    .yz-responsive-menu {
+        left: 20px;
+    }
+
+}

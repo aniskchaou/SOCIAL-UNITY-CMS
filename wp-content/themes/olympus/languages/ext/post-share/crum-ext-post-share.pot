@@ -1,0 +1,8 @@
+#: helpers.php:49
+msgid "Share"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: manifest.php:9 manifest.php:10
+msgid "Post Share"
+msgstr ""

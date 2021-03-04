@@ -1,0 +1,1 @@
+jQuery(document).ready(function(e){var t=e(window);t.scroll(function(){var a=e(".load-more:visible");if(a.get(0)&&!a.data("bpaa-autoloaded")){var o=a.offset().top-3e3;t.scrollTop()+t.height()>o&&(a.data("bpaa-autoloaded",1),a.find("a").trigger("click"))}})});

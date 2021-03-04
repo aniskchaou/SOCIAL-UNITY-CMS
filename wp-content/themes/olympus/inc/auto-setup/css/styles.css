@@ -1,0 +1,90 @@
+.wrap-setup-boxes .sub-header {
+    padding: 10px 0 36px 0;
+    margin: 0;
+}
+
+.auto-setup-box {
+    margin-bottom: 20px;
+    float: left;
+    margin-right: 22px;
+    width: 410px;
+}
+
+.auto-setup-box .header h3 {
+    padding-left: 22px;
+    font-weight: 500;
+}
+
+.auto-setup-box .content p {
+    color: #666;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.auto-setup-box .content {
+    padding: 22px;
+}
+
+.auto-setup-box ul {
+    margin-left: -5px;
+    margin-bottom: 10px;
+}
+
+.auto-setup-box li {
+    line-height: 20px;
+    color: #23282d;
+    margin-bottom: 10px;
+}
+
+.auto-setup-box li .dashicons.dashicons-yes {
+    color: #6abf2b;
+}
+
+.auto-setup-box li .dashicons.dashicons-no-alt {
+    color: #d54e21;
+}
+
+.auto-setup-box li span {
+    padding-left: 8px;
+}
+
+.auto-setup-box .actions {
+    height: 28px;
+    padding: 15px 22px;
+    background-color: #FAFAFA;
+    border-top: 1px solid #eee;
+}
+
+.skip-auto-setup {
+    margin-right: 0;
+}
+
+@media (max-width: 1400px) {
+    .auto-setup-box {
+        width: 31%;
+    }
+}
+
+@media (max-width: 991px) {
+    .auto-setup-box {
+        width: 47%;
+        margin-bottom: 20px;
+    }
+
+    .plugins-only {
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 568px) {
+    .auto-setup-box {
+        width: 100%;
+    }
+}
+
+@media (min-width: 1280px) {
+    .auto-setup-box .content p:first-child {
+        height: 50px;
+    }
+}

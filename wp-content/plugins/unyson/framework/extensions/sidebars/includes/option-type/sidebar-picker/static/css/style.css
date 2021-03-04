@@ -1,0 +1,100 @@
+.fw-ext-sidebars-delete-button.dashicons.fw-x {
+	cursor: pointer;
+	display: block;
+	float: left;
+	text-indent: 0;
+	overflow: hidden;
+	position: absolute;
+	top: 14px;
+	right: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.fw-ext-sidebars-deleting {
+	position: absolute;
+	top: 20px;
+	right: 50px;
+	padding: 0;
+
+	background: url('../images/spinner.gif') no-repeat;
+	background-size: 20px 20px;
+	display: none;
+	opacity: .7;
+	width: 20px;
+	height: 20px;
+	margin: -5px 5px;
+	float: none;
+}
+
+#submit-settings-specific-positions,
+#submit-settings-grouped-positions {
+	float: left;
+}
+
+#fw-ext-sidebars-new-sidebar-name {
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+#specific-field-id,
+#fw-ext-sidebars-new-sidebar-name {
+	line-height: 20px;
+}
+
+#fw-option-sidebars-for-grouped {
+	width: 100%;
+}
+
+/* selectize styles */
+
+#fw-ext-sidebars-new-sidebar-container {
+	padding: 15px 10px;
+	background: #f1f1f1;
+}
+
+#fw-ext-sidebars-new-sidebar-container #fw-ext-sidebars-new-sidebar-label {
+	margin-bottom: 5px;
+}
+
+#fw-add-button {
+	margin-top: 25px
+}
+
+.fw-ext-sidebars-autocomplete-menu {
+	overflow: auto;
+	max-height: 270px;
+}
+
+/* (i) tips */
+.qtip.qtip-fw-info-sidebars {
+	max-width: 320px;
+}
+
+.qtip.qtip-fw-info-sidebars .qtip-content {
+	padding: 15px;
+}
+
+/* end: (i) tips */
+
+div.widget-liquid-left {
+	margin: 0;
+	width: 50%;
+	float: left;
+	padding: 0 15px 0;
+	box-sizing: border-box;
+}
+
+div.widget-liquid-right {
+	float: left;
+	width: 50%;
+	padding: 0 15px 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.wrap {
+	margin: 10px 20px 0 2px;
+}

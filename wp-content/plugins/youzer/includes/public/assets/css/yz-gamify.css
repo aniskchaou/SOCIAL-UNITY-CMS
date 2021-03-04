@@ -1,0 +1,1152 @@
+		
+		/**
+ * Plugin Gamify
+ * @requires - modernizr - for detecting touch screen
+               icommon icon fonts - for icons being available
+ */
+/* *** General *** */
+/* Avatar */
+.gfy-bp-component img.avatar {
+    border-radius: 50%;
+    display: inline-block;
+}
+/* Badge Size */
+.gfy-bp-component .gfy-rank-item img,
+#mycred-users-badges img,
+.gfy-bp-leaderboard table .user-rank img,
+.single .post.single .gfy-bp-leaderboard-shortcode table .user-rank img {
+    width: 56px;
+}
+.gfy-unearned-badge, .gfy-icon-btn.icon-lg {
+    width: 56px;
+    height: 56px;
+}
+.gfy-icon-btn.icon-lg:before,
+.gfy-badge-more-func .more-badge .more-badge-icon {
+    line-height: 54px;
+}
+.gfy-bp-component.gfy-bp-my-ranks .gfy-rank-item img {
+    width: 70px;
+}
+
+/* *** Progress Bar *** */
+.gfy-progress-bar {
+    position: relative;
+}
+.gfy-progress-bar .progress-bar-bg, .gfy-progress-bar .progress {
+    width: 100%;
+    height: 6px;
+    border-radius: 30px;
+
+}
+.gfy-progress-bar .progress-bar-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+.gfy-progress-bar .progress {
+    opacity: 1;
+}
+
+/* *** Gfy Badge More Functionality *** */
+.touchevents .gfy-badge-more-func[data-execute=mobile] {
+    display: none;
+}
+.gfy-badge-more-func, .gfy-badge-more-func .menu-item {
+    -webkit-transition: opacity 0.3s linear;
+       -moz-transition: opacity 0.3s linear;
+            transition: opacity 0.3s linear;
+    opacity: 0;
+}
+.gfy-badge-more-func.item-show, .gfy-badge-more-func[data-execute=mobile].item-show {
+    display: block;
+}
+.gfy-badge-more-func .item-hide {
+    display: none!important;
+}
+.gfy-badge-more-func .item-fade, .gfy-badge-more-func.item-fade {
+    opacity: 1;
+}
+.gfy-badge-more-func .more-badge {
+    cursor: pointer;
+    vertical-align: middle;
+}
+.gfy-badge-more-func .more-badge .more-badge-icon {
+    font-size: 17px;
+}
+.gfy-badge-more-func .more-badge .more-badge-txt {
+    font-size: 25px;
+    line-height: 25px;
+    margin-left: 2px;
+    font-weight: 600;
+}
+
+/* *** Tooltip Plugin Styles *** */
+.gfy-toggle-tooltip {
+    position: relative;
+    display: inline-block;
+    /*cursor: pointer;*/
+    -webkit-backface-visibility: hidden;
+}
+.gfy-toggle-tooltip .gfy-tooltip {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    z-index: 1500;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.2;
+    -webkit-transition: opacity 0.15s linear;
+       -moz-transition: opacity 0.15s linear;
+            transition: opacity 0.15s linear;
+}
+.gfy-toggle-tooltip .gfy-tooltip .tooltip-inner {
+    position: relative;
+    width: 220px;
+    border-radius: 3px;
+    padding: 30px 24px;
+    background-color: #eaeaea;
+    color: #000;
+}
+.gfy-toggle-tooltip .gfy-tooltip .tooltip-arrow {
+    position: absolute;
+    width: 7px;
+    box-sizing: border-box;
+    border: 7px solid #eaeaea;
+    /* Please do not delete this commented styling.
+    It will help when we need arrow to have color different from tooltip content */
+    /*border-color: transparent transparent #fff #fff;*/
+    -webkit-transform-origin: 0 0;
+       -moz-transform-origin: 0 0;
+            transform-origin: 0 0;
+}
+.no-touchevents .gfy-toggle-tooltip:not(.close-on-content-hover):hover .gfy-tooltip, .gfy-toggle-tooltip:not(.close-on-content-hover).active .gfy-tooltip, .touchevents .gfy-toggle-tooltip:not(.close-on-content-hover):focus .gfy-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+.gfy-tooltip-visible.gfy-tooltip {
+    visibility: visible;
+    opacity: 1;
+}
+/* Active class is set on  .gfy-toggle-tooltip in case of click event. It is set from buddypress.js tooltip plugin styles.
+   Currently modernizer for detecting touch devices can't be used in buddypress.js because of being loaded after buddypress.js instead of being loaded before it.
+   Therefore, currently click event and active class exist also on none touch devices.
+   As below code should work only on hover, that's why it contains part which prevents hover of tooltip inside active class (tooltip opened on click)
+ */
+/*.no-touchevents .gfy-toggle-tooltip.close-on-content-hover .gfy-tooltip:hover {*/
+    /*visibility: hidden;*/
+    /*opacity: 0;*/
+/*}*/
+
+/* Tooltip Top */
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-top {
+    bottom: 100%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+       -moz-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
+}
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-top .tooltip-inner {
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0 0 1px 0 rgba(0,0,0,.1), 0 2px 1px 0 rgba(0,0,0,.19);
+       -moz-box-shadow: 0 0 1px 0 rgba(0,0,0,.1), 0 2px 1px 0 rgba(0,0,0,.19);
+            box-shadow: 0 0 1px 0 rgba(0,0,0,.1), 0 2px 1px 0 rgba(0,0,0,.19);
+}
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-top .tooltip-arrow {
+    top: 100%;
+    left: 50%;
+    margin-left: -10px;
+    -webkit-transform: rotate(-45deg);
+       -moz-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    -webkit-box-shadow: -2px 1px 1px 0 rgba(0,0,0,.19);
+       -moz-box-shadow: -2px 1px 1px 0 rgba(0,0,0,.19);
+            box-shadow: -2px 1px 1px 0 rgba(0,0,0,.19);
+}
+
+/* Tooltip Bottom */
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-bottom {
+    top: 100%;
+    left: 50%;
+    -webkit-transform: translate3d(-50%, 0, 0);
+       -moz-transform: translate3d(-50%, 0, 0);
+            transform: translate3d(-50%, 0, 0);
+
+}
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-bottom .tooltip-inner {
+    margin-top: 20px;
+
+}
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-bottom .tooltip-arrow {
+    top: 0;
+    left: 50%;
+    margin-left: 10px;
+    -webkit-transform: rotate(-225deg);
+       -moz-transform: rotate(-225deg);
+            transform: rotate(-225deg);
+}
+
+/* Tooltip Right */
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-right {
+    top: 50%;
+    left: 100%;
+    -webkit-transform: translate3d(0, -50%, 0);
+       -moz-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+}
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-right .tooltip-inner {
+    margin-left: 20px;
+    -webkit-box-shadow: -1px 0 1px 0 rgba(0,0,0,.1), 0 2px 1px 0 rgba(0,0,0,.19);
+       -moz-box-shadow: -1px 0 1px 0 rgba(0,0,0,.1), 0 2px 1px 0 rgba(0,0,0,.19);
+            box-shadow: -1px 0 1px 0 rgba(0,0,0,.1), 0 2px 1px 0 rgba(0,0,0,.19);
+}
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-right .tooltip-arrow {
+    top: 50%;
+    left: 0;
+    margin-top: -7px;
+    -webkit-transform: rotate(45deg);
+       -moz-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-box-shadow: -2px 1px 0px 0 rgba(0,0,0,.07), -1px 2px 0px 0 rgba(0,0,0,.07);
+       -moz-box-shadow: -2px 1px 0px 0 rgba(0,0,0,.07), -1px 2px 0px 0 rgba(0,0,0,.07);
+            box-shadow: -2px 1px 0px 0 rgba(0,0,0,.07), -1px 2px 0px 0 rgba(0,0,0,.07);
+}
+
+/* Tooltip Left */
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-left {
+    top: 50%;
+    right: 100%;
+    -webkit-transform: translate3d(0, -50%, 0);
+       -moz-transform: translate3d(0, -50%, 0);
+            transform: translate3d(0, -50%, 0);
+}
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-left .tooltip-inner {
+    margin-right: 20px;
+    -webkit-box-shadow: 2px 1px 1px 0 rgba(0,0,0,.1), 0 0 1px 0 rgba(0,0,0,.19);
+       -moz-box-shadow: 2px 1px 1px 0 rgba(0,0,0,.1), 0 0 1px 0 rgba(0,0,0,.19);
+            box-shadow: 2px 1px 1px 0 rgba(0,0,0,.1), 0 0 1px 0 rgba(0,0,0,.19);
+}
+.gfy-toggle-tooltip .gfy-tooltip.tooltip-left .tooltip-arrow {
+    top: 50%;
+    left: 100%;
+    margin-top: 11px;
+    -webkit-transform: rotate(225deg);
+       -moz-transform: rotate(225deg);
+            transform: rotate(225deg);
+    -webkit-box-shadow: -2px 1px 1px 0 rgba(0,0,0,.19);
+       -moz-box-shadow: -2px 1px 1px 0 rgba(0,0,0,.19);
+            box-shadow: -2px 1px 1px 0 rgba(0,0,0,.19);
+}
+
+/* *** Tooltip Specific Styles for Gamify *** */
+/* Tooltip Icon Style */
+.gfy-toggle-tooltip.tooltip-icon-style {
+    margin-left: 7px;
+}
+/* Tooltip Icon Style */
+.gfy-toggle-tooltip.tooltip-unearned-badge {
+    margin-left: 0;
+}
+
+/* Tooltip Progress Bar */
+.gfy-toggle-tooltip.tooltip-progress-bar {
+    display: block;
+}
+.gfy-toggle-tooltip.tooltip-progress-bar .progress-bar {
+    -webkit-transition: opacity 0.15s linear;
+       -moz-transition: opacity 0.15s linear;
+            transition: opacity 0.15s linear;
+}
+.gfy-toggle-tooltip.tooltip-progress-bar:hover .progress-bar {
+    opacity: 0.7;
+}
+.gfy-toggle-tooltip.tooltip-progress-bar .gfy-tooltip,
+.gfy-toggle-tooltip.tooltip-progress-bar .tooltip-inner {
+    width: 100%;
+}
+.gfy-toggle-tooltip.tooltip-progress-bar .tooltip-inner {
+    padding: 15px;
+    font-size: 14px;
+}
+
+/* *** Gfy featured author widget *** */
+.gfy-featured-author-content {
+    text-align: center;
+    background-color: #ececec;
+    padding-bottom: 15px;
+    overflow: hidden;
+}
+.widget_gfy-featured-author .gfy-cover {
+    height: 100px;
+    background-color: #000;
+    background-size: cover;
+    background-position: center;
+}
+.widget_gfy-featured-author .gfy-avatar {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    margin: -65px auto 20px;
+    overflow: visible;
+}
+.widget_gfy-featured-author .gfy-avatar img {
+    box-shadow: -1px 2px 2px rgba(0,0,0,.18);
+}
+.widget_gfy-featured-author .gfy-avatar .gfy-badge img {
+    box-shadow: none;
+}
+.widget_gfy-featured-author .gfy-avatar .gfy-badge {
+    position: absolute;
+    right: -4px;
+    bottom: -4px;
+    width: 40px;
+    height: 40px;
+}
+.widget_gfy-featured-author .gfy-author-info {
+   margin-bottom: 25px;
+}
+.widget_gfy-featured-author .gfy-name {
+    display: block;
+    margin-bottom: 5px;
+    color: #000;
+    font-size: 26px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+.widget_gfy-featured-author .gfy-description {
+    display: block;
+    padding: 0 15px;
+    color: #8e8e8e;
+    font-size: 15px;
+    line-height: 1.2em;
+}
+.widget_gfy-featured-author .gfy-social,
+.widget_gfy-featured-author .gfy-badge-list {
+    display: block;
+    margin-bottom: 15px;
+    list-style: none;
+}
+.widget_gfy-featured-author .gfy-social li,
+.widget_gfy-featured-author .gfy-badge-list li {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 0 8px;
+}
+.widget_gfy-featured-author .gfy-social a {
+    font-size: 18px;
+    color: inherit;
+}
+.widget_gfy-featured-author .gfy-badge-list img {
+    width: 50px;
+}
+.widget_gfy-featured-author .gfy-count-list {
+    padding: 0 10px;
+    overflow: hidden;
+}
+.widget_gfy-featured-author .gfy-count-list .gfy-item {
+    width: 33.33%;
+    float: left;
+    background-color: #ffffff;
+    padding: 15px 5px;
+    line-height: 1em;
+    border-radius: inherit;
+}
+.widget_gfy-featured-author .gfy-count-list .gfy-item:first-child + .gfy-item {
+    width: 33%;
+    width: calc(33.33% - 2px);
+    margin: 0 1px;
+    border-radius: 0;
+}
+.widget_gfy-featured-author .gfy-count-list .gfy-item:first-child{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.widget_gfy-featured-author .gfy-count-list .gfy-item:last-child{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.widget_gfy-featured-author .gfy-count-list .gfy-item .gfy-count{
+    font-size: 18px;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #000;
+}
+.widget_gfy-featured-author .gfy-count-list .gfy-item .gfy-count-name {
+    font-size: 12px;
+    line-height: 1em;
+    color: #a3a3a3;
+}
+
+/* *** Gfy Popup *** */
+.gfy-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    overflow: hidden;
+}
+.gfy-popup-body {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    width: 500px;
+    max-width: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+    text-align: center;
+    padding: 40px 0;
+    border-radius: 5px;
+    -ms-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.gfy-popup-body .gfy-body {
+    padding: 35px 0 20px;
+}
+.gfy-popup-body .gfy-badge-wrapper {
+    display: block;
+    height: 120px;
+    margin-bottom: 25px;
+}
+.gfy-popup-body .gfy-earned-badge {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-position: center;
+    position: relative;
+    animation: bounce 6s infinite linear;
+}
+
+.gfy-popup-body  .gfy-earned-badge img {
+    width: 100%;
+    height: 100%;
+    animation: image_rotation 6s infinite linear;
+}
+
+.gfy-popup-body .gfy-earned-badge:before {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    top: 50%;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -50px;
+    background-color: #c4c4c4;
+    opacity: 0;
+    animation: wave 6s infinite linear;
+}
+.gfy-popup-body .gfy-footer {
+    padding: 30px 0 0;
+}
+.gfy-popup-body .gfy-footer .gfy-share {
+    display: inline-block;
+    border-radius: 3px;
+    padding: 11px 15px;
+    min-width: 190px;
+    color: #fff;
+    font-size: 17px;
+    line-height: 1em;
+}
+.gfy-popup-body .gfy-footer .gfy-share:hover {
+    box-shadow: -3px 3px 8px 0 rgba(21,21,24,.34);
+}
+.gfy-popup-body .gfy-footer .gfy-share.gfy-share-facebook {
+    background-color: #2f5f98;
+}
+.gfy-popup-body .gfy-footer .gfy-share.gfy-share-twitter {
+    background-color: #12c3f0;
+}
+.gfy-popup-body .gfy-footer .gfy-share + .gfy-share {
+    margin-left: 10px;
+}
+.gfy-popup-body .gfy-close {
+    position: absolute;
+    top: 7px;
+    right: 17px;
+    font-size: 18px;
+    color: inherit;
+}
+.gfy-popup-body .gfy-head {
+    margin: 0 0 25px;
+}
+.gfy-popup-body .gfy-title {
+    margin: 0;
+    font-size: 26px;
+    line-height: 1em;
+    font-weight: 700;
+}
+.gfy-popup-body .gfy-sub-title {
+    margin: 0 0 10px;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+.gfy-popup-body .gfy-badge-title {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 30px;
+    background-color: #ffffff;
+    border-radius: 3px;
+    font-weight: 400;
+}
+@media screen and (max-width: 480px) {
+    .gfy-popup-body {
+        border-radius: 0;
+    }
+    .gfy-popup-body .gfy-footer .gfy-share {
+        margin: 0 10px 10px;
+    }
+    .gfy-popup-body .gfy-footer .gfy-share:last-child {
+        margin-bottom: 0;
+    }
+}
+@keyframes bounce {
+
+    0% {
+        height: 120px;
+        transform: translate(0, 0);
+    }
+
+    80% {
+        height: 120px;
+        transform: translate(0, 0);
+    }
+
+    82% {
+        /*margin-top: 20px;*/
+        height: 100px;
+        transform: translate(0, 20px);
+    }
+
+    85% {
+        height: 120px;
+        transform: translate(0, -50px);
+        /*margin-bottom: 50px;*/
+    }
+
+    87% {
+        height: 120px;
+        transform: translate(0, 0);
+    }
+
+    88% {
+        height: 120px;
+        transform: translate(0, -20px);
+        /*margin-bottom: 20px;*/
+    }
+
+    90% {
+        height: 120px;
+        transform: translate(0, 0);
+    }
+
+    100% {
+        height: 120px;
+        transform: translate(0, 0);
+    }
+
+}
+
+@keyframes wave {
+    0% {
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+        opacity: 0;
+    }
+
+    49.9999% {
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+        opacity: 0;
+    }
+
+    50% {
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+        margin-left: -50px;
+        opacity: 1;
+    }
+
+    55% {
+        width: 180px;
+        height: 180px;
+        margin-top: -90px;
+        margin-left: -90px;
+        opacity: 0;
+    }
+
+    100% {
+        width: 180px;
+        height: 180px;
+        margin-top: -90px;
+        margin-left: -90px;
+        opacity: 0;
+    }
+}
+
+@keyframes image_rotation {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    10% {
+        transform: rotateY(100deg);
+    }
+
+    20% {
+        transform: rotateY(200deg);
+    }
+
+    30% {
+        transform: rotateY(600deg);
+    }
+
+    40% {
+        transform: rotateY(1200deg);
+    }
+
+    50% {
+        transform: rotateY(1820deg);
+    }
+
+    60% {
+        transform: rotateY(1800deg);
+    }
+
+    70% {
+        transform: rotateY(1800deg);
+    }
+
+    90% {
+        transform: rotateY(1800deg);
+    }
+
+    100% {
+        transform: rotateY(1800deg);
+    }
+}
+
+/* *** Gamify Tabs *** */
+.gfy-tabs ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.gfy-tabs .tabs-menu li {
+    list-style: none;
+    display: inline-block;
+}
+.gfy-tabs .tabs-content {
+    clear: both;
+}
+.gfy-tabs .tab-menu-item {
+    padding: 4px;
+    line-height: 1.3;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 10px 10px;
+}
+.gfy-tabs.tabs-md .tab-menu-item {
+    font-size: 16px;
+}
+.gfy-tabs .tab-menu-item.active {
+    border-bottom: 2px solid #49c793;
+}
+.gfy-tabs .tab-menu-item.active a {
+    cursor: default;
+}
+.gfy-tabs .tab-content-item {
+    display: none;
+    animation: fadeEffect 1s;
+}
+.gfy-tabs .tab-content-item.active {
+    display: block;
+}
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@media screen and (min-width: 768px) {
+    .gfy-tabs.tabs-md .tabs-menu {
+        margin-bottom: 10px;
+    }
+    .gfy-tabs.tabs-md ul {
+        text-align: left;
+    }
+    .gfy-tabs.tabs-md .tab-menu-item:first-child {
+        margin-left: 0;
+    }
+}
+
+/* *** Gamify Icons *** */
+[class^="gfy-icon"] {
+    font-family: 'ui-icomoon';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: inline-block;
+}
+.gfy-icon-btn {
+    border-radius: 50%;
+    border: 1px solid #ececec;
+    vertical-align: middle;
+    text-align: center;
+}
+.gfy-icon-btn.icon-xs {
+    width: 22px;
+    height: 22px;
+}
+.gfy-icon-btn.icon-xs:before {
+    font-size: 16px;
+    line-height: 20px;
+}
+.gfy-icon-btn.icon-lg:before {
+    font-size: 30px;
+}
+
+/* Icons */
+.gfy-icon-question:before {
+    content: "\e90a";
+}
+.gfy-icon-info:before {
+    content: "\e96c";
+}
+.gfy-icon-plus:before {
+    content: "\e944";
+}
+.gfy-icon-close:before {
+    content: "\f00d";
+}
+
+/* *** Gamify Avatar *** */
+.gfy-avatar {
+    width: 48px;
+    height: 48px;
+    overflow: hidden;
+}
+.gfy-avatar img {
+    -webkit-border-radius: 50%;
+       -moz-border-radius: 50%;
+            border-radius: 50%;
+}
+
+/* *** Gamify Badges *** */
+.gfy-badge-list, .gfy-badge {
+    display: inline-block;
+}
+.gfy-badge img {
+    width: 40px;
+    height: auto;
+}
+.gfy-badge.badge-xs img {
+    width: 24px;
+}
+
+/* *** Unearned Badge Block *** */
+.gfy-unearned-badge {
+    position: relative;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+.gfy-unearned-badge .badge-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.gfy-unearned-badge .gfy-icon-btn:before {
+	color: #a2a2a2;
+}
+
+/* *** Rank Block *** */
+.gfy-bp-component .gfy-rank-item {
+    padding: 24px 16px 15px;
+    text-align: center;
+}
+.gfy-bp-component .gfy-rank-item .rank-level {
+    margin: 0;
+    display: inline;
+}
+.gfy-bp-component .gfy-rank-item .title-block {
+    margin-bottom: 7px;
+}
+.gfy-bp-component .gfy-rank-item .rank-level {
+    font-size: 14px;
+}
+.gfy-bp-component .gfy-rank-item .rank-desc {
+    font-size: 12px;
+    line-height: 1.4;
+}
+.gfy-bp-component .gfy-rank-item :last-child {
+    margin-bottom: 0;
+}
+.gfy-bp-component .gfy-rank-item img, .gfy-bp-component .gfy-rank-item .unearned-badge-wrapper, .gfy-bp-component .gfy-rank-item .progress-bar-wrapper {
+    margin-bottom: 15px;
+}
+.gfy-bp-component .gfy-rank-item .unearned-badge-wrapper img {
+    margin: 0;
+}
+.gfy-bp-component .gfy-rank-item .progress-bar-wrapper {
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* *** Mycred Title *** */
+.gfy-title {
+    display: inline;
+    margin: 0;
+    font-weight: bold;
+}
+.gfy-title.title-sm {
+    font-size: 16px;
+}
+
+/* *** User Badges *** */
+/* #mycred-users-badges in Profile section should be wrapped under gfy container */
+.gfy-user-achievements, .gfy-user-achievements #mycred-users-badges {
+    text-align: center;
+}
+#mycred-users-badges .the-badge {
+    display: inline-block;
+    padding: 10px;
+}
+#mycred-users-badges {
+    width: 95%;
+    display: inline-block;
+}
+.gfy-user-achievements .header-block {
+    margin-bottom: 20px;
+}
+
+/* User Badges in Profile Fields */
+#buddypress #mycred-users-badges > div {
+    padding: 0;
+}
+#buddypress .profile-fields #mycred-users-badges {
+    text-align: left;
+}
+#buddypress .profile-fields #mycred-users-badges .the-badge {
+    padding: 10px 20px 10px 0;
+}
+
+/* *** Tables *** */
+/* General */
+.gfy-bp-history table td.column-time, .gfy-bp-history table td.column-time,
+.gfy-bp-leaderboard table td.user-position, #buddypress .gfy-bp-leaderboard table td.user-position  {
+    font-weight: 600;
+}
+
+/* History */
+.gfy-bp-history table tfoot {
+    display: none;
+}
+
+/* Leaderboard */
+#buddypress .gfy-bp-leaderboard table td, #buddypress .gfy-bp-leaderboard table th {
+    padding: 10px 20px;
+    color: #6d6b6b;
+    background-color: #fff;
+    text-align: center;
+    border-bottom: 1px solid #eee;
+}
+.gfy-bp-leaderboard table .user-name a {
+    font-size: 14px;
+    color: #898989 !important;
+}
+.gfy-bp-leaderboard table a:hover {
+    text-decoration: underline;
+}
+.gfy-bp-leaderboard table .user-name {
+    width: 110px;
+}
+.gfy-bp-leaderboard table .user-position {
+    width: 1px;
+    white-space: nowrap;
+}
+.gfy-bp-leaderboard table {
+    margin: 0 0 25px 0;
+}
+
+#buddypress .gfy-bp-leaderboard table td.user-position, .gfy-bp-leaderboard-shortcode table td.user-position {
+    font-size: 14px;
+}
+#buddypress .gfy-bp-leaderboard table td.user-name, #buddypress .gfy-bp-leaderboard table td.user-points,
+.gfy-bp-leaderboard-shortcode table td.user-name, .gfy-bp-leaderboard-shortcode table td.user-points {
+    font-weight: 600;
+    text-align: center;
+}
+#buddypress .gfy-bp-leaderboard table td.user-rank, #buddypress .gfy-bp-leaderboard table th.user-rank,
+#buddypress .gfy-bp-leaderboard table td.user-avatar, #buddypress .gfy-bp-leaderboard table th.user-avatar,
+.gfy-bp-leaderboard-shortcode table .user-rank, .gfy-bp-leaderboard-shortcode table .user-avatar {
+    max-width: 100px;
+    text-align: center;
+}
+.gfy-bp-leaderboard-shortcode table {
+    table-layout: auto;
+}
+.gfy-bp-leaderboard-shortcode .pagination-wrapper {
+    float: left;
+    width: 100%;
+}
+.gfy-bp-leaderboard-shortcode .pagination {
+    margin: 0 0 20px 0;
+}
+.gfy-bp-leaderboard-shortcode .filter-area select {
+    display: inline;
+    width: 255px;
+    max-width: 100%;
+}
+.gfy-bp-leaderboard-shortcode .filter-area {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: 701px) {
+    .gfy-bp-leaderboard table .user-name, .gfy-bp-leaderboard table .user-position {
+        width: auto;
+    }
+}
+@media screen and (min-width: 768px) {
+    .gfy-bp-leaderboard-shortcode .filter-area {
+        float: right;
+        text-align: right;
+    }
+    .gfy-bp-leaderboard-shortcode .tabs-menu {
+        float: left;
+    }
+    .gfy-bp-leaderboard-shortcode .tab-menu-item {
+       margin-top: 8px;
+    }
+}
+
+/* *** Pagination *** */
+.gfy-bp-component .pagination {
+    float: right;
+}
+#buddypress .gfy-bp-component .pagination {
+    margin: 10px 0;
+}
+
+/* *** My Ranks *** */
+.gfy-bp-component.gfy-bp-my-ranks .gfy-rank-item {
+    padding: 0 45px;
+}
+.gfy-bp-component.gfy-bp-my-ranks .gfy-bp-my-rank, #buddypress #item-header-content > #mycred-my-ranks {
+    margin-bottom: 20px;
+}
+.gfy-bp-component.gfy-bp-my-ranks .gfy-bp-my-rank:last-child {
+    margin-bottom: 0;
+}
+#buddypress .mycred-balance + #mycred-my-ranks .gfy-bp-my-ranks {
+    padding-top: 24px;
+}
+
+/* *** Achievements *** */
+.gfy-bp-achievements .achievements-wrapper {
+    margin: 0;
+}
+.gfy-bp-achievements .achievements-wrapper li {
+    margin: 0;
+    list-style: none;
+}
+.gfy-bp-achievements .achievements-wrapper .col {
+    margin: 10px 0;
+}
+.gfy-bp-achievements .achievements-wrapper .gfy-rank-item {
+    height: 100%;
+    border-radius: 3px;
+}
+.gfy-bp-achievements .achievements-wrapper {
+    margin-left: -7px;
+    margin-right: -7px;
+    text-align: left;
+}
+.gfy-bp-achievements .achievements-wrapper .gfy-toggle-tooltip.tooltip-icon-style {
+    margin-left: 3px;
+}
+@media (min-width: 480px) {
+    .gfy-bp-achievements .achievements-wrapper {
+        font-size: 0;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+        margin: 0 -10px;
+    }
+    .gfy-bp-achievements .achievements-wrapper .col {
+        margin: 10px;
+        display: inline-block;
+        vertical-align: top;
+        font-size: 1rem;
+        width: 48%;
+        width: -webkit-calc(50% - 20px);
+        width: -moz-calc(50% - 20px);
+        width: calc(50% - 20px);
+    }
+}
+@media (min-width: 601px) and (max-width: 767px) {
+    .gfy-bp-achievements .achievements-wrapper .col {
+        width: 31.33333%;
+        width: -webkit-calc(33.33333% - 20px);
+        width: -moz-calc(33.33333% - 20px);
+        width: calc(33.33333% - 20px);
+    }
+}
+@media (min-width: 768px) {
+    .gfy-bp-achievements .achievements-wrapper .col {
+        width: 23%;
+        width: -webkit-calc(25% - 20px);
+        width: -moz-calc(25% - 20px);
+        width: calc(25% - 20px);
+    }
+}
+
+/* *** Leaderboard Widget *** */
+/* General */
+.widget_gfy_leaderboard .leaderboard-item,
+.widget_gfy_leaderboard ol {
+    margin: 0;
+    padding: 0;
+}
+.widget_gfy_leaderboard .leaderboard-item {
+    margin-bottom: 4px;
+    border-radius: 3px;
+    padding: 18px 15px 15px 15px;
+}
+.widget_gfy_leaderboard .leaderboard-item:last-child {
+    margin: 0;
+}
+.widget_gfy_leaderboard .leaderboard-item .item-content {
+    display: table;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.widget_gfy_leaderboard .leaderboard-item .item-left,
+.widget_gfy_leaderboard .leaderboard-item .item-left {
+    display: table-cell;
+}
+.widget_gfy_leaderboard .leaderboard-item a,
+.widget_gfy_leaderboard .leaderboard-item .item-title {
+    -webkit-transition: all 0.3s;
+       -moz-transition: all 0.3s;
+            transition: all 0.3s;
+}
+.widget_gfy_leaderboard .leaderboard-item a:hover,
+.widget_gfy_leaderboard .leaderboard-item .item-title:hover {
+    opacity: 0.8;
+}
+
+/* item Left */
+.widget_gfy_leaderboard .leaderboard-item .item-left {
+    white-space: nowrap;
+}
+.widget_gfy_leaderboard .leaderboard-item .item-number,
+.widget_gfy_leaderboard .leaderboard-item .item-avatar-block {
+    display: inline-block;
+    vertical-align: middle;
+}
+.widget_gfy_leaderboard .leaderboard-item .item-number {
+    font-size: 40px;
+    min-width: 25px;
+    line-height: 40px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.widget_gfy_leaderboard .leaderboard-item .item-avatar-block {
+    position: relative;
+    margin-right: 20px;
+}
+.widget_gfy_leaderboard .leaderboard-item .item-badge {
+    position: absolute;
+    right: -10px;
+    bottom: -6px;
+}
+
+/* item Right */
+.widget_gfy_leaderboard .leaderboard-item .item-right {
+    flex-grow: 2;
+}
+.widget_gfy_leaderboard .leaderboard-item .item-title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0 0 2px 0;
+}
+.widget_gfy_leaderboard .leaderboard-item .item-points {
+    display: block;
+    font-size: 13px;
+    line-height: 16px;
+}
+
+/* *** Colors *** */
+/* Bg Color */
+.gfy-progress-bar .progress-bar-bg, .gfy-progress-bar .progress {
+    background-color: #49c793;
+}
+#buddypress .gfy-bp-component table tr.current-user td, .gfy-bp-component table tr.current-user td {
+    background-color: rgb(251, 251, 251);
+}
+body .gfy-bp-achievements .achievements-wrapper .col, .gfy-icon-btn,
+.widget_gfy_leaderboard .leaderboard-item {
+    background-color: #fff;
+    border-radius: 2px;
+}
+.gfy-bp-achievements .gfy-icon-btn {
+    background: #eaeaea;
+}
+.gfy-popup-overlay {
+    background-color: rgba(0,0,0,0.3);
+}
+.gfy-popup-body {
+    background-color: #fff;
+}
+.gfy-popup-body .gfy-body {
+    background-color: #f2f2f2;
+}
+
+/* Text Color */
+.gfy-bp-leaderboard table td div:last-child b {
+    color: #49c793;
+}
+.gfy-bp-achievements .achievements-wrapper .rank-level, .gfy-toggle-tooltip .gfy-icon-btn:hover,
+.gfy-bp-component table td a,
+.widget_gfy_leaderboard .leaderboard-item, .widget_gfy_leaderboard .leaderboard-item .item-title,
+.gfy-tabs .tab-menu-item.active a {
+    color: #797979;
+}
+.gfy-bp-component .gfy-rank-item .rank-desc,
+.gfy-bp-leaderboard table td.user-position, #buddypress .gfy-bp-leaderboard table td.user-position,
+.gfy-badge-more-func .more-badge,
+.gfy-tabs .tab-menu-item a {
+    color: #8b8a8a;
+}
+.gfy-icon-btn.icon-xs, .gfy-close .gfy-icon,
+.widget_gfy_leaderboard .leaderboard-item .item-number, .widget_gfy_leaderboard .leaderboard-item .item-points {
+    color: #a4a4a4;
+}
+.gfy-popup-body {
+    color: #000;
+}

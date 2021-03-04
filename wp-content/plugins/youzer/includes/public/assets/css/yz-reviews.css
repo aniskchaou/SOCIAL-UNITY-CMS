@@ -1,0 +1,424 @@
+/****** Style Star Rating Widget *****/
+
+.yz-rate-user {
+    border: none;
+    float: none;
+    width: 250px;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    margin: 10px auto 30px;
+}
+
+.yz-rate-user .yz-rate-user-desc {
+	display: block;
+	font-size: 16px;
+	padding-left: 0;
+	margin-bottom: 20px;
+}
+
+.yz-rate-user > input { display: none; }
+.yz-rate-user > label:before {
+	margin: 8px;
+	font-size: 30px;
+	font-family: "Font Awesome 5 Free" !important;
+	display: inline-block;
+	content: "\f005";
+    font-weight: 700;
+}
+
+.yz-rate-user > label {
+	color: #ddd;
+	float: right;
+	width: initial;
+	clear: initial;
+    -webkit-transition: all .05s ease-in-out;
+    -moz-transition: all .05s ease-in-out;
+    -o-transition: all .05s ease-in-out;
+    transition: all .05s ease-in-out;
+}
+
+.yz-rate-user > .half:before {
+  content: "\f089";
+  position: absolute;
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.yz-rate-user > input:checked ~ label, /* show gold star when clicked */
+.yz-rate-user:not(:checked) > label:hover, /* hover current star */
+.yz-rate-user:not(:checked) > label:hover ~ label { color: #FFD700;  } /* hover previous stars in list */
+
+.yz-rate-user > input:checked + label:hover, /* hover current star when changing rating */
+.yz-rate-user > input:checked ~ label:hover,
+.yz-rate-user > label:hover ~ input:checked ~ label, /* lighten current selection */
+.yz-rate-user > input:checked ~ label:hover ~ label { color: #FFED85;  }
+
+.yz-star-rating i {
+	font-size: 20px;
+	margin-right: 5px;
+}
+
+.rtl .yz-star-rating i {
+	margin-right: 0;
+	margin-left: 5px;
+}
+
+.yz-star-rating i:last-of-type {
+	margin-right: 0;
+}
+
+.rtl .yz-star-rating i:last-of-type {
+	margin-left: 0;
+}
+
+.yz-star-rating i.star-empty {
+    color: #ddd;
+}
+
+.yz-star-rating i.star-full:before {
+	content: "\f005";
+}
+
+.yz-star-rating i.star-full {
+	color: #FFD700;
+}
+
+.yz-star-rating i.star-half {
+	color: #ddd;
+	position: relative;
+}
+
+.yz-star-rating i.star-half:after {
+	left: 0;
+	content: "\f089";
+	position: absolute;
+	color: #FFD700;
+}
+
+.yz-review-item {
+	position: relative;
+	border-radius: 3px;
+	margin-bottom: 35px;
+	background-color: #fff;
+}
+
+.yz-review-item .yz-item-head {
+	padding: 20px 25px;
+}
+
+.yz-review-item .yz-item-head .yz-item-img {
+	display: block;
+	margin-right: 12px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.yz-review-item .yz-item-head .yz-item-img img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+
+.rtl .yz-review-item .yz-item-head .yz-item-img {
+	margin-left: 12px;
+	margin-right: 0;
+}
+
+.yz-review-item .yz-item-head .yz-head-meta {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yz-review-item .yz-item-content {
+    border-top: 1px solid #f5f5f5;
+}
+
+.yz-review-item .yz-head-meta .yz-item-name a {
+	margin: 0;
+    color: #939ba3;
+    clear: initial;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.yz-review-item .yz-head-meta .yz-item-date {
+    display: block;
+	color: #9facb9;
+    margin-top: 6px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.yz-review-item .yz-item-rating {
+	margin-top: 15px;
+	float: right;
+}
+
+.rtl .yz-review-item .yz-item-rating {
+	float: left;
+}
+
+.yz-review-item .yz-item-content .yz-item-desc {
+	line-height: 27px;
+    margin-bottom: 0;
+    font-size: 13px;
+    color: #9a9a9a;
+	padding: 25px;
+}
+
+/**
+ * Statistics
+ */
+
+.yz-reviews-statistics {
+    padding: 25px;
+	border-radius: 3px;
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+/*
+.yz-reviews-circle {
+	text-align: center;
+}
+
+.circles {
+  margin-bottom: -10px;
+}
+
+.circle {
+	width: 180px;
+	position: relative;
+	text-align: center;
+	height: 180px;
+	display: block;
+	border-radius: 100%;
+}
+
+.circle canvas {
+  vertical-align: top;
+}
+
+.circle strong {
+    top: 0;
+    left: 0;
+    width: 100%;
+	color: #a5a5a5;
+    font-size: 45px;
+    font-weight: 600;
+    position: absolute;
+    text-align: center;
+    line-height: 180px;
+    font-family: Poppins, Open sans,sans-serif;
+}
+
+.circle strong i {
+  font-style: normal;
+  font-size: 0.6em;
+  font-weight: normal;
+}
+
+.circle span {
+  display: block;
+  color: #aaa;
+  margin-top: 12px;
+}
+
+.yz-rating-bar {
+    width: calc( 100% - 155px );
+    height:10px;
+    display:block;
+    background:#eee;
+    position:relative;
+    margin-bottom:15px;
+    -webkit-transition:0.4s linear;
+    -moz-transition:0.4s linear;
+    -ms-transition:0.4s linear;
+    -o-transition:0.4s linear;
+    transition:0.4s linear;
+    -webkit-transition-property:width, background-color;
+    -moz-transition-property:width, background-color;
+    -ms-transition-property:width, background-color;
+    -o-transition-property:width, background-color;
+    transition-property:width, background-color;
+}
+
+.yz-rating-bar.yz-radius-bar {
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+.yz-rating-bar:last-child {
+    margin-bottom: 0;
+}
+
+.yz-rating-title {
+	width: 100px;
+}
+
+.yz-rating-count {
+	width: 45px;
+    text-align: right;
+}
+
+.yz-rating-count,
+.yz-rating-title,
+.yz-rating-bar {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.yz-rating-count,
+.yz-rating-title {
+    height: 32px;
+	color: #a19ba3;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 18px;
+    text-transform: capitalize;
+}
+
+.yz-rating-bar-color {
+    width: 0px;
+    height: 10px;
+    background: #a5a5a5;
+}
+
+.yz-star-5 .yz-rating-bar-color {
+	background-color: #8AC249;
+}
+
+.yz-star-4 .yz-rating-bar-color {
+	background-color: #CCDB38;
+}
+
+.yz-star-3 .yz-rating-bar-color {
+	background-color: #FFEA3A;
+}
+
+.yz-star-2 .yz-rating-bar-color {
+	background-color: #FFB233;
+}
+
+.yz-star-1 .yz-rating-bar-color {
+	background-color: #FF8B5A;
+}
+*/
+/**
+ * User Ratings Stars Details.
+ */
+
+.yz-user-ratings-details {
+	z-index: 9;
+	margin-top: 15px;
+	position: relative;
+}
+
+.yz-user-ratings-details .yz-user-ratings-rate,
+.yz-user-ratings-details .yz-user-ratings-total {
+	color: #a9a6a6;
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 18px;
+	text-transform: uppercase;
+}
+
+.yz-user-ratings-details .yz-separator,
+.yz-user-ratings-details .yz-user-ratings-rate,
+.yz-user-ratings-details .yz-user-ratings-total,
+.yz-user-ratings-details .yz-user-rating-stars {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.yz-user-ratings-details .yz-separator {
+    color: #a9a6a6;
+    margin: 0 5px;
+    font-size: 15px;
+}
+
+.yz-horizontal-layout .yz-profile-header .yz-user-ratings-details .yz-separator,
+.yz-horizontal-layout .yz-profile-header .yz-user-ratings-details .yz-user-ratings-rate,
+.yz-horizontal-layout .yz-profile-header .yz-user-ratings-details .yz-user-ratings-total,
+.yz-horizontal-layout .yz-profile-header .yz-user-ratings-details .yz-star-rating i.star-half,
+.yz-horizontal-layout .yz-profile-header .yz-user-ratings-details .yz-star-rating i.star-empty {
+	color: #fff;
+}
+
+.yz-rating-show-more {
+    width: 100%;
+    display: block;
+    color: #969696;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 25px;
+    padding: 20px 25px;
+    text-align: center;
+    background-color: #fff;
+}
+
+@media screen and ( max-width: 1024px ) {
+	.yz-review-item {
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and ( max-width: 768px ) {
+
+	.yz-review-item .yz-item-head,
+	.yz-review-item .yz-item-content .yz-item-desc {
+		text-align: center;
+	}
+
+	.yz-review-item .yz-item-head {
+		padding: 25px;
+	}
+
+	.rtl .yz-review-item .yz-item-head .yz-item-img,
+	.yz-review-item .yz-item-head .yz-item-img {
+		display: block;
+	}
+
+	.yz-review-item .yz-item-head .yz-item-img img {
+		margin: 0 auto 15px;
+	}
+
+	.rtl .yz-review-item .yz-item-rating,
+	.yz-review-item .yz-item-rating {
+		float: none;
+	}
+
+	.yz-user-ratings-details .yz-user-rating-stars {
+		display: block;
+	}
+
+	.yz-user-ratings-details .yz-separator,
+	.yz-user-ratings-details .yz-user-ratings-rate,
+	.yz-user-ratings-details .yz-user-ratings-total {
+		margin-top: 15px;
+	}
+
+	.yz-user-rating-stars + .yz-separator {
+		display: none;
+	}
+
+}
+
+@media screen and ( max-width: 375px ) {
+
+	.yz-user-ratings-details .yz-user-rating-stars {
+		display: block;
+	}
+
+	.yz-user-ratings-details .yz-separator,
+	.yz-user-ratings-details .yz-user-ratings-rate,
+	.yz-user-ratings-details .yz-user-ratings-total {
+		margin-top: 15px;
+	}
+
+}

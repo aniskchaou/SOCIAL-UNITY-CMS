@@ -1,0 +1,76 @@
+/*------------- #VARIABLES --------------*/
+/*------------- #Tutor LMS CUSTOMIZATION --------------*/
+html:root {
+  --tutor-text-color: #888da8;
+  --tutor-primary-accent-color: #38a9ff; }
+
+.olympus-theme a.tutor-profile-photo-upload-btn,
+.olympus-theme button.tutor-profile-photo-upload-btn {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color);
+  border-radius: 3px;
+  border: none; }
+
+.olympus-theme .tutor-dashboard-permalinks li.active a {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color); }
+
+.olympus-theme .tutor-dashboard-permalinks a::before {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .tutor-dashboard-inline-links ul li a:hover,
+.olympus-theme .tutor-dashboard-inline-links ul li.active a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color);
+  border-bottom-color: #38a9ff;
+  border-bottom-color: var(--secondary-accent-color); }
+
+.olympus-theme .tutor-dashboard-inline-links ul li a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .withdraw-method-select-wrap .withdraw-method-select label > p {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .report-top-sub-menu a.active {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color);
+  color: #fff;
+  border: 1px solid #38a9ff;
+  border: 1px solid var(--secondary-accent-color); }
+
+.olympus-theme .ui-datepicker .ui-datepicker-calendar td a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .quiz-attempts-title,
+.olympus-theme .tutor-quiz-attempt-history-title {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .tutor-segment-title, .olympus-theme .tutor-single-course-segment .tutor-segment-title {
+  color: #0593ff;
+  color: var(--secondary-accent-color-darken); }
+
+.olympus-theme .tutor-course-tags a {
+  color: #fff;
+  background-color: #7c5ac2;
+  background-color: var(--third-accent-color);
+  padding: 3px 15px; }
+
+.olympus-theme .tutor-form-group button[type="submit"] {
+  padding: 13px 20px; }
+
+.olympus-theme .course-complete-button {
+  padding: 18px 20px; }
+
+.olympus-theme .tutor-loop-author > div a {
+  font-size: 13px; }
+
+.olympus-theme .tutor-course-loop-title h2 a {
+  font-size: 17px; }
+
+.olympus-theme .tutor-single-page-top-bar .tutor-single-lesson-segment button.course-complete-button {
+  border: 1px solid; }

@@ -1,0 +1,228 @@
+body {
+    margin: 0;
+    font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    font-size: 12.992px;
+    font-size: 0.812rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #757575;
+    text-align: left;
+    background-color: #fff;
+}
+a {
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+    font-weight: 700;
+    color: #515365;
+}
+a:hover {
+    color: #ff5e3a;
+}
+p {
+    font-size: 14px;
+    font-size: .875rem;
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6{
+    margin-bottom: 8px;
+    margin-bottom: 0.5rem;
+    font-family: inherit;
+    font-weight: 700;
+    line-height: 1.3;
+    color: #515365;
+}
+h1, .h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+}
+h2, .h2 {
+    font-size: 32px;
+    font-size: 2rem;
+}
+h3, .h3 {
+    font-size: 28px;
+    font-size: 1.75rem;
+}
+h4, .h4 {
+    font-size: 22px;
+    font-size: 1.375rem;
+}
+h5, .h5 {
+    font-size: 16px;
+    font-size: 1rem;
+}
+h6, .h6 {
+    font-size: 14px;
+    font-size: 0.875rem;
+}
+ol,
+ul,
+dl {
+    margin-top: 0;
+    margin-bottom: 16px;
+    margin-bottom: 1rem;
+}
+ol ol,
+ul ul,
+ol ul,
+ul ol {
+    margin-bottom: 0;
+}
+dt {
+    font-weight: 700;
+}
+dd {
+    margin-bottom: 8px;
+    margin-bottom: .5rem;
+    margin-left: 0;
+}
+blockquote {
+    margin: 3em 0;
+    padding: 15px 80px 15px 80px;
+    position: relative;
+}
+blockquote h6 {
+    font-size: 11px;
+    font-weight: 400;
+    color: #757575;
+}
+blockquote h6 span {
+    font-weight: 700;
+    display: block;
+    color: #515365;
+}
+blockquote p {
+    margin: 0 0 15px !important;
+    font-size: 22px;
+    line-height: 1.3em;
+    font-weight: 300;
+    position: relative;
+    color: #515365;
+}
+blockquote p:before {
+    content: "";
+    width: 4px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -80px;
+    display: block;
+    background-color: #ff5e3a;
+}
+@media (max-width: 640px) {
+    blockquote p {
+        font-size: 16px; }
+}
+dfn {
+    font-style: italic;
+}
+b,
+strong {
+    font-weight: bolder;
+}
+small {
+    font-size: 80%;
+}
+sub,
+sup {
+    position: relative;
+    font-size: 75%;
+    line-height: 0;
+    vertical-align: baseline;
+}
+sub {
+    bottom: -.25em;
+}
+sup {
+    top: -.5em;
+}
+small,
+.small {
+    font-size: 80%;
+    font-weight: 400;
+}
+
+/* =WordPress Core
+-------------------------------------------------------------- */
+
+.align-center,
+.aligncenter {
+    text-align: center;
+}
+.align-left {
+    text-align: left;
+}
+.align-right {
+    text-align: right;
+}
+img.aligncenter {
+    display: block;
+    margin: 20px auto;
+}
+.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+.alignleft {
+    float: left;
+    margin: 5px 40px 20px 0;
+}
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px;
+}
+a img.alignnone {
+    margin: 5px 20px 20px 0;
+}
+a img.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0;
+}
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.wp-caption {
+    border: 1px solid #e6ecf5;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background: #fff;
+    text-align: center;
+    max-width: 100%;
+}
+.wp-caption img {
+    margin-bottom: 15px;
+}
+.wp-caption.wp-caption-text {
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.wp-caption figcaption {
+    padding: 0;
+}
+.wp-caption-text {
+    font-size: 11px;
+}
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+    margin: 5px 20px 20px 0;
+}
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px;
+}
+.wp-caption p.wp-caption-text {
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0;
+    padding: 0 4px 5px;
+}

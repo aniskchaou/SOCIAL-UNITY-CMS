@@ -1,0 +1,204 @@
+#, fuzzy
+#: helpers.php:23
+msgid "Crumina Contact Form"
+msgstr ""
+
+#. Author of the plugin/theme
+#: helpers.php:24
+msgid "Crumina"
+msgstr ""
+
+#: helpers.php:40
+msgid "Submit"
+msgstr ""
+
+#: helpers.php:66
+msgid "Extra class name"
+msgstr ""
+
+#: helpers.php:68
+msgid ""
+"Style particular content element differently - add a class name and refer to "
+"it in custom CSS."
+msgstr ""
+
+#: helpers.php:79
+msgid "No forms"
+msgstr ""
+
+#: helpers.php:92
+msgid "Select form"
+msgstr ""
+
+#: helpers.php:97
+msgid "Submit text"
+msgstr ""
+
+#: helpers.php:102
+msgid "Submit color"
+msgstr ""
+
+#: helpers.php:123
+msgid "(no title)"
+msgstr ""
+
+#: manifest.php:9
+msgid "Contact form"
+msgstr ""
+
+#: manifest.php:10
+msgid "Contact form."
+msgstr ""
+
+#: options/posts/crum-form.php:16
+msgid "Form Fields"
+msgstr ""
+
+#: options/posts/crum-form.php:42
+msgid "Settings"
+msgstr ""
+
+#: options/posts/crum-form.php:45
+msgid "Options"
+msgstr ""
+
+#: options/posts/crum-form.php:56
+msgid "Subject Message"
+msgstr ""
+
+#: options/posts/crum-form.php:57
+msgid "This text will be used as subject message for the email"
+msgstr ""
+
+#: options/posts/crum-form.php:58
+msgid "New message"
+msgstr ""
+
+#: options/posts/crum-form.php:67
+msgid "Submit Button"
+msgstr ""
+
+#: options/posts/crum-form.php:68
+msgid "This text will appear in submit button"
+msgstr ""
+
+#: options/posts/crum-form.php:69
+msgid "Send"
+msgstr ""
+
+#: options/posts/crum-form.php:78
+msgid "Success Message"
+msgstr ""
+
+#: options/posts/crum-form.php:79
+msgid "This text will be displayed when the form will successfully send"
+msgstr ""
+
+#: options/posts/crum-form.php:80
+msgid "Message sent!"
+msgstr ""
+
+#: options/posts/crum-form.php:86
+msgid "Failure Message"
+msgstr ""
+
+#: options/posts/crum-form.php:87
+msgid "This text will be displayed when the form will fail to be sent"
+msgstr ""
+
+#: options/posts/crum-form.php:88
+msgid "Oops something went wrong."
+msgstr ""
+
+#: options/posts/crum-form.php:97
+msgid "Email To"
+msgstr ""
+
+#: options/posts/crum-form.php:98
+msgid "We recommend you to use an email that you verify often"
+msgstr ""
+
+#: options/posts/crum-form.php:99
+msgid "The form will be sent to this email address."
+msgstr ""
+
+#: options/posts/crum-form.php:108
+msgid "Mailer"
+msgstr ""
+
+#: posts.php:5 posts.php:7
+msgid "Forms"
+msgstr ""
+
+#: posts.php:6 posts.php:8
+msgid "Form"
+msgstr ""
+
+#: posts.php:9
+msgid "Add New"
+msgstr ""
+
+#: posts.php:10
+msgid "Add New Form"
+msgstr ""
+
+#: posts.php:11
+msgid "New Form"
+msgstr ""
+
+#: posts.php:12
+msgid "Edit Form"
+msgstr ""
+
+#: posts.php:13
+msgid "View Form"
+msgstr ""
+
+#: posts.php:14
+msgid "View Forms"
+msgstr ""
+
+#: posts.php:15
+msgid "All Forms"
+msgstr ""
+
+#: posts.php:16
+msgid "Search Forms"
+msgstr ""
+
+#: posts.php:17
+msgid "Parent Forms:"
+msgstr ""
+
+#: posts.php:18
+msgid "Form Attributes"
+msgstr ""
+
+#: posts.php:19
+msgid "No Forms found."
+msgstr ""
+
+#: posts.php:20
+msgid "No Forms found in Trash."
+msgstr ""
+
+#: views/text-no-forms.php:1
+msgid "No Forms Available"
+msgstr ""
+
+#: views/text-no-forms.php:6
+#, php-format
+msgid "No Forms created yet. Please go to the %sForms page and %s."
+msgstr ""
+
+#: views/text-no-forms.php:6
+msgid "create a new Form"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Contact Form"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://crumina.net"
+msgstr ""

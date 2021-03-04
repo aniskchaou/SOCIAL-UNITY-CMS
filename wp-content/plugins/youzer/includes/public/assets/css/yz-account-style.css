@@ -1,0 +1,2569 @@
+/**
+ * # YOUZER PROFILE STYLE .
+ * /
+
+/**
+ * Table of Contents
+ *
+ * 0.0 - General
+ * 1.0 - Form
+ * 2.0 - Form Messages
+ * 3.0 - Widget
+ *     3.1 - Services Widget
+ *     3.2 - Skills Widget
+ *     3.3 - Portfolio Widget
+ * 4.0 - Uploader
+ * 5.0 - Box Note
+ * 6.0 - Sidebar
+ * 7.0 - Xprofile Fields.
+ *
+ **/
+
+/**
+ * # 0.0 - General
+ **/
+
+.yz-account-page * ,
+.yz-account-page *:after,
+.yz-account-page *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+
+.yz-account-page a:hover {
+    text-decoration: none;
+}
+
+.yz-page-main-content {
+    margin: auto;
+    padding: 35px 0 0;
+    max-width: 1170px;
+    position: relative;
+}
+
+.yz-head-buttons .yz-head-buttons-inner:after,
+.yz-head-buttons:after,
+.yz-page-main-content:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/**
+ * # 1.0 - Form
+ **/
+.yz_upload_file {
+    width: 0.1px;
+    height: 0.1px;
+    opacity: 0;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+#yz-export-data .youzer-section-content,
+.youzer-section-content > .uk-option-item {
+    padding: 45px;
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.youzer-section-content > .uk-option-item:last-of-type {
+    border-bottom: none;
+}
+
+.youzer .yz-wg-item:after,
+#ukai-header:after,
+.uk-option-item:after,
+.yz-wg-opts:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.youzer:after,
+.youzer .yz-wg-skills-item:before,
+.youzer .yz-wg-skills-item:after,
+.yz-wg-portfolio-item:after,
+.youzer-section-content:after,
+.yz-wg-container:after,
+.yz-info-msg:after,
+.yz-app-account:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.option-infos {
+    float: left;
+    width: 30%;
+}
+
+.option-content {
+    float: left;
+    width: 70%;
+}
+
+.option-content div.mce-panel {
+    width: 99.99%;
+/*.option-content div.mce-edit-area {*/
+    /*border-right: 1px solid #e5e5e5;*/
+}
+
+.rtl .option-infos,
+.rtl .option-content {
+    float: right;
+}
+
+#youzer .uk-option-item .option-infos label {
+    display: flex;
+    color: #89afc1;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#yz-export-data .youzer-section-content h2,
+.uk-option-item .option-content label {
+    color: #7091a0;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#yz-export-data .youzer-section-content p,
+.uk-option-item .option-desc {
+    display: block;
+    color: #929292;
+    margin: 5px 0 0;
+    font-size: 13px;
+    line-height: 24px;
+    margin-right: 15px;
+}
+
+#yz-export-data .youzer-section-content p {
+    font-size: 14px;
+}
+
+.rtl .uk-option-item .option-desc {
+    margin-left: 15px;
+    margin-right: 0;
+}
+/*
+.uk-option-item .option-desc:first-letter {
+    text-transform: uppercase;
+}*/
+
+.uk-option-item .option-desc a {
+    color: #81a7b9;
+    font-size: 11px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#youzer .option-content input:not([type=radio]):not(.uk-upload-button):not(.wp-color-picker):not(.wp-picker-clear) {
+    /*width: 70%;*/
+    color: #9a9a9a;
+    font-size: 13px;
+    font-weight: 500;
+    box-shadow: none;
+    line-height: 18px;
+    padding: 8px 15px;
+    border: 2px solid #eee;
+    background-color: transparent;
+}
+
+.youzer .uk-upload-photo .uk-photo-url {
+    width: auto !important;
+}
+
+.youzer .option-content textarea {
+    /*width: 90%;*/
+    color: #9a9a9a;
+    font-size: 13px;
+    line-height: 24px;
+    min-height: 125px;
+    padding: 12px 15px;
+    background-color: #fff;
+    border: 2px solid #eee;
+}
+
+/** Color Picker Field **/
+
+.yz-account-page .wp-picker-container input[type=text].wp-color-picker{
+    padding: 0 8px;
+    font-size: 13px;
+}
+
+/* Select Field */
+.youzer.yz-account-page .nice-select {
+    min-height: 45px;
+    /*background-color: #fff;*/
+    /*border: 1px solid #f1f1f1;*/
+}
+
+.youzer.yz-account-page .nice-select .current {
+    line-height: 45px;
+    height: 45px;
+    text-align: left;
+}
+
+
+.youzer.yz-account-page .nice-select .option {
+    padding: 2px 20px;
+}
+
+/* Select Field */
+.youzer.yz-account-page .nice-select,
+.youzer.yz-account-page .nice-select .list {
+    width: 100%;
+}
+
+.youzer.yz-account-page .nice-select:after {
+    right: 20px;
+    width: 7px;
+    height: 7px;
+    margin-top: -5px;
+}
+
+.rtl .youzer.yz-account-page .nice-select:after {
+    left: 14px;
+    right: initial;
+}
+
+.yz-select-field {
+    position: relative;
+}
+
+.youzer .yz-select-field select {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    color: #949494;
+    cursor: pointer;
+    font-size: 13px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 3px;
+    padding: 0 20px;
+    display: inline-block;
+    background-color: #f6f6f6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.yz-select-field select::-ms-expand {
+    display: none;
+}
+
+/* Radio Field */
+
+.yz-label-radio {
+position: relative;
+    display: inline-block;
+    margin-bottom: 15px;
+    padding-left: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.yz-label-radio input[type="radio"] {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.yz_field_indication {
+    left: 0;
+    top: -0;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: #e6e6e6;
+}
+
+.yz_field_indication:after {
+    position: absolute;
+    display: none;
+    content: '';
+}
+
+.yz-label-radio .yz_field_indication {
+    border-radius: 50%;
+}
+
+.yz-label-radio .yz_field_indication:after {
+    top: 7px;
+    left: 7px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #fff;
+}
+
+.yz-label-radio input:checked ~ .yz_field_indication:after {
+    display: block;
+}
+
+.yz-label-radio input:checked ~ .yz_field_indication {
+    background: #89afc1;
+}
+
+.youzer .youzer-settings-actions {
+    padding: 0 50px;
+    overflow: hidden;
+    line-height: 91px;
+    border-top: 1px solid #f5f5f5;
+}
+
+.youzer .action-button {
+    border: none;
+    color: #ffffff;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0;
+    border-radius: 4px;
+    padding: 12px 20px;
+    background: #a3e05c;
+    text-transform: uppercase;
+}
+
+.youzer .action-button:hover {
+    color: #82A1AF;
+    background: #eeeeee;
+}
+
+.youzer .uk-option-item input:focus,
+.youzer .uk-option-item select:focus,
+.youzer .uk-option-item textarea:focus,
+.youzer .uk-option-item button:focus {
+    outline: none;
+}
+
+.youzer .uk-option-item input::-webkit-input-placeholder {
+    /*font-size:10px;*/
+    color: #AFAFAF;
+    text-align: center;
+    /*letter-spacing: 1px;*/
+    font-family: Open Sans, sans-serif;
+}
+
+.youzer .uk-option-item input::-moz-placeholder {
+    /*font-size:10px;*/
+    color: #AFAFAF;
+    text-align: center;
+    /*letter-spacing: 1px;*/
+    font-family: Open Sans, sans-serif;
+}
+
+.youzer .uk-option-item input:-moz-placeholder {
+    color: #AFAFAF;
+    /*font-size:10px;*/
+    text-align: center;
+    /*letter-spacing: 1px;*/
+    font-family: Open Sans, sans-serif;
+}
+
+.youzer .option-option input::-ms-input-placeholder {
+    color: #AFAFAF;
+    /*font-size:10px;*/
+    text-align: center;
+    /*letter-spacing: 1px;*/
+    font-family: Open Sans, sans-serif;
+}
+
+.youzer .uk-option-item textarea::-webkit-input-placeholder {
+    color: #AFAFAF;
+    font-size:10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Open Sans, sans-serif;
+}
+
+.youzer .uk-option-item textarea:-moz-placeholder {
+    color: #AFAFAF;
+    /*font-size:10px;*/
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+}
+
+.youzer .uk-option-item textarea::-moz-placeholder {
+    color: #AFAFAF;
+    /*font-size:13px;*/
+    text-align: center;
+    font-family: Open Sans, sans-serif;
+}
+
+.youzer .option-option textarea::-ms-input-placeholder {
+    color: #AFAFAF;
+    font-size:10px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: Open Sans, sans-serif;
+}
+
+/** User Network Box **/
+
+.youzer .yz-connect-btn a {
+    color: #898989;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 15px 25px;
+    background-color: #eee;
+}
+
+.youzer .yz-connect-btn i {
+    font-size: 14px;
+    margin-right: 8px;
+}
+
+.youzer .yz-connect-btn.yz-connect-btn-instagram a {
+  color: #fff;
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+
+.yz-user-provider-box {
+    padding: 12px 25px;
+    border-radius: 3px;
+    background-color: #f4f3f3;
+    border-left: 5px solid #eaeaea;
+}
+
+.rtl .yz-user-provider-box {
+        border-left: none;
+    border-right: 5px solid #eaeaea;
+}
+
+.yz-user-provider-box .yz-user-provider-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-size: cover;
+}
+
+.yz-user-provider-box .yz-user-provider-img,
+.yz-user-provider-box .yz-user-provider-data {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yz-user-provider-box .yz-user-provider-data {
+    margin-left: 8px;
+}
+
+.rtl .yz-user-provider-box .yz-user-provider-data {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.yz-user-provider-data .yz-user-provider-data-name {
+    color: #898989;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.yz-user-provider-data .yz-user-provider-status {
+    color: #fff;
+    margin-top: 8px;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 3px 8px;
+    line-height: 13px;
+    border-radius: 2px;
+    display: inline-block;
+    background-color: #a3e05c;
+    text-transform: uppercase;
+}
+
+.yz-user-provider-box .yz-user-provider-unlink {
+    float: right;
+    cursor: pointer;
+}
+
+.rtl .yz-user-provider-box .yz-user-provider-unlink {
+    float: left;
+}
+
+.yz-user-provider-box .yz-user-provider-unlink i {
+    width: 40px;
+    height: 40px;
+    color: #898989;
+    font-size: 18px;
+    margin-top: 6px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    background-color: #fff;
+}
+
+.yz-user-provider-box .yz-user-provider-unlink.loading i:before {
+    content: "\f110" !important;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.yz-user-provider-box .yz-user-provider-unlink.loading i {
+    -webkit-animation: fa-spin 2s infinite linear;
+    animation: fa-spin 2s infinite linear;
+}
+
+
+.yz-user-provider-connected .yz-connect-btn {
+    display: none;
+}
+
+.youzer .yz-wg-opts {
+    margin: 0;
+    padding: 35px;
+    background-color: #f2f2f2;
+}
+
+.youzer .yz-no-content {
+    margin: 0;
+    font-size: 13px;
+    color: #9E9E9E;
+    background: #fff;
+    padding: 18px 35px;
+    border-left: 8px solid #a8a8af;
+}
+
+.yz-save-options:hover {
+    color: #fff;
+    background-color: #a3e05c;
+}
+
+/* # Delete Item */
+
+.yz-account-page .yz-export-item .option-content,
+.yz-account-page .yz-export-item .option-infos {
+    float: none;
+    width: 100%;
+}
+
+#yz-data-export a,
+#bp-data-export button,
+.yz-account-page .yz-export-item .ukai-button-item a {
+    color: #fff;
+    border: none;
+    font-size: 13px;
+    font-weight: 600;
+    margin-top: 15px;
+    padding: 12px 15px;
+    background: #76a4b9;
+    display: inline-block;
+}
+
+
+#yz-data-export a i,
+#bp-data-export button i,
+.yz-account-page .yz-export-item .ukai-button-item a i {
+    margin-right: 8px;
+}
+
+.rtl #yz-data-export a i,
+.rtl #bp-data-export button i,
+.rtl .yz-account-page .yz-export-item .ukai-button-item a i {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+#yz-export-data .youzer-section-content ul {
+    margin: 15px 0;
+    padding: 0 20px;
+    border-left: 5px solid #eee;
+}
+
+#yz-export-data .youzer-section-content ul li {
+    color: #898989;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+/* # Delete Item */
+
+.yz-account-page .yz-delete-item {
+    top: 8px;
+    margin: 0;
+    right: 8px;
+    padding: 0;
+    width: 25px;
+    height: 25px;
+    line-height: 0;
+    cursor: pointer;
+    line-height: 23px;
+    position: absolute;
+    text-align: center;
+    background-color: #cccbcb;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.rtl .yz-account-page .yz-delete-item {
+    left: 8px;
+    right: initial;
+}
+
+.yz-account-page .yz-wg-item:hover > .yz-delete-item {
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.yz-account-page .yz-delete-item:hover {
+    background-color: #f97979;
+}
+
+.yz-account-page .yz-delete-item:before {
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    content: "\f2ed";
+    text-rendering: auto;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+/**
+ * # 3.1 & 3.2 - Skills & Services Widget
+ **/
+
+.youzer .yz-wg-skills-options .yz-wg-item,
+.youzer .yz-wg-services-options .yz-wg-item {
+    padding: 30px 0;
+    position: relative;
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+
+.yz-wg-skills-options .yz-wg-item {
+    border-left: 8px solid #81d1e4;
+}
+
+.rtl .yz-wg-skills-options .yz-wg-item {
+    border-left: none;
+    border-right: 8px solid #81d1e4;
+}
+
+.yz-wg-services-options .yz-wg-item {
+    border-left: 8px solid #fd8178;
+}
+
+.rtl .yz-wg-services-options .yz-wg-item {
+    border-left: none;
+    border-right: 8px solid #fd8178;
+}
+
+.youzer .yz-wg-skills-options .yz-wg-item:last-of-type,
+.youzer .yz-wg-services-options .yz-wg-item:last-of-type {
+    margin-bottom: 0
+}
+
+.youzer .yz-wg-skills-options .yz-wg-item .uk-option-item,
+.youzer .yz-wg-services-options .yz-wg-item .uk-option-item {
+    width: 33.33%;
+    float: left;
+}
+
+.rtl .youzer .yz-wg-skills-options .yz-wg-item .uk-option-item,
+.rtl .youzer .yz-wg-services-options .yz-wg-item .uk-option-item {
+    float: right;
+}
+
+.yz-wg-services-options .uk-option-item .yz-option-inner,
+.yz-wg-skills-options .uk-option-item .yz-option-inner {
+    width: 100%;
+    padding: 0 35px;
+}
+
+.yz-wg-skills-options .uk-option-item input {
+    width: 100%;
+}
+
+.yz-wg-skills-options .option-infos,
+.yz-wg-skills-options .option-content,
+.yz-wg-services-options .option-infos,
+.yz-wg-services-options .option-content {
+    float: none;
+    width: 100%;
+}
+
+.yz-wg-skills-options .option-infos,
+.yz-wg-services-options .option-infos {
+    margin-bottom: 12px;
+}
+
+.yz-wg-services-options .yz-wg-item textarea {
+    height: 38px;
+    min-height: initial;
+    padding: 5px 15px;
+}
+
+.yz-wg-services-options .uk-option-item .option-infos label,
+.yz-wg-skills-options .uk-option-item .option-infos label {
+    color: #8e8e8e;
+}
+
+/**
+ * # 3.3 - Portfolio Widget
+ **/
+
+.youzer .yz-cphoto-options {
+    padding: 35px 17.5px 0;
+}
+
+.youzer .yz-cphoto-options .yz-wg-item {
+    list-style-type: none;
+    margin-bottom: 35px;
+    text-align: center;
+    position: relative;
+    width: 33.33%;
+    float: left;
+}
+
+.rtl .youzer .yz-cphoto-options .yz-wg-item {
+    float: right;
+}
+
+.youzer .yz-cphoto-options .yz-no-content {
+    margin: 0 17.5px 35px;
+}
+
+.yz-cphoto-options .yz-wg-container {
+    padding:0;
+    overflow: hidden;
+    margin: 0 17.5px;
+    background-color: #fff;
+}
+
+.yz-cphoto-options .yz-uploader-item .yz-photo-preview {
+    width: 140px;
+    height: 140px;
+    max-width: 100%;
+    position: relative;
+    margin: 0 auto 30px;
+    background-size: cover;
+    background-position: center;
+}
+
+.yz-cphoto-content {
+    border-top: 1px solid #f6f6f6;
+    padding: 30px;
+}
+
+.yz-cphoto-options .yz-wg-item .uk-option-item {
+    margin-bottom: 18px;
+}
+
+.yz-cphoto-options .yz-wg-item .uk-option-item:last-of-type {
+    margin-bottom: 0;
+}
+
+.yz-cphoto-options .yz-wg-item .option-content {
+    float: none;
+    width: 100%;
+}
+
+.yz-cphoto-options .yz-wg-item .option-content input {
+    text-align: center;
+    width: 100% !important;
+}
+
+.yz-cphoto-options .yz-upload-photo {
+    margin: 0;
+    color: #fff;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 8px 12px;
+    text-align: center;
+}
+
+.yz-cphoto-options .yz-wg-item .yz-delete-item {
+    right: 25px;
+}
+
+.rtl .yz-cphoto-options .yz-wg-item .yz-delete-item {
+    right: initial;
+    left: 25px;
+}
+
+.yz-wg-slideshow-options .yz-upload-photo {
+    background-color: #72d0a8;
+}
+
+.yz-wg-portfolio-options .yz-upload-photo {
+    background-color: #fb7a54;
+}
+
+/*
+ * Uploader
+ */
+
+.youzer .option-content .yz-upload-photo {
+    color: #fff;
+    height: 36px;
+    border: none;
+    padding: 0 20px;
+    font-size: 13px;
+    cursor: pointer;
+    font-weight: 600;
+    min-width: 150px;
+    box-shadow: none;
+    line-height: 36px;
+    text-align: center;
+    background: #8eaab7;
+    display: inline-block;
+}
+
+.yz-uploader-item .yz-photo-preview {
+    width: 135px;
+    height: 135px;
+    display: block;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+}
+
+.yz-uploader-item .yz-delete-photo {
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    display: none;
+    z-index: 99999;
+    font-size: 14px;
+    cursor: pointer;
+    line-height: 30px;
+    position: absolute;
+    border: 4px solid #fff;
+    background-color: #8eaab7;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.yz-delete-photo.yz-show-trash {
+    display: block;
+}
+
+.yz-uploader-item .yz-delete-photo:hover {
+    color: #ffeb3b;
+}
+
+.yz-uploader-item .yz-photo-preview:hover > .yz-delete-photo {
+    opacity: 1;
+}
+
+.yz-upload-photo {
+    position: relative;
+}
+
+.yz-upload-photo:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: rgba(0,0,0,0.08);
+    height: 3px;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+}
+
+.yz-upload-photo:hover:before {
+    z-index: 999;
+    right: 0;
+}
+
+/* Photo Loader*/
+
+.yz-load-photo {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.yz-load-photo i {
+    width: 50px;
+    height: 50px;
+    color: #8c8b8b;
+    font-size: 16px;
+    background: #fff;
+    line-height: 50px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+}
+
+.yz-load-sccuess i {
+    color: #a6de65;
+}
+
+.yz-load-error i {
+    color: #f5756c;
+}
+
+/**
+ * # Delete Photos
+ **/
+
+.yz-capabilities-account-item,
+.yz-delete-account-item {
+    padding: 50px;
+}
+
+.yz-delete-account-item #message {
+    background-color: #f9f9f9;
+}
+
+.yz-capabilities-account-item label,
+.yz-delete-account-item label {
+    color: #898989;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.yz-delete-account-item .submit {
+    margin-top: 25px;
+}
+
+.yz-delete-account-item #delete-account-button:disabled {
+    background-color: #898989;
+}
+
+.yz-delete-account-item #delete-account-button {
+    border: none;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 12px 25px;
+    letter-spacing: 0.03em;
+    background-color: #f8483e;
+    text-transform: uppercase;
+}
+
+/**
+ * # Account Photos
+ **/
+
+.yz-uploader-change-item {
+    padding: 35px 50px;
+}
+
+.yz-uploader-change-item form {
+    display: none;
+}
+
+.yz-uploader-change-item h2 {
+    color: #89afc1;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-bottom: 5px;
+}
+
+.yz-uploader-change-item p a {
+    color: #898989;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.yz-uploader-change-item p {
+    color: #8a8a8a;
+    font-size: 13px;
+    line-height: 26px;
+}
+/**
+ * # Cover Image
+ **/
+.yz-change-cover-item .bp-cover-image {
+    margin-top: 15px;
+}
+
+/**
+ * # 6.0 - Sidebar
+ **/
+
+.youzer .yz-settings-sidebar {
+    width: 26%;
+    float: left;
+}
+
+.rtl .youzer .yz-settings-sidebar {
+    float: right;
+}
+
+.yz-account-header {
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+
+.yz-account-header .yz-account-img {
+    margin: auto;
+    width: 50px;
+    margin-right: 12px;
+    height: 50px;
+    /*display: block;*/
+    max-width: 100%;
+    position: relative;
+    background-size: cover;
+    background-color: #D7D7D7;
+    background-position: center;
+}
+
+.yz-account-header .yz-account-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.yza-change-photo {
+    position: absolute;
+    bottom: 4px;
+    right: 10px;
+}
+
+.yza-change-photo i {
+    width: 40px;
+    height: 40px;
+    color: #ffffff;
+    font-size: 18px;
+    cursor: pointer;
+    line-height: 40px;
+    text-align: center;
+    background: #ffc107;
+    background: url(../images/dotted-bg.png),linear-gradient(to left, #F9D423 , #FF9800);
+    background: url(../images/dotted-bg.png),-webkit-linear-gradient(right, #F9D423 , #FF9800);
+}
+
+.yz-settings-sidebar .yz-account-img,
+.yz-account-head .yz-account-head-content {
+    display: inline-block;
+    vertical-align: middle;
+    /*margin-bottom: 18px;*/
+}
+
+.yz-account-head {
+    padding: 25px;
+}
+
+.yz-account-head h2 {
+    margin: 0 0 5px;
+    color: #8b8b94;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+.yz-account-head span {
+    margin: 0;
+    color: #8b8b94;
+    display: block;
+    font-size: 13px;
+}
+
+.yz-head-buttons {
+    text-align: center;
+    background: #f4f4f4;
+    border-top: 1px solid #efefef;
+    border-bottom: 1px solid #efefef;
+}
+
+.yz-head-buttons a {
+    width: 100%;
+    padding: 11px;
+    border-radius: 3px;
+    background: #fff;
+}
+
+.yz-head-buttons a i {
+    color: #fff;
+    font-size: 18px;
+}
+
+.yz-head-buttons .yz-head-buttons-inner {
+    padding: 5px;
+}
+
+.yz-head-buttons .yz-button-item {
+    width: 20%;
+    float: left;
+    display: block;
+    padding: 4px;
+}
+
+.yz-button-item a {
+    background-image:url(../images/dotted-bg.png);
+}
+
+.yz-button-item.yz-home-button a {
+    background-color: #4fc8ff;
+}
+
+.yz-button-item.yz-profile-button a {
+    background-color: #ffc107;
+}
+
+.yz-button-item.yz-networks-button a {
+    background-color: #975dfd;
+}
+
+.yz-button-item.yz-avatar-button a {
+    background-color: #8ed43d;
+}
+
+.yz-button-item.yz-cover-button a {
+    background-color: #f76697;
+}
+/*
+.yz-button-item.yz-home-button a {
+    background: #89f7fe;
+    background-image: url(../images/dotted-bg.png),linear-gradient(to top,#89f7fe 0%,#66a6ff 100%);
+    background-image: url(../images/dotted-bg.png),-webkit-linear-gradient(right,#89f7fe 0%,#66a6ff 100%);
+}
+
+.yz-button-item.yz-networks-button a {
+    background: #89f7fe;
+    background-image: url(../images/dotted-bg.png),linear-gradient(to top,#00cdac,#2efff1);
+    background-image: url(../images/dotted-bg.png),-webkit-linear-gradient(bottom,#00cdac,#2efff1);
+}
+
+.yz-button-item.yz-avatar-button a {
+    background: #d4fc79;
+    background-image: url(../images/dotted-bg.png),linear-gradient(to top,#d4fc79,#96e6a1);
+    background-image: url(../images/dotted-bg.png),-webkit-linear-gradient(bottom,#d4fc79,#96e6a1);
+}
+
+.yz-button-item.yz-cover-button a {
+    background: #F180FF;
+    background-image: url(../images/dotted-bg.png),linear-gradient(to top,#F180FF 52%,#FD8BD9);
+    background-image: url(../images/dotted-bg.png),-webkit-linear-gradient(bottom,#F180FF 52%,#FD8BD);
+}
+
+
+.yz-button-item.yz-profile-button a {
+    background: #ff5858;
+    background-image: url(../images/dotted-bg.png),linear-gradient(to top,#ff5858,#FFEB3B);
+    background-image: url(../images/dotted-bg.png),-webkit-linear-gradient(bottom,#ff5858,#FFEB3B);
+}
+
+*/
+.yz-button-item.yz-logout-button a {
+    background: #fd603f;
+    background-image: url(../images/dotted-bg.png),linear-gradient(to left,#fd603f,#fe384f);
+    background-image: url(../images/dotted-bg.png),-webkit-linear-gradient(right,#fd603f,#fe384f);
+}
+
+.yz-account-header [data-yztooltip]:after,
+.yz-account-header .yz-tooltip:after {
+    font-size: 13px;
+}
+
+.youzer .account-infos .user-links a {
+    color: #fff;
+    padding: 0 8px;
+    font-size: 10px;
+    display: inline-block;
+    letter-spacing: 0.05em;
+    background-color: #89C4F3;
+    text-transform: uppercase;
+}
+
+.yz-settings-sidebar .yz-account-menus {
+    padding: 10px;
+    border-radius: 0;
+    display: none;
+    background: #f4f4f4;
+}
+
+.yz-settings-sidebar .yz-account-menus.yz-show-account-menus {
+    display: block !important;
+}
+
+.yz-account-menus .yz-menu-head {
+    position: relative;
+}
+
+.yz-settings-sidebar .yz-account-menus h2 {
+    margin: 0;
+    display: block;
+    color: #91adbb;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 18px 30px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.yz-account-menus .yz-menu-head i {
+    position: absolute;
+    top: 22px;
+    right: 20px;
+    color: #a3c2d6;
+    cursor: pointer;
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.rtl .yz-account-menus .yz-menu-head i {
+    right: initial;
+    left: 20px;
+}
+
+.yza-icon {
+    background-color: rgba(0, 0, 0, 0.13);
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+/**
+ * Settings
+ */
+.yz-account-settings-menu {
+    background-color: #fff;
+    border-radius: 3px;
+    padding: 0;
+    overflow: hidden;
+    margin-bottom: 35px;
+}
+
+.yz-account-settings-menu .yz-account-menu {
+    cursor: pointer;
+    padding: 20px 10px 20px 20px;
+    border-bottom: 1px solid #f9f9f9;
+}
+
+.yz-account-settings-menu .yz-account-menu:hover {
+    background-color: #fcfcfc;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.yz-account-settings-menu .yz-menu-icon {
+    margin: 0;
+    width: 45px;
+    height: 50px;
+    text-align: left;
+    line-height: 50px;
+}
+
+.yz-account-settings-menu .yz-menu-icon i {
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.yz-account-settings-menu .yz-arrow-bottom {
+    padding: 3px;
+    float: right;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-right: 6px;
+    display: inline-block;
+    border: solid #898989;
+    border-width: 0 1px 1px 0;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/*.yz-account-settings-menu .yzpc-public-info .yzpc-item-icon i {
+    background-color: #47c6ff;
+}
+
+.yz-account-settings-menu .yzpc-profile-images .yzpc-item-icon i {
+    background-color: #FFC107;
+}
+
+.yz-account-settings-menu .yzpc-profile-widgets .yzpc-item-icon i {
+    background-color: #7D73C3;
+}
+
+.yz-account-settings-menu .yzpc-restrictions .yzpc-item-icon i {
+    background-color:#F44336;
+}
+
+.yz-account-settings-menu .yzpc-restrictions .yzpc-fields .yzpc-field-item {
+    font-weight: 400;
+    /*border-left: 4px solid #cbcbcb;
+}
+*/
+.yz-account-settings-menu .yz-menu-head {
+    width: calc( 100% - 65px);
+}
+
+.yz-account-settings-menu .yz-menu-icon,
+.yz-account-settings-menu .yz-menu-head {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yz-account-settings-menu .yz-menu-head .yz-menu-title,
+.yz-account-settings-menu .yz-menu-head .yz-menu-description {
+    display: block;
+}
+
+.yz-account-settings-menu .yz-menu-head .yz-menu-title {
+    cursor: pointer;
+    color: #8e8e8e;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.yz-account-settings-menu .yz-menu-head .yz-menu-description {
+    color: #8e8e8e;
+    font-size: 13px;
+    margin-top: 5px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.rtl .yza-icon {
+    float: right;
+}
+
+.yza-link-item {
+    text-align: center;
+}
+
+.youzer .editfield label[for*="adminsonly"] .field-visibility-text:before,
+.yza-profile-settings {
+    background: #FFCA6E;
+    background: url(../images/dotted-bg.png),linear-gradient(to left, #F9D423 , #FF4E50);
+    background: url(../images/dotted-bg.png),-webkit-linear-gradient(right, #F9D423 , #FF4E50);
+}
+
+.youzer .editfield label[for*="loggedin"] .field-visibility-text:before,
+.yza-account-settings {
+    background: #56ab2f;
+    background: url( ../images/dotted-bg.png ), linear-gradient(to right, #56ab2f , #a8e063);
+    background: url( ../images/dotted-bg.png ),-webkit-linear-gradient(left, #56ab2f , #a8e063);
+}
+
+.yza-widgets-settings {
+    background: #c154fe;
+    background: url(../images/dotted-bg.png),linear-gradient(to left, #c154fe , #673AB7);
+    background: url(../images/dotted-bg.png),-webkit-linear-gradient(right, #c154fe , #673AB7);
+}
+
+.youzer .editfield label[for*="public"] .field-visibility-text:before,
+.yza-view-profile {
+    background-color: #1ac6dc;
+    background-image: url( ../images/dotted-bg.png ),linear-gradient(to left, #24C6DC 0%, #514A9D 100%);
+    background-image: url( ../images/dotted-bg.png ),-webkit-linear-gradient(right, #24C6DC 0%, #514A9D 100%);
+}
+
+.youzer .editfield label[for*="friends"] .field-visibility-text:before {
+    background: #FF7376;
+    background: url(../images/dotted-bg.png),linear-gradient(to left, #fa6d9d , #ff1e6b);
+    background: url(../images/dotted-bg.png),-webkit-linear-gradient(right, #fa6d9d , #ff1e6b);
+}
+
+.yza-logout {
+    background: #FF512F;
+    background: url( ../images/dotted-bg.png ),linear-gradient(to left, #FF512F , #DD2476);
+    background: url( ../images/dotted-bg.png ),-webkit-linear-gradient(right, #FF512F , #DD2476);
+}
+
+.yz-settings-sidebar .yz-account-menus ul {
+    padding: 15px 25px;
+    border-top: 1px solid #f5f5f5;
+    padding: 15px 25px;
+    background: #fff;
+    border-radius: 3px;
+}
+
+.yz-settings-sidebar .yz-account-menus ul li {
+    line-height: 36px;
+}
+
+.yz-settings-sidebar .yz-account-menus ul li i {
+    width: 25px;
+    height: 25px;
+    color: #8b8b8b;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.rtl .yz-settings-sidebar .yz-account-menus ul li i {
+    margin-left: 15px;
+    margin-right: 0;
+}
+
+.yz-settings-sidebar .yz-account-menus ul li a {
+    color: #999;
+    font-size: 12.5px;
+    font-weight: 600;
+    display: inline-block;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.yz-settings-sidebar .yz-account-menus ul li a:hover {
+    padding-left: 8px;
+    color: #89b6d2;
+    text-decoration: none;
+}
+
+.yz-settings-sidebar .yz-account-menus .yz-active-menu {
+    color: #89b6d2;
+    text-decoration: none;
+}
+
+.youzer .settings-main-content {
+    width: 74%;
+    float: right;
+    margin-bottom: 35px;
+}
+
+.rtl .youzer .settings-main-content {
+    float: left;
+}
+
+.settings-main-content .settings-inner-content {
+    margin-left: 35px;
+    background-color: #fff;
+}
+
+.rtl .settings-main-content .settings-inner-content {
+    margin-left: 0;
+    margin-right: 35px;
+}
+
+.settings-inner-content .options-section-title {
+    padding: 0 50px;
+    line-height: 85px;
+    border-bottom: 1px solid #f5f5f5;
+}
+
+.settings-inner-content .options-section-title h2 {
+    display: inline-block;
+    line-height: inherit;
+    font-weight: 400;
+    font-size: 18px;
+    color: #8b8b94;
+    margin: 0;
+}
+
+.settings-inner-content .options-section-title h2 i {
+    width: 48px;
+    height: 48px;
+    color: #8b8b94;
+    font-size: 20px;
+    line-height: 48px;
+    text-align: center;
+    margin-right: 16px;
+    background: #f5f5f5;
+}
+
+.rtl .settings-inner-content .options-section-title h2 i {
+    margin-left: 16px;
+    margin-right: 0;
+}
+
+.yza-form-actions{
+    float: right;
+}
+
+.rtl .yza-form-actions {
+    float: left;
+}
+
+.yza-item-button {
+    color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    min-height: 42px;
+    min-width: 135px;
+    line-height: 42px;
+    position: relative;
+    text-align: center;
+    margin-right: 10px;
+    display: inline-block;
+}
+
+.rtl .yza-item-button {
+    margin-right: 0;
+    margin-left: 10px;
+}
+
+.yza-item-button:hover {
+    color: #fff;
+}
+
+#yz-skill-button {
+    background-color: #81d1e4;
+}
+
+#yz-service-button {
+    background-color: #fd8178;
+}
+
+#yz-portfolio-button {
+    background-color: #f98a69;
+}
+
+#yz-slideshow-button {
+    background-color: #72d0a8;
+}
+
+.yz-settings-sidebar .account-infos {
+    margin-bottom: 35px;
+    background-color: #fff;
+}
+
+/**
+ * # 7.0 - Xprofile Fields
+ **/
+
+.youzer .editfield {
+    border-bottom: 1px solid #eee;
+}
+
+.youzer .editfield:last-of-type {
+    border: none;
+}
+
+.youzer .editfield fieldset {
+    border: none;
+    margin: 25px;
+    padding: 15px 25px;
+}
+
+#youzer .editfield fieldset legend {
+    margin: 0;
+    padding: 0;
+    border: none;
+    color: #89afc1;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+#youzer .editfield legend .bp-required-field-label,
+#youzer .editfield label .bp-required-field-label {
+    color: #8c8c8c;
+    font-size: 10px;
+    margin-left: 5px;
+    font-weight: 400;
+    line-height: 12px;
+    border-radius: 2px;
+    padding: 2px 7px 3px;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: #f0f0f0;
+}
+
+.rtl .youzer .editfield legend .bp-required-field-label,
+.rtl .youzer .editfield label .bp-required-field-label {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+#youzer .editfield input:not([type=radio]):not([type=checkbox]):not( .ed_button ) {
+    width: 100%;
+    color: #9a9a9a;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 12px 15px;
+    border: 1px solid #eee;
+    box-shadow: none !important;
+    background-color: transparent;
+}
+
+.youzer .editfield select option {
+    padding: 5px 0;
+}
+
+.youzer .editfield select {
+    border: 0;
+    outline: 0;
+    width: 100%;
+    color: #949494;
+    cursor: pointer;
+    font-size: 13px;
+    height: 45px;
+    line-height: 45px;
+    border-radius: 3px;
+    padding: 0 20px;
+    display: inline-block;
+    background-color: #f6f6f6;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.youzer .editfield .input-options label {
+    color: #898989;
+    font-size: 13px;
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+#youzer .editfield select[multiple=multiple] {
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#youzer .editfield select[multiple=multiple] option {
+    padding: 8px 12px;
+}
+
+.youzer .editfield select[multiple=multiple]:before {
+    content: '';
+    display: none;
+}
+
+.youzer .editfield .input-options.datebox-selects label {
+    display: inline-block;
+}
+
+.youzer .editfield .input-options.datebox-selects select,
+.youzer .editfield .input-options.datebox-selects .nice-select {
+    margin-right: 12px;
+    width: initial;
+}
+
+.youzer .editfield .input-options.datebox-selects .nice-select .list {
+    width: initial;
+}
+
+.youzer .editfield.field_type_radio .description,
+.youzer .editfield.field_type_checkbox .description,
+.youzer .editfield.field_type_datebox .description {
+    margin: 0 0 15px 0;
+}
+
+.youzer .editfield.field_type_textarea .wp-editor-container {
+    border: 1px solid #eee;
+}
+
+.logy .wp-core-ui .quicktags-toolbar input.button.button-small,
+.youzer .wp-core-ui .quicktags-toolbar input.button.button-small {
+    width: initial;
+    line-height:0;
+}
+
+.youzer .editfield .description {
+    display: block;
+    color: #929292;
+    font-size: 13px;
+    margin: 15px 0 0;
+    line-height: 18px;
+    margin-right: 15px;
+}
+
+.rtl .youzer .editfield .description {
+    margin-right: 0;
+    margin-left: 15px;
+}
+
+.youzer .editfield .field-visibility-settings {
+    display: none;
+}
+
+.youzer .editfield .field-visibility-settings fieldset {
+    margin: 15px 0;
+    border: 1px solid #eee;
+    padding: 10px 15px 18px;
+}
+
+.youzer .editfield .field-visibility-settings fieldset legend {
+    padding: 0 12px;
+}
+
+.youzer .editfield label .field-visibility-text {
+    color: #929292;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    padding-right: 15px;
+}
+
+.rtl .youzer .editfield label .field-visibility-text {
+    padding-right: 5px;
+    padding-left: 15px;
+}
+
+.youzer .editfield label[for*="public"] .field-visibility-text:before {
+    content: '\f57e';
+}
+
+.youzer .editfield label[for*="adminsonly"] .field-visibility-text:before {
+    content: '\f023';
+}
+
+.youzer .editfield label[for*="loggedin"] .field-visibility-text:before {
+    content: '\f0c0';
+}
+
+.youzer .editfield label[for*="friends"] .field-visibility-text:before {
+    content: '\f2b5';
+}
+
+.youzer .editfield label .field-visibility-text:before {
+    color: #898989;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: inherit;
+    text-rendering: auto;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: "Font Awesome 5 Free" !important;
+}
+
+.youzer .editfield label .field-visibility-text:before {
+    width: 30px;
+    color: #fff;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 0 8px 0 4px;
+    border-radius: 100%;
+    background-color: #eaeaea;
+}
+
+.rtl .youzer .editfield label .field-visibility-text:before {
+    margin: 0 0 0 8px;
+}
+
+.youzer .editfield .clear-value {
+    color: #fff;
+    font-size: 11px;
+    padding: 0 15px;
+    margin-top: 15px;
+    font-weight: 600;
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.youzer .editfield .checkbox-options label,
+.youzer .editfield .radio-button-options label {
+    color: #929292;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    margin-right: 20px;
+    display: inline-block;
+}
+
+.youzer .editfield .checkbox-options label input,
+.youzer .editfield .radio-button-options label input {
+    width: initial;
+    margin-right: 7px;
+}
+
+.rtl .youzer .editfield .checkbox-options label input,
+.rtl .youzer .editfield .radio-radio-button-options label input {
+    margin-left: 7px;
+    margin-right: 0;
+}
+
+.rtl .youzer .editfield .checkbox-options label,
+.rtl .youzer .editfield .radio-button-options label {
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.youzer .editfield .field-visibility-settings-notoggle,
+.youzer .editfield .field-visibility-settings-toggle {
+    color: #8a8a8a;
+    font-size: 13px;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #f9f9f9;
+    border-left: 5px solid #b4b3b3;
+}
+
+.rtl .youzer .editfield .field-visibility-settings-notoggle,
+.rtl .youzer .editfield .field-visibility-settings-toggle {
+    border-left: none;
+    border-right: 5px solid #b4b3b3;
+}
+
+.youzer .editfield label input {
+    vertical-align: middle;
+}
+
+.youzer .editfield .field-visibility-settings input {
+    opacity: 1;
+    width: initial;
+    height: initial;
+    position: initial;
+    margin-right: 3px;
+}
+
+.youzer .editfield .field-visibility-settings .field-visibility-settings-close {
+    color: #fff;
+    border: none;
+    font-size: 11px;
+    font-weight: 600;
+    padding: 8px 15px;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: 0.03em;
+    background-color: #89afc1;
+    text-transform: uppercase;
+}
+
+.youzer .editfield .field-visibility-settings-notoggle .current-visibility-level,
+.youzer .editfield .field-visibility-settings-toggle .current-visibility-level,
+.youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link {
+    padding: 0;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 600;
+    border-radius: 50px;
+    display: inline-block;
+}
+
+.youzer .editfield .field-visibility-settings-notoggle .current-visibility-level,
+.youzer .editfield .field-visibility-settings-toggle .current-visibility-level {
+    font-size: 13px;
+    margin-left: 8px;
+    min-width: 115px;
+    background-color: #fff;
+    border: 1px solid #f9f9f9;
+}
+
+.rtl .youzer .editfield .field-visibility-settings-notoggle .current-visibility-level,
+.rtl .youzer .editfield .field-visibility-settings-toggle .current-visibility-level {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link,
+.youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link {
+    color: #fff;
+    border: none;
+    font-size: 11px;
+    min-width: 100px;
+    margin-left: 8px;
+    letter-spacing: 0.03em;
+    background-color: #89afc1;
+    text-transform: uppercase;
+}
+
+.rtl .youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link,
+.rtl .youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link {
+    margin-left: 0;
+    margin-right: 8px;
+}
+
+.youzer .editfield .clear-value,
+.youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link,
+.youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link,
+.youzer .editfield .field-visibility-settings .field-visibility-settings-close {
+    background-color: #7ea3b5;
+    background-image: url(../images/dotted-bg.png),linear-gradient(to left, #00BCD4 0%, #7ea3b5 100%);
+    background-image: url(../images/dotted-bg.png),-webkit-linear-gradient(right, #00BCD4 0%, #7ea3b5 100%);
+}
+
+.youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link i,
+.youzer .editfield .field-visibility-settings .field-visibility-settings-close i,
+.youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link i {
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.rtl .youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link i,
+.rtl .youzer .editfield .field-visibility-settings .field-visibility-settings-close i,
+.rtl .youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link i {
+    margin-right: 0;
+    margin-left: 5px;
+}
+
+/**
+ * Messages
+ */
+.yz-account-page #message {
+    margin-left: 35px;
+}
+
+.yz-account-page .yz-delete-account-item #message {
+    margin-left: 0;
+}
+
+/**
+ * Deactivator Plugin.
+ */
+.yz-bp-deactivator-active,
+.yz-bp-deactivator-inactive {
+    color: #fff;
+    display: block;
+    font-weight: 600;
+    text-align: center;
+    padding: 30px 15px;
+    text-transform: uppercase;
+
+}
+
+.yz-bp-deactivator-active {
+    background: #8fcf45;
+}
+
+.yz-bp-deactivator-inactive {
+    background: #f44336;
+}
+
+/**
+ * Block Members
+ */
+.youzer-section-content tr {
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+#yz-block-member .youzer-section-content form {
+    margin-bottom: 35px;
+}
+
+.youzer-section-content form .users-blocked tr td strong {
+    display: block;
+    margin-bottom: 0;
+}
+
+#yz-block-member .youzer-section-content table:last-of-type {
+    margin-bottom: 0;
+}
+
+#yz-block-member .youzer-section-content form table {
+    margin-bottom: 35px;
+}
+
+#yz-block-member .youzer-section-content {
+    padding: 35px 55px;
+}
+
+.youzer-section-content input[type="submit"] {
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    min-width: 135px;
+    line-height: 24px;
+    padding: 9px 20px;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #a3e05c;
+}
+
+.youzer-section-content .users-blocked tr:first-of-type td {
+    padding: 0;
+}
+
+.youzer-section-content .users-blocked tr:nth-of-type(2),
+.youzer-section-content .users-blocked tr:first-of-type {
+    border: none;
+}
+
+.youzer-section-content .users-blocked tr td strong {
+    font-weight: 600;
+}
+
+.youzer-section-content .users-blocked tr td {
+    font-size: 14px;
+    color: #898989;
+    padding: 15px 0;
+}
+.youzer-section-content .users-blocked tr td a {
+    font-size: 14px;
+    color: #898989;
+    font-weight: 600;
+
+}
+
+.youzer-section-content .users-blocked tr td.actions {
+    text-align: center;
+}
+
+.youzer-section-content .users-blocked tr td.actions a {
+    background: #eee;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+/**
+ * Copyright
+ */
+
+.yz-copyright {
+    float: right;
+}
+
+.rtl .yz-copyright {
+    float: left;
+}
+
+.yz-copyright p {
+    margin: 0;
+    padding: 0;
+    color: #a2a0a0;
+    font-size: 13px;
+    line-height: inherit;
+}
+
+.yz-copyright p a {
+    color: #7091a0;
+    font-weight: 600;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+/**
+ * More CSS
+ */
+
+#youzer .option-content input:not([type=radio]):not(.uk-upload-button):not(.wp-color-picker):not(.wp-picker-clear),
+#youzer .editfield input:not([type=radio]):not([type=checkbox]),
+.settings-inner-content .options-section-title h2,
+.youzer .option-content input:not([type=radio]),
+.yz-settings-sidebar .yz-account-menus ul li a,
+.yz-cphoto-options .yz-upload-photo,
+.yz-settings-sidebar .yz-account-menus h2,
+.youzer .option-content textarea,
+.youzer .option-content select,
+.uk-option-item .option-desc,
+.yz-uploader-change-item h2,
+.yz-account-header ul li a,
+.youzer .action-button,
+.yz-account-head span,
+.uk-option-item label,
+.yz-account-head h2,
+.yza-item-button,
+.yz-no-content {
+    font-family: Open Sans, sans-serif;
+}
+
+#yz-data-export a,
+#bp-data-export button,
+.yz-account-page .yz-export-item .ukai-button-item a,
+.youzer .option-content input:not([type=radio]),
+.youzer fieldset input:not([type=radio]),
+.youzer .option-content .yz-upload-photo,
+.youzer .account-infos .user-links a,
+.yz-cphoto-options .yz-wg-container,
+.yz-wg-services-options .yz-wg-item,
+.youzer .option-content textarea,
+.yz-account-page .yz-delete-item,
+.youzer-form-msg .youzer_msg,
+.yz-save-options,
+.yz-upload-photo,
+.yza-item-button,
+.yz-scrolltotop,
+.yz-no-content {
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.youzer .editfield .field-visibility-settings .field-visibility-settings-close,
+.yz-uploader-change-item .bp-uploader-progress div.error,
+.yz-uploader-change-item #avatar-crop-actions a.button,
+.youzer .editfield .field-visibility-settings-toggle,
+.yz-uploader-change-item div.bp-cover-image-status p,
+.youzer .editfield .field-visibility-settings-notoggle,
+.youzer .editfield .field-visibility-settings-toggle,
+.settings-inner-content .options-section-title h2 i,
+.yz-uploader-change-item div.bp-avatar-status p,
+.yz-uploader-change-item #bp-delete-cover-image,
+.settings-main-content .settings-inner-content,
+.yz-delete-account-item #delete-account-button,
+.yz-uploader-change-item #bp-browse-button,
+.yz-uploader-change-item #bp-delete-avatar,
+.youzer .editfield .clear-value,
+.yz-account-header ul li a,
+.youzer .action-button,
+.youzer .yz-wg-item,
+.yz-account-header,
+.yz-account-menus {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}
+
+.yz-settings-sidebar .yz-account-menus ul li i,
+.yz-cphoto-options .yz-photo-preview,
+.yz-uploader-item .yz-delete-photo,
+.yz-settings-sidebar .yz-account-img,
+.yz-settings-sidebar .yz-account-img img,
+.yza-change-photo i {
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.youzer .yz-wg-skills-options .yz-wg-item,
+.yz-cphoto-options .yz-wg-container,
+.yz-wg-services-options .yz-wg-item {
+    box-shadow: 0 0 20px #e6e6e6;
+    -moz-box-shadow: 0 0 20px #e6e6e6;
+    -webkit-box-shadow: 0 0 20px #e6e6e6;
+}
+
+#yz-slideshow .youzer-settings-actions,
+#yz-portfolio .youzer-settings-actions,
+#yz-services .youzer-settings-actions,
+#yz-slideshow .options-section-title,
+#yz-portfolio .options-section-title,
+#yz-services .options-section-title,
+#yz-skills .youzer-settings-actions,
+#yz-skills .options-section-title {
+    border: none;
+}
+
+/**
+ * Profile Completness Notice.
+ */
+
+.yzpc-notice {
+    padding: 0;
+    color: #8b8b94;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 3px;
+    margin-bottom: 14px;
+    display: inline-block;
+}
+
+.yzpc-notice i {
+    width: 30px;
+    color: #fff;
+    height: 30px;
+    margin-right: 10px;
+    line-height: 30px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: #afe371;
+}
+
+/**
+ * Media Queries
+ */
+/*
+@media screen and ( min-width : 769px ) and ( max-width: 1024px ) {
+
+    .yz-settings-sidebar .yz-account-menus h2 {
+        padding-left: 25px;
+    }
+
+    .yz-settings-sidebar .yz-account-menus ul {
+        padding: 15px 25px 18px;
+    }
+
+    .yz-page-main-content {
+        padding: 25px 25px 0 25px;
+    }
+
+    .yz-account-page #message,
+    .settings-main-content .settings-inner-content {
+        margin-left: 25px;
+    }
+
+    .yz-settings-sidebar .account-infos,
+    .yz-settings-sidebar .yz-account-menus,
+    .youzer .settings-main-content,
+    .yz-account-header {
+        margin-bottom: 25px;
+    }
+
+}
+*/
+@media screen and ( max-width: 1024px ) {
+
+    .yz-account-page #message {
+        margin-left: 0;
+    }
+
+    .yz-page-main-content {
+        padding: 35px 35px 0 35px;
+    }
+
+    .rtl .youzer .yz-settings-sidebar,
+    .rtl .youzer .settings-main-content,
+    .youzer .yz-settings-sidebar,
+    .youzer .settings-main-content {
+        width: 100%;
+        float: none;
+    }
+    .rtl .settings-main-content .settings-inner-content,
+    .settings-main-content .settings-inner-content {
+        margin: 0;
+    }
+
+    .yz-account-header ul li a {
+        margin: auto;
+        max-width: 200px;
+    }
+
+    .yz-account-settings-menu,
+    .youzer .settings-main-content,
+    .yz-account-header,
+    .option-infos {
+        margin-bottom: 15px;
+    }
+
+    /*  Services & Skills */
+
+    .youzer .yz-wg-skills-options .yz-wg-item .uk-option-item,
+    .youzer .yz-wg-services-options .yz-wg-item .uk-option-item {
+        float: none;
+        width: 100%;
+        margin-bottom: 35px;
+    }
+
+    .youzer .yz-wg-skills-options .yz-wg-item:last-of-type,
+    .youzer .yz-wg-skills-options .uk-option-item:last-of-type,
+    .youzer .yz-wg-services-options .uk-option-item:last-of-type,
+    .youzer .yz-wg-services-options .yz-wg-item:last-of-type {
+        margin-bottom: 0;
+    }
+
+    .yz-wg-services-options .yz-wg-item textarea {
+        height: initial;
+    }
+
+    /* Portfolio & Slideshow */
+    .youzer .yz-cphoto-options .yz-wg-item {
+        width: 50%;
+    }
+
+    .youzer .yz-delete-item {
+        opacity: 1;
+    }
+
+    .yz-uploader-item .yz-delete-photo {
+        opacity: 1;
+    }
+
+}
+
+@media screen and ( max-width: 475px ) {
+
+    .yz-capabilities-account-item,
+    .yz-delete-account-item,
+    .yz-uploader-change-item {
+        padding: 25px;
+    }
+
+    .youzer .editfield .field-visibility-settings label {
+        display: block;
+        padding: 8px 0;
+    }
+
+    .youzer .editfield input:not([type=radio]):not([type=checkbox]) {
+        width: 100%;
+    }
+
+    .youzer .editfield fieldset {
+        padding: 15px 0;
+    }
+
+    .youzer .editfield .field-visibility-settings-notoggle,
+    .youzer .editfield .field-visibility-settings-toggle {
+        padding: 12px 15px;
+    }
+
+    .youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link,
+    .youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .yz-page-main-content {
+        padding: 25px 25px 0 25px;
+    }
+/*
+    .yz-settings-sidebar .account-infos,
+    .yz-settings-sidebar .yz-account-menus,
+    .youzer .settings-main-content,
+    .yz-account-header {
+        margin-bottom: 25px;
+    }
+*/
+    .rtl .yza-form-actions,
+    .yza-form-actions {
+        float: none;
+        display: -webkit-box;
+        display: -moz-box;
+        display: box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        box-orient: vertical;
+    }
+
+    .settings-inner-content .yz-save-options,
+    .yza-item-button {
+        width: 100%;
+        margin: auto;
+        height: 50px;
+        display: block;
+        line-height: 24px;
+        padding: 15px 12px;
+    }
+
+    .yza-item-button {
+        margin-top: 15px;
+        -webkit-box-ordinal-group: 3;
+        -moz-box-ordinal-group: 3;
+        box-ordinal-group: 3;
+    }
+
+    .settings-inner-content .options-section-title .yz-save-options {
+        margin-top: 20px;
+        -webkit-box-ordinal-group: 2;
+        -moz-box-ordinal-group: 2;
+        box-ordinal-group: 2;
+    }
+
+    .settings-inner-content .options-section-title {
+        padding: 25px;
+        line-height: 35px;
+        text-align: center;
+        border-top: 8px solid #aecfde;
+    }
+
+    .settings-inner-content .options-section-title h2 {
+        display: block;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .rtl .settings-inner-content .options-section-title h2 i,
+    .settings-inner-content .options-section-title h2 i {
+        display: table;
+        font-size: 14px;
+        margin: 0 auto 13px;
+    }
+
+    .youzer-section-content > .uk-option-item {
+        padding: 25px;
+    }
+
+    .option-infos,
+    .option-content {
+        width: 100%;
+    }
+
+    .youzer .youzer-settings-actions {
+        padding: 25px;
+        line-height: initial;
+    }
+
+    .youzer .uk-upload-photo .uk-photo-url,
+    .youzer .option-content input {
+        width: 100%;
+    }
+
+    .youzer .uk-upload-photo .uk-upload-button,
+    .uk-upload-photo .uk-upload-button {
+        margin: 15px 0 0 !important;
+        display: inherit;
+    }
+
+    .youzer .uk-option-item select {
+        display: flex;
+    }
+
+    .youzer .yz-wg-opts {
+        padding: 25px;
+    }
+
+    #youzer .option-content
+    input:not([type=radio]):not(.uk-upload-button):not(.yz-picker-input):not(.wp-picker-clear) {
+        height: 45px;
+        margin-bottom: 0;
+        width: 100% !important;
+    }
+
+    .uk-photo-preview {
+        margin: 20px auto 0;
+    }
+
+    /* Skills & Services */
+    .yz-wg-services-options .uk-option-item .yz-option-inner,
+    .yz-wg-skills-options .uk-option-item .yz-option-inner {
+        padding: 0 25px;
+    }
+
+    .youzer .yz-wg-services-options .yz-wg-item,
+    .youzer .yz-wg-skills-options .yz-wg-item,
+    .youzer .yz-cphoto-options .yz-wg-item {
+        margin-bottom: 25px;
+    }
+
+    .youzer .yz-wg-skills-options .yz-wg-item,
+    .youzer .yz-wg-services-options .yz-wg-item {
+        border-left: none;
+    }
+
+    .yz-wg-skills-options .yz-wg-item {
+        border-top: 8px solid #81d1e4;
+    }
+
+    .yz-wg-services-options .yz-wg-item {
+        border-top: 8px solid #fd8178;
+    }
+
+    /* Portfolio & Slideshow */
+    .youzer .yz-cphoto-options .yz-wg-item {
+        width: 100%;
+        float: none;
+    }
+
+    .youzer .yz-cphoto-options .yz-wg-item:last-of-type,
+    .youzer .yz-cphoto-options .yz-no-content {
+        margin: 0;
+    }
+
+    .yz-cphoto-options .yz-wg-container {
+        margin: 0;
+    }
+
+    .yz-cphoto-options .yz-wg-item .yz-delete-item {
+        right: 10px;
+    }
+
+    .rtl .yz-copyright,
+    .yz-copyright {
+        float: none;
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .yz-copyright p {
+        line-height: 28px;
+    }
+
+    .yz-uploader-item {
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .yz-uploader-item .yz-photo-preview {
+        margin:25px auto 0;
+    }
+
+    .youzer.yz-account-page .nice-select {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+    }
+
+    .yz-user-provider-box {
+        padding: 25px;
+        text-align: center;
+    }
+
+    .yz-user-provider-box .yz-user-provider-img {
+        margin: 0 auto 15px;
+    }
+
+    .yz-user-provider-box .yz-user-provider-data,
+    .yz-user-provider-box .yz-user-provider-img {
+        display: block;
+    }
+
+    .rtl .yz-user-provider-box .yz-user-provider-unlink,
+    .yz-user-provider-box .yz-user-provider-unlink {
+        float: none;
+        margin-top: 15px;
+    }
+
+    .rtl .youzer .editfield .input-options.datebox-selects label {
+        margin-bottom: 15px;
+        display: block;
+    }
+
+    .rtl .youzer .editfield .input-options.datebox-selects .nice-select,
+    .rtl .youzer .editfield .input-options.datebox-selects select {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and ( max-width: 375px ) {
+
+    .yz-capabilities-account-item,
+    .yz-delete-account-item {
+        padding: 18px;
+    }
+
+    .youzer .editfield .field-visibility-settings-notoggle,
+    .youzer .editfield .field-visibility-settings-toggle {
+        text-align: center;
+        padding: 20px;
+    }
+
+    .youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link,
+    .youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link,
+    .youzer .editfield .field-visibility-settings-notoggle .current-visibility-level,
+    .youzer .editfield .field-visibility-settings-toggle .current-visibility-level {
+        width: 100%;
+        padding: 5px;
+        display: block;
+        margin: 13px 0 0 0;
+    }
+
+    .yz-account-page #message {
+        margin-bottom: 25px !important;
+    }
+
+}

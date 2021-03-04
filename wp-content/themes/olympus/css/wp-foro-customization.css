@@ -1,0 +1,111 @@
+/*------------- #VARIABLES --------------*/
+/*------------- #WP FORO CUSTOMIZATION --------------*/
+.olympus-theme #wpforo-wrap {
+  max-width: 1300px;
+  margin: 0 auto;
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.olympus-theme #wpforo-wrap #wpforo-poweredby,
+.olympus-theme #wpforo-wrap #wpforo-stat-header,
+.olympus-theme #wpforo-wrap #wpforo-menu {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color); }
+
+.olympus-theme #wpforo-wrap .wpf-acp-content,
+.olympus-theme #wpforo-wrap .wpforo-rcn-body {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.olympus-theme #wpforo-wrap .wpf-acp-title,
+.olympus-theme #wpforo-wrap .wpfl-4 .wpf-threads-head .wpf-head-box {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.olympus-theme #wpforo-wrap .wpforo-profile-wrap .wpf-profile-plugin-menu .wpf-pp-menu .wpf-pp-menu-item,
+.olympus-theme #wpforo-wrap .wpf-breadcrumb a,
+.olympus-theme #wpforo-wrap .wpf-sbtn .wpf-sbtn-title i,
+.olympus-theme #wpforo-wrap #wpforo-stat-body .wpf-last-info i,
+.olympus-theme #wpforo-wrap .wpfl-4 .wpf-load-threads .wpf-newest,
+.olympus-theme #wpforo-wrap .wpfl-4 .wpf-load-threads .wpf-hottest,
+.olympus-theme #wpforo-wrap .wpfl-4 .wpf-load-threads .wpf-solved,
+.olympus-theme #wpforo-wrap .wpfl-4 .wpf-load-threads .wpf-unsolved,
+.olympus-theme #wpforo-wrap #wpforo-stat-body .wpf-stat-item i {
+  color: #9a9fbf;
+  color: var(--icon-color); }
+
+.olympus-theme #wpforo-wrap input[type="submit"],
+.olympus-theme #wpforo-wrap input[type="reset"],
+.olympus-theme #wpforo-wrap input[type="button"],
+.olympus-theme #wpforo-dialog input[type="submit"],
+.olympus-theme #wpforo-dialog input[type="reset"],
+.olympus-theme #wpforo-dialog input[type="button"],
+.olympus-theme #wpforo-wrap .wpf-button,
+.olympus-theme #wpforo-wrap .wpf-acp-footer a.wpf-button-secondary {
+  color: #fff;
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color);
+  border: none;
+  border-radius: 3px; }
+
+.olympus-theme #wpforo-wrap #wpforo-stat-body .wpf-stat-item .wpf-stat-value {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.olympus-theme .wpfcl-5,
+.olympus-theme #wpforo-wrap .wpforo-rcn-head {
+  color: #ff5e3a !important;
+  color: var(--primary-accent-color) !important; }
+
+.olympus-theme #wpforo-wrap .wpforo-rcn-dismiss span {
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color);
+  border-radius: 3px; }
+
+.olympus-theme #wpforo-wrap .wpf-search i,
+.olympus-theme #wpforo-wrap a {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme .wpfcl-1 {
+  color: #515365 !important;
+  color: var(--heading-font-color) !important; }
+
+.olympus-theme #wpforo-wrap .wpforo-members-wrap .wpf-member-profile-buttons {
+  vertical-align: bottom; }
+
+.olympus-theme .wpfbg-7,
+.olympus-theme .wpfbg-9 {
+  background-color: #edf2f6 !important; }
+
+.olympus-theme .wpfcl-2,
+.olympus-theme .wpfcl-0 {
+  color: #9a9fbf !important;
+  color: var(--icon-color) !important; }
+
+.olympus-theme .wpfbg-6 {
+  background-color: #38a9ff !important;
+  background-color: var(--secondary-accent-color) !important; }
+
+.olympus-theme #wpforo-wrap .wpfl-4 .wpf-content-foot .wpf-buttons .wpf-action:hover {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme #wpforo-wrap .wpfl-4 .wpforo-post-head,
+.olympus-theme #wpforo-wrap .wpforo-recent-wrap .wpforo-recent-content .wpf-htr {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color); }
+
+.olympus-theme #wpforo-wrap .wpf-member-title.wpfut {
+  border: none;
+  border-radius: 3px; }
+
+.olympus-theme #wpforo-wrap .wpfl-4 .wpf-load-threads .wpf-newest:hover, .olympus-theme #wpforo-wrap .wpfl-4 .wpf-load-threads .wpf-newest.wpf-active {
+  border-color: #38a9ff;
+  border-color: var(--secondary-accent-color);
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.olympus-theme #wpforo-wrap #wpforo-stat-body .wpf-stat-item .wpf-stat-label {
+  color: #888da8;
+  color: var(--body-font-color); }

@@ -1,0 +1,72 @@
+.yz-rate-user > input {
+  display: none !important; }
+
+.yz-star-rating i {
+  font-size: 14px; }
+
+.yz-star-rating i.star-full {
+  color: #ffdc1b; }
+
+.yz-star-rating i.star-half:after {
+  color: #ffdc1b; }
+
+.yz-star-rating i.star-empty {
+  color: #e6ecf5; }
+
+.yz-review-item .yz-item-head {
+  padding: 15px 25px; }
+
+.yz-review-item .yz-item-content {
+  border-top: 1px solid #e6ecf5; }
+
+.yz-review-item .yz-head-meta .yz-item-name a {
+  font-size: 14px;
+  color: #515365;
+  color: var(--heading-font-color);
+  margin-top: 0;
+  font-weight: 700; }
+
+.yz-review-item .yz-head-meta .yz-item-name a:hover {
+  color: #ff5e3a;
+  color: var(--primary-accent-color); }
+
+.yz-review-item .yz-head-meta .yz-item-date {
+  letter-spacing: 0;
+  color: #888da8;
+  color: var(--body-font-color);
+  margin-top: 0;
+  font-weight: 700; }
+
+.yz-review-item .yz-item-content .yz-item-desc {
+  font-size: 14px;
+  color: #888da8;
+  color: var(--body-font-color);
+  padding: 15px 25px; }
+
+.circle strong {
+  font-weight: 500;
+  font-family: inherit; }
+
+.yz-rating-count,
+.yz-rating-title {
+  font-weight: 500; }
+
+.yz-user-ratings-details .yz-user-ratings-rate,
+.yz-user-ratings-details .yz-user-ratings-total {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-weight: 300; }
+
+.yz-user-ratings-details .yz-separator {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.yz-rating-show-more {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-size: 14px;
+  font-weight: 500; }
+
+.yz-rate-user .yz-rate-user-desc {
+  font-weight: 500;
+  font-size: 18px; }

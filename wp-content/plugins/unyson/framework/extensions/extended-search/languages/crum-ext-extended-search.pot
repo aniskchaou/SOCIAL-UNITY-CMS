@@ -1,0 +1,130 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: Extended Search Extension\n"
+"POT-Creation-Date: 2019-09-23 16:53+0300\n"
+"PO-Revision-Date: 2019-09-23 16:48+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: class-fw-extension-extended-search.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-fw-extension-extended-search.php:71
+#: class-fw-extension-extended-search.php:93 manifest.php:9 manifest.php:10
+msgid "Extended Search"
+msgstr ""
+
+#. Author of the plugin/theme
+#: class-fw-extension-extended-search.php:72
+#: class-fw-extension-extended-search.php:94
+msgid "Crumina"
+msgstr ""
+
+#: views/paginate.php:15
+msgid "Previous"
+msgstr ""
+
+#: views/paginate.php:16
+msgid "Next"
+msgstr ""
+
+#: views/search.php:17
+msgid "What do you search?"
+msgstr ""
+
+#: views/search.php:22
+msgid "Search"
+msgstr ""
+
+#: views/search.php:34 views/types/forum.php:41
+msgid "Posts"
+msgstr ""
+
+#: views/search.php:35
+msgid "Pages"
+msgstr ""
+
+#: views/search.php:39
+msgid "Users"
+msgstr ""
+
+#: views/search.php:42
+msgid "Groups"
+msgstr ""
+
+#: views/search.php:47
+msgid "Forums"
+msgstr ""
+
+#: views/search.php:102
+msgid "Search query is empty!"
+msgstr ""
+
+#: views/types/forum.php:29
+msgid "topic"
+msgid_plural "topics"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/types/forum.php:30 views/types/group.php:35 views/types/post.php:27
+#: views/types/user.php:38
+msgid "found"
+msgstr ""
+
+#: views/types/forum.php:39
+msgid "Topic"
+msgstr ""
+
+#: views/types/forum.php:40
+msgid "Voices"
+msgstr ""
+
+#: views/types/forum.php:41
+msgid "Replies"
+msgstr ""
+
+#: views/types/forum.php:42
+msgid "Freshness"
+msgstr ""
+
+#: views/types/group.php:34
+msgid "group"
+msgid_plural "groups"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/types/post.php:26
+msgid "result"
+msgid_plural "results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: views/types/user.php:37
+msgid "user"
+msgid_plural "users"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Plugin Name of the plugin/theme
+msgid "Extended Search Extension"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Sorted layout for search results."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://crumina.net"
+msgstr ""

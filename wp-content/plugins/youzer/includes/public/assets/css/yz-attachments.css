@@ -1,0 +1,176 @@
+
+/* # Wall Preview - File */
+
+.yz-form-attachments .yz-file-preview {
+    width: 50%;
+    margin: 10px;
+    display: block;
+    overflow: hidden;
+    line-height: 18px;
+    background: #f5f5f5;
+    padding: 3px 15px 6px;
+}
+
+.yz-form-attachments .yz-file-preview .yz-attachment-details .yz-file-icon {
+    color: #999;
+    font-size: 12px;
+    margin-right: 8px;
+}
+
+.rtl .yz-form-attachments .yz-file-preview .yz-attachment-details .yz-file-icon {
+    margin-right: 0;
+    margin-left: 8px;
+}
+
+.yz-form-attachments .yz-file-preview .yz-attachment-details .yz-file-name {
+    color: #7d7d7d;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.yz-form-attachments .yz-file-preview .yz-attachment-details .yz-delete-attachment {
+    color: #999;
+    float: right;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+
+.ac-form .yz-form-attachments .yz-file-preview {
+    background-color: #939bb5;
+}
+
+.ac-form .yz-form-attachments .yz-file-preview .yz-file-progress .yz-file-upload,
+.ac-form .yz-form-attachments .yz-image-preview {
+    background-color: #fff;
+}
+
+.ac-form .yz-form-attachments .yz-file-preview .yz-attachment-details .yz-delete-attachment {
+    color: #fff;
+}
+
+.ac-form .yz-form-attachments .yz-file-preview .yz-attachment-details .yz-file-name,
+.ac-form .yz-form-attachments .yz-file-preview .yz-attachment-details .yz-file-icon {
+    color: #fff;
+}
+
+.rtl .yz-form-attachments .yz-file-preview .yz-attachment-details .yz-delete-attachment {
+    float: left;
+}
+
+.yz-form-attachments .yz-file-preview .yz-file-progress {
+    clear: both;
+    display: block;
+    margin-top: 8px;
+    background: rgba(0,0,0,0.10);
+}
+
+.yz-form-attachments .yz-file-preview .yz-file-progress .yz-file-upload.yz-file-uploaded {
+    background-color: #74c3e6 !important;
+}
+
+.ac-form .yz-form-attachments .yz-file-preview .yz-file-progress .yz-file-upload,
+.ac-form .yz-form-attachments .yz-file-preview .yz-file-progress .yz-file-upload.yz-file-uploaded {
+    background-color: #fff !important;
+}
+
+.yz-form-attachments .yz-file-preview .yz-file-progress .yz-file-upload {
+    padding: 2px;
+    display: block;
+    margin-bottom: 5px;
+    background-color: #a9a9a9;
+}
+
+/* # Wall Preview - Image */
+.yz-form-attachments .yz-image-preview {
+    float: left;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    position: relative;
+    background-size: cover;
+    background-color: #f5f5f5;
+    background-repeat: no-repeat;
+}
+
+.ac-form .yz-form-attachments .yz-file-preview,
+.ac-form .yz-form-attachments .yz-image-preview {
+    margin: 20px 20px 0 0;
+}
+
+.rtl .yz-form-attachments .yz-image-preview {
+    float: right;
+}
+
+.yz-form-attachments .yz-image-preview .yz-attachment-details .yz-file-icon {
+    color: #999;
+    font-size: 14px;
+    line-height: 75px;
+}
+
+.yz-form-attachments .yz-image-preview .yz-file-progress .yz-file-upload {
+    padding: 2px;
+    display: block;
+    background-color: #a9a9a9;
+}
+
+.yz-form-attachments .yz-image-preview .yz-file-progress .yz-file-upload.yz-file-uploaded {
+    background-color: #74c3e6 !important;
+}
+
+.yz-form-attachments .yz-image-preview .yz-file-progress {
+    bottom: 0;
+    width: 100%;
+    display: block;
+    position: absolute;
+    background: rgba(0,0,0,0.10);
+}
+
+.yz-form-attachments .yz-image-preview:hover .yz-attachment-details .yz-delete-attachment {
+    opacity: 1;
+}
+
+.yz-form-attachments .yz-image-preview .yz-attachment-details .yz-delete-attachment {
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    color: #fff;
+    width: 40px;
+    height: 40px;
+    margin: auto;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 38px;
+    text-align: center;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.60);
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+.yz-form-attachments .yz-image-preview .yz-attachment-details {
+    text-align: center;
+    line-height: 80px;
+}
+
+.yz-form-attachments .yz-image-preview .yz-attachment-details .yz-delete-attachment {
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
+.yz-form-attachments .yz-file-preview,
+.yz-form-attachments .yz-attachment-item {
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+}

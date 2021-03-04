@@ -1,0 +1,391 @@
+.youzer.yz-create-new-group-page .item-list-tabs li a {
+  font-size: 12px; }
+
+.yz-horizontal-layout .yz-group-navmenu li a {
+  min-width: initial; }
+
+#group-create-tabs li,
+#group-create-tabs li a {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+/*#group-settings-form p a */
+.yz-group-settings-tab p a {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+#group-settings-form p:last-of-type {
+  margin-bottom: 10px; }
+
+/*#group-settings-form p*/
+.yz-group-settings-tab p {
+  color: initial;
+  font-size: initial;
+  line-height: initial; }
+
+#youzer .yz-group-settings-tab .radio label,
+#youzer #group-settings-form .radio label,
+#youzer .yz-group-settings-tab label,
+#youzer #group-settings-form label {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  color: #888da8;
+  color: var(--body-font-color);
+  font-weight: 400; }
+
+#youzer .yz-group-settings-tab .radio label strong,
+#youzer #group-settings-form .radio label strong,
+#youzer .yz-group-settings-tab label strong,
+#youzer #group-settings-form label strong {
+  font-weight: 400; }
+
+#youzer .yz-group-settings-tab .radio label input[type="checkbox"],
+#youzer #group-settings-form .radio label input[type="checkbox"],
+#youzer .yz-group-settings-tab label input[type="checkbox"],
+#youzer #group-settings-form label input[type="checkbox"] {
+  margin-right: 7px; }
+
+.yz-group-settings-tab .yz-group-field-item input[type=text],
+#group-settings-form .yz-group-field-item input[type=text] {
+  color: #888da8;
+  color: var(--body-font-color);
+  border: 1px solid #e6ecf5; }
+
+.yz-group-settings-tab .yz-group-field-item textarea:focus,
+.yz-group-settings-tab .yz-group-field-item textarea:active,
+.yz-group-settings-tab .yz-group-field-item input[type=text]:focus,
+.yz-group-settings-tab .yz-group-field-item input[type=text]:active,
+#group-settings-form .yz-group-field-item textarea:focus,
+#group-settings-form .yz-group-field-item textarea:active,
+#group-settings-form .yz-group-field-item input[type=text]:focus,
+#group-settings-form .yz-group-field-item input[type=text]:active {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+#youzer .yz-group-settings-tab textarea,
+#youzer #group-settings-form textarea {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+#youzer .yz-group-settings-tab input:not[type='submit'],
+#youzer .yz-group-settings-tab textarea,
+#youzer #group-settings-form input:not[type='submit'],
+#youzer #group-settings-form textarea {
+  border: 1px solid #e6ecf5; }
+
+.yz-group-settings-tab fieldset,
+#group-settings-form fieldset {
+  border: 1px solid #e6ecf5; }
+
+#group-settings-form p,
+.yz-group-settings-tab fieldset p,
+#group-settings-form fieldset p {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-group-settings-tab fieldset ul li,
+#group-settings-form fieldset ul li {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-group-settings-tab .yz-group-submit-form #group-creation-previous,
+#group-settings-form .yz-group-submit-form #group-creation-previous {
+  color: #fff;
+  background-color: var(--icon-color);
+  display: inline-block;
+  margin-right: 15px; }
+
+.yz-group-settings-tab .yz-group-submit-form #group-creation-previous,
+#group-settings-form .yz-group-submit-form #group-creation-previous,
+#send-invite-form .submit input,
+.yz-group-settings-tab input[type="submit"],
+#group-settings-form input[type="submit"] {
+  width: auto;
+  font-weight: 700;
+  opacity: .85; }
+
+#yz-group-body form input[type="submit"]:not(#members_search_submit) {
+  width: auto;
+  padding: .8rem 2.1rem;
+  height: auto;
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color);
+  border: none;
+  text-transform: none; }
+
+.yz-group-settings-tab .yz-group-submit-form #group-creation-previous:hover,
+#group-settings-form .yz-group-submit-form #group-creation-previous:hover,
+#send-invite-form .submit input:hover,
+.yz-group-settings-tab input[type="submit"]:hover,
+#group-settings-form input[type="submit"]:hover {
+  opacity: 1; }
+
+.yz-group-settings-tab .main-column p,
+#group-settings-form .main-column p {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+#group-create-body .bp-avatar-status p.warning {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-create-new-group-page #message {
+  background-color: #edf2f6; }
+
+.youzer .yz-delete-group-tab #message {
+  background-color: #ffe957; }
+
+.youzer .yz-delete-group-tab #delete-group-button:disabled {
+  background-color: #888da8; }
+
+.youzer .yz-delete-group-tab #delete-group-button {
+  font-size: 13px;
+  font-weight: 700;
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color);
+  text-transform: initial;
+  opacity: .85; }
+
+.youzer .yz-delete-group-tab #delete-group-button:hover {
+  opacity: 1; }
+
+#invite-list {
+  margin-bottom: 0; }
+
+#invite-list ul li label {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-size: 14px;
+  font-weight: 700; }
+
+#invite-list .list-title {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+#invite-list .list-title i {
+  background: transparent;
+  color: #9a9fbf;
+  color: var(--icon-color); }
+
+#invite-list ul li .yz_cs_checkbox_field .yz_field_indication {
+  top: 0; }
+
+.yz-group-navmenu li a {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-weight: 700;
+  text-transform: initial;
+  text-align: left; }
+
+.yz-group-navmenu li a:before {
+  color: #9a9fbf;
+  color: var(--icon-color); }
+
+.yz-group-navmenu li a:hover {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.yz-group-navmenu li.current {
+  border-right-color: #e6ecf5 !important; }
+
+.yz-group-navmenu li.current a {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.yz-group-navmenu li.current a:before {
+  color: #ff5e3a;
+  color: var(--primary-accent-color); }
+
+.yz-group-navmenu li a:hover,
+.yz-group-navmenu li a:hover i {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.yz-group-navmenu #membership-requests-groups-li a span,
+.yz-group-navmenu a#members span {
+  min-width: 10px;
+  margin-left: 1px;
+  color: #ff5e3a;
+  color: var(--primary-accent-color);
+  background-color: transparent;
+  padding: 0 5px; }
+
+.yz-responsive-menu span {
+  background: var(--icon-color); }
+
+.yz-responsive-menu span:before,
+.yz-responsive-menu span::after {
+  background-color: var(--icon-color); }
+
+#yz-group-buttons .group-button a {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+#yz-group-buttons a.leave-group,
+#yz-group-buttons a.membership-requested {
+  color: #fff;
+  border: none;
+  background-color: var(--icon-color);
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.youzer #yz-members-list .item .item-title a {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-weight: 700; }
+
+.youzer #yz-members-list .item .item-title a:hover {
+  color: #ff5e3a;
+  color: var(--primary-accent-color); }
+
+.youzer #yz-members-list .item .item-meta span {
+  margin-top: initial;
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.youzer #yz-members-list .yzm-user-actions div {
+  vertical-align: middle; }
+
+#youzer #yz-members-list .yzm-user-actions a {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.youzer #yz-members-list .yzm-user-actions .follow-button a {
+  color: #fff;
+  background-color: #7c5ac2;
+  background-color: var(--third-accent-color);
+  opacity: .85; }
+  .youzer #yz-members-list .yzm-user-actions .follow-button a:hover {
+    opacity: 1; }
+
+.group-members #youzer #search-members-form label input {
+  color: #888da8;
+  color: var(--body-font-color);
+  border: 1px solid #e6ecf5; }
+
+.group-members #search-members-form #members_search_submit {
+  font-weight: 700;
+  text-transform: initial; }
+
+.yz-group-manage-members-search #search-members-form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center; }
+
+.yz-group-manage-members-search #search-members-form #members_search {
+  color: #888da8;
+  color: var(--body-font-color);
+  border: 1px solid #e6ecf5; }
+
+.main-column .section-header,
+.group-members-list .section-header {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-weight: 700; }
+
+.youzer .group-members-list .item-avatar {
+  margin-right: 10px; }
+
+.youzer .group-members-list .item .item-title a {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.youzer .group-members-list .item .item-title a:hover {
+  color: #ff5e3a;
+  color: var(--primary-accent-color); }
+
+.youzer .group-members-list .action a i {
+  color: #fff;
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color); }
+
+#youzer .group-members-list .item .item-meta {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-group-infos-widget .yz-group-widget-title {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-weight: 700;
+  border-bottom: 1px solid #e6ecf5; }
+
+.yz-group-infos-widget .yz-group-widget-title i {
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  color: #9a9fbf;
+  color: var(--icon-color);
+  background: transparent;
+  vertical-align: middle; }
+
+.yz-group-infos-widget .yz-group-widget-content {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.youzer .group-request-list .item .item-title a {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.youzer .group-request-list .item .item-title a:hover {
+  color: #ff5e3a;
+  color: var(--primary-accent-color); }
+
+#youzer .group-request-list .item .item-meta {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-weight: 700;
+  margin-top: initial; }
+
+#youzer .group-request-list .action .reject a {
+  border: 1px solid #e6ecf5; }
+
+#youzer .group-request-list .action a {
+  border: 1px solid #e6ecf5; }
+
+#group-settings-form h3,
+#yz-group-body h3 {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+#group-settings-form fieldset legend,
+.yz-group-settings-tab fieldset legend {
+  width: auto; }
+
+@media screen and (max-width: 1350px) {
+  .yz-group-navmenu li a {
+    padding: 12px; }
+  .yz-group-navmenu #membership-requests-groups-li a span,
+  .yz-group-navmenu a#members span {
+    height: 12px; } }
+
+@media screen and (max-width: 1024px) {
+  .yz-group-navmenu li a {
+    padding: 12px 5px; } }
+
+@media screen and (max-width: 768px) {
+  .yz-navbar-block-icons .yz-navbar-item a i {
+    display: inline-block; } }
+
+@media screen and (max-width: 475px) {
+  #youzer #yz-members-list .yzm-user-actions div:first-of-type:before {
+    border-top: 1px solid #e6ecf5; }
+  #youzer #yz-members-list .yzm-user-actions a {
+    display: -ms-flexbox;
+    display: flex; }
+  .youzer .group-request-list .action {
+    border-top: 1px solid #e6ecf5; } }

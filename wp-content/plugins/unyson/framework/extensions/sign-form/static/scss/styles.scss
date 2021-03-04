@@ -1,0 +1,235 @@
+/*------------- #CRUMINA SIGN FORM --------------*/
+
+.crumina-sign-form-container {
+  transition: opacity 0.3s ease-in-out;
+  opacity: 0;
+
+  &.visible {
+	opacity: 1;
+  }
+
+  .invalid-feedback {
+	position: absolute;
+	top: 100%;
+	&.captcha{
+		top: auto;
+		position: relative;
+		margin-bottom: 5px;
+		display: block;
+	}
+  }
+
+  .nav-link {
+	flex-direction: column;
+
+	.icon-title {
+	  display: none;
+	}
+  }
+
+  .has-errors {
+	margin-bottom: 35px;
+  }
+
+  .sign-form-pass-strength-result{
+	display: none;
+	padding: 5px;
+	font-size: .7rem;
+    border: 1px solid #e6ecf5;
+    margin-top: 5px;
+	border-radius: 0.25rem;
+	color: #515365;
+	&.short{
+		display: block;
+		background-color: #f1adad;
+		border-color: #e35b5b;
+	}
+	&.bad{
+		display: block;
+		background-color: #fbc5a9;
+		border-color: #f78b53;
+	}
+	&.strong{
+		display: block;
+		background-color: #c1e1b9;
+		border-color: #83c373;
+	}
+	&.good{
+		display: block;
+		background-color: #ffe399;
+		border-color: #ffc733;
+	}
+  }
+}
+
+.crumina-sign-form {
+  .icon-loader {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 50px;
+	height: 50px;
+	background-image: url("../img/circles.svg");
+	background-repeat: no-repeat;
+	background-size: 30px;
+	background-position: 50% 50%;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	transition: all .3s ease;
+  }
+
+  &.loading {
+	.btn {
+	  min-height: 55px;
+
+	  span {
+		display: none;
+		opacity: 0;
+		visibility: hidden;
+
+		&.icon-loader {
+		  display: block;
+		  opacity: 1;
+		  visibility: visible;
+		}
+	  }
+	}
+  }
+}
+
+.crumina-sign-form-messages {
+  padding-left: 0;
+  list-style: none;
+
+  li {
+	border-left: 4px solid;
+	padding: 8px 15px;
+	border-radius: 5px 0 0 5px;
+	background-color: #f6f6f6;
+
+	&.error {
+	  border-left-color: #ff5e3a;
+	}
+  }
+}
+
+.password-eye-wrap {
+  position: relative;
+
+  .password-eye {
+	text-decoration: none;
+	font-size: 16px;
+	color: #888da8;
+	position: absolute;
+	right: 15px;
+	top: 50%;
+	transform: translate(0, -50%);
+	z-index: 10;
+
+	&:hover {
+	  color: darken(#888da8, 10%);
+	}
+  }
+}
+
+.gdpr {
+  .checkbox {
+	margin-bottom: 5px;
+	padding-bottom: 0;
+	border: 0;
+	outline: none;
+  }
+
+  p {
+	margin-bottom: 15px;
+  }
+
+  .is-invalid ~ .invalid-feedback {
+	display: block;
+	position: relative;
+	top: auto;
+  }
+}
+
+.form-group.label-floating legend,
+.form-group.label-floating .description{
+  display: none;
+}
+.ext-sign-form-success-email-message{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 5;
+  text-align: center;
+  background: rgba(255, 255, 255, .8);
+  padding: 40px 20px;
+}
+.ext-sign-form-success-email-message p{
+  font-size: 18px;
+}
+.ext-sign-form-success-email-message.active{
+  display: block;
+}
+.crumina-sign-form-container .invalid-feedback.captcha{
+  top: auto;
+  position: relative;
+  margin-bottom: 5px;
+  display: block;
+}
+.crumina-sign-form-container .sign-form-pass-strength-result{
+  display: none;
+  padding: 5px;
+  font-size: .7rem;
+  border: 1px solid #e6ecf5;
+  margin-top: 5px;
+  border-radius: 0.25rem;
+  color: #515365;
+}
+.crumina-sign-form-container .sign-form-pass-strength-result.short{
+  display: block;
+  background-color: #f1adad;
+  border-color: #e35b5b;
+}
+.crumina-sign-form-container .sign-form-pass-strength-result.bad{
+  display: block;
+  background-color: #fbc5a9;
+  border-color: #f78b53;
+}
+.crumina-sign-form-container .sign-form-pass-strength-result.strong{
+  display: block;
+  background-color: #c1e1b9;
+  border-color: #83c373;
+}
+.crumina-sign-form-container .sign-form-pass-strength-result.good{
+  display: block;
+  background-color: #ffe399;
+  border-color: #ffc733;
+}
+
+/*================= Responsive Mode ============*/
+
+@media (max-width: 1023px) {
+  .crumina-sign-form-container {
+	.nav-link {
+
+	  .icon-title {
+		display: block;
+	  }
+	}
+  }
+}
+
+@media (max-width: 768px) {
+  .crumina-sign-form {
+	&.loading {
+	  .btn {
+		min-height: 45px;
+	  }
+	}
+  }
+}

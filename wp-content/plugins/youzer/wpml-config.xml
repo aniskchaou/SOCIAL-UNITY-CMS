@@ -1,0 +1,46 @@
+<wpml-config>
+    <admin-texts>
+        <key name="yz_posts_tab_title"/>
+        <key name="yz_overview_tab_title"/>
+        <key name="yz_wall_tab_title"/>
+        <key name="yz_info_tab_title"/>
+        <key name="yz_friends_tab_title"/>
+        <key name="yz_groups_tab_title"/>
+        <key name="yz_bookmarks_tab_title"/>
+        <key name="yz_follows_tab_title"/>
+        <key name="yz_shop_tab_title"/>
+        <key name="yz_invite-anyone_tab_title"/>
+        <key name="yz_reviews_tab_title"/>
+        <key name="yz_comments_tab_title"/>
+        <key name="yz_wg_post_title"/>
+        <key name="yz_wg_link_title"/>
+        <key name="yz_wg_video_title"/>
+        <key name="yz_wg_quote_title"/>
+        <key name="yz_wg_skills_title"/>
+        <key name="yz_wg_media_title"/>
+        <key name="yz_wg_reviews_title"/>
+        <key name="yz_wg_friends_title"/>
+        <key name="yz_wg_groups_title"/>
+        <key name="yz_wg_project_title"/>
+        <key name="yz_wg_aboutme_title"/>
+        <key name="yz_wg_services_title"/>
+        <key name="yz_wg_portfolio_title"/>
+        <key name="yz_wg_user_tags_title"/>
+        <key name="yz_wg_slideshow_title"/>
+        <key name="yz_wg_rposts_title"/>
+        <key name="yz_wg_sn_title"/>
+        <key name="yz_profile_404_desc"/>
+        <key name="logy_login_form_title"/>
+        <key name="logy_login_signin_btn_title"/>
+        <key name="logy_login_register_btn_title"/>
+        <key name="logy_login_lostpswd_title"/>
+        <key name="logy_login_form_subtitle"/>
+        <key name="logy_lostpswd_form_title"/>
+        <key name="logy_lostpswd_submit_btn_title"/>
+        <key name="logy_lostpswd_form_subtitle"/>
+        <key name="logy_signup_signin_btn_title"/>
+        <key name="logy_signup_form_title"/>
+        <key name="logy_signup_register_btn_title"/>
+        <key name="logy_signup_form_subtitle"/>
+    </admin-texts>
+</wpml-config>

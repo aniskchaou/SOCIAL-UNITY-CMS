@@ -1,0 +1,365 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-15 09:18+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:305
+msgid " is required"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:567
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:581
+msgid "Accept"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:35
+msgid "Activation Email"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/default-links.php:21
+msgid "Activity"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:691
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:718
+msgid "Activity page"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:27
+msgid "Basic"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:624
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:20
+msgid "Both"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:64
+msgid "Captcha Secret Key"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:49
+msgid "Captcha Settings"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:60
+msgid "Captcha Site Key"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/default-links.php:29
+msgid "Check out what's new!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:242
+msgid "Complete Registration!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:233
+msgid "Confirm Password"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:594
+msgid "Crumina"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:689
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:716
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:30
+msgid "Current page"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:692
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:719
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:32
+msgid "Custom page"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:638
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:664
+msgid "Custom shortcode"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:116
+msgid "Day"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:39
+msgid "Disable"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:620
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:18
+msgid "Display"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:76
+msgid "Don't you have an account?"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:316
+msgid "Email is required"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:70
+msgid "Email Options"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:43
+msgid "Enable"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:56
+msgid "Enable Captcha"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:27
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:31
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:35
+msgid "ERROR"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:29
+msgid "Extended"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:20
+msgid "Fileds to display in the Olympus register form"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:98
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:43
+msgid "First Name"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:320
+msgid "First name is required"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:58
+msgid "Forgot my Password"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:632
+msgid "Form login"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:658
+msgid "Form register"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/default-links.php:35
+msgid "Forums"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:35
+msgid "GDPR is required."
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:629
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:645
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:655
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:671
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:682
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:699
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:709
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:726
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:736
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:772
+msgid "General"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/vcard.php:116
+msgid "Go to your Profile Page"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/vcard.php:56
+msgid "here's what you can do!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:569
+msgid "I allow this website to collect and store submitted data."
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:78
+msgid "it's really simple and you can start enjoying all the benefits!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:102
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:48
+msgid "Last Name"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:324
+msgid "Last name is required"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:625
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:21
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:243
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:62
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form.php:57
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form.php:58
+msgid "Login"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:758
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:48
+msgid "Login form description"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:648
+msgid "Login form shortcode"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:187
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:312
+msgid "Login is required"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:685
+msgid "Login redirect to"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:702
+msgid "Login redirect URL"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:18
+msgid "Login to your Account"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:80
+msgid "Mail Sender Email"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:76
+msgid "Mail Sender Name"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/default-links.php:43
+msgid "Manage your preferences!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:328
+msgid "Minimum password length is 6 characters"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:124
+msgid "Month"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/default-links.php:28
+msgid "Notifications"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:636
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:662
+msgid "Olympus login form"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:330
+msgid "Password and confirm password does not match"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:191
+msgid "Password is required"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:27
+msgid "Please enter a first name."
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:31
+msgid "Please enter a last name."
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:334
+msgid "Please, accept privacy policy"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:567
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:581
+msgid "Privacy Policy"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:690
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:717
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:31
+msgid "Profile page"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:55
+#, php-format
+msgid ""
+"reCAPTCHA protects you against spam and other types of automated abuse. For "
+"details, see %sreCAPTCHA (v3)%s"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:28
+msgid "Redirect to"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:41
+msgid "Redirect URL"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:626
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:22
+msgid "Register"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:14
+msgid "Register Form Fields"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:674
+msgid "Register form shortcode"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:18
+msgid "Register in"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:86
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:77
+msgid "Register Now!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:712
+msgid "Register redirect to"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:729
+msgid "Register redirect URL"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form.php:64
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form.php:65
+msgid "Registration"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:52
+msgid "Remember Me"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/default-links.php:22
+msgid "Review your activity!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/default-links.php:42
+msgid "Settings"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/manifest.php:9
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:593
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:11
+msgid "Sign in Form"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/manifest.php:10
+msgid "Sign in Form."
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:86
+msgid "Sign-in popup"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:11
+msgid "Sign-in | Register form"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/options/customizer.php:28
+msgid "Standard"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/default-links.php:36
+msgid "Start a new discussion!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:743
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:749
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:755
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:766
+msgid "Strings Options"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:22
+msgid "Thanks for registration!"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/hooks.php:76
+msgid "User vCard menu"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:53
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:38
+msgid "Username"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:23
+#, php-format
+msgid ""
+"We just send you an Email. %s Please Open it up to activate your account."
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/vcard.php:44
+msgid "Welcome Back"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:752
+msgid "Welcome Back profile button"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:746
+msgid "Welcome Back subtitle"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:739
+msgid "Welcome Back title"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:199
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:342
+msgid "Whrong captcha"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:147
+msgid "Year"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:761
+#: ../../plugins/unyson/framework/extensions/sign-form/options/settings.php:50
+#, php-format
+msgid "You can use [%s text=\"\" url=\"\"] shortcode"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:742
+#, php-format
+msgid "You can use [%s] shortcode"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:59
+msgid "Your Email"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-register.php:226
+#: ../../plugins/unyson/framework/extensions/sign-form/views/form-login.php:42
+msgid "Your Password"
+msgstr ""
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:637
+#: ../../plugins/unyson/framework/extensions/sign-form/class-fw-extension-sign-form.php:663
+msgid "Youzer plugin form"
+msgstr ""

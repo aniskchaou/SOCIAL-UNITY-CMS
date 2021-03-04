@@ -1,0 +1,488 @@
+#youzer .editfield input:not([type="radio"]):not([type="checkbox"]),
+#youzer .option-content input:not([type="radio"]):not(.uk-upload-button):not(.wp-color-picker):not(.wp-picker-clear),
+.settings-inner-content .options-section-title h2,
+.uk-option-item .option-desc,
+.uk-option-item label,
+.youzer .action-button,
+.youzer .option-content input:not([type="radio"]),
+.youzer .option-content select,
+.youzer .option-content textarea,
+.yz-account-head h2,
+.yz-account-head span,
+.yz-account-header ul li a,
+.yz-cphoto-options .yz-upload-photo,
+.yz-no-content,
+.yz-settings-sidebar .yz-account-menus h2,
+.yz-settings-sidebar .yz-account-menus ul li a,
+.yza-item-button {
+  font-family: inherit; }
+
+#bp-data-export button,
+#yz-data-export a,
+.youzer .account-infos .user-links a,
+.youzer .option-content .yz-upload-photo,
+.youzer .option-content input:not([type="radio"]),
+.youzer .option-content textarea,
+.youzer fieldset input:not([type="radio"]),
+.youzer-form-msg .youzer_msg,
+.yz-account-page .yz-delete-item,
+.yz-account-page .yz-export-item .ukai-button-item a,
+.yz-cphoto-options .yz-wg-container,
+.yz-no-content,
+.yz-save-options,
+.yz-scrolltotop,
+.yz-upload-photo,
+.yz-wg-services-options .yz-wg-item,
+.yza-item-button {
+  border-radius: .25rem; }
+
+#yz-export-data .youzer-section-content,
+.youzer-section-content > .uk-option-item {
+  padding: 45px 52px;
+  border-bottom: 1px solid #e6ecf5; }
+
+.option-infos {
+  width: 40%; }
+
+.option-content {
+  width: 60%; }
+
+#youzer .uk-option-item .option-infos label {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0; }
+
+#yz-export-data .youzer-section-content h2,
+.uk-option-item .option-content label {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-size: 14px;
+  font-weight: 700; }
+
+#yz-export-data .youzer-section-content p,
+.uk-option-item .option-desc {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-size: 12px; }
+
+.uk-option-item .option-desc {
+  margin-top: 0; }
+
+#youzer .option-content input:not([type=radio]):not(.uk-upload-button):not(.wp-color-picker):not(.wp-picker-clear) {
+  color: #515365;
+  color: var(--heading-font-color);
+  border: 1px solid #e6ecf5; }
+
+.youzer .option-content textarea {
+  color: #888da8;
+  color: var(--body-font-color);
+  border: 1px solid #e6ecf5; }
+
+.youzer.yz-account-page .nice-select .list {
+  max-height: 30vh; }
+
+.youzer.yz-account-page .nice-select {
+  min-height: 40px;
+  width: auto; }
+
+.youzer.yz-account-page .nice-select:after {
+  right: 14px;
+  margin-top: -3px;
+  width: 7px;
+  height: 7px; }
+
+.yz-select-field select {
+  -webkit-tap-highlight-color: transparent;
+  width: auto;
+  color: #8a8a8a;
+  float: none;
+  font-family: inherit;
+  font-size: 14px;
+  height: 38px;
+  padding-left: 15px;
+  padding-right: 10px;
+  position: relative;
+  text-align: left !important;
+  transition: all 0.2s ease-in-out;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  line-height: 0;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 3px; }
+
+.youzer .youzer-settings-actions {
+  border-top: 1px solid #e6ecf5; }
+
+.youzer .action-button {
+  font-size: 14px;
+  font-weight: 700; }
+
+.youzer .yz-wg-opts {
+  background-color: #fff;
+  padding: 35px 50px; }
+
+.yz-save-options {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color); }
+
+#yz-data-export a, #yz-data-export a,
+#bp-data-export button, #bp-data-export button,
+.yz-account-page .yz-export-item .ukai-button-item a {
+  background: var(--secondary-accent-color); }
+
+#yz-export-data .youzer-section-content ul {
+  border-left: 5px solid #e6ecf5; }
+
+#yz-export-data .youzer-section-content ul li {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-size: 13px; }
+
+.yz-account-page .yz-delete-item:hover {
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color); }
+
+.yz-wg-skills-options .yz-wg-item {
+  border-left: 8px solid #38a9ff;
+  border-left: 8px solid var(--secondary-accent-color); }
+
+.yz-wg-services-options .yz-wg-item {
+  border-left: 8px solid #ff5e3a;
+  border-left: 8px solid var(--primary-accent-color); }
+
+.rtl .yz-wg-services-options .yz-wg-item {
+  border-right: 8px solid #ff5e3a;
+  border-right: 8px solid var(--primary-accent-color); }
+
+.yz-wg-services-options .uk-option-item .option-infos label,
+.yz-wg-skills-options .uk-option-item .option-infos label {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-cphoto-options .yz-upload-photo {
+  font-size: 13px;
+  font-weight: 700; }
+
+.yz-wg-slideshow-options .yz-upload-photo {
+  background-color: #1ed760; }
+
+.yz-wg-portfolio-options .yz-upload-photo {
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color); }
+
+.youzer .option-content .yz-upload-photo {
+  background: #ff5e3a;
+  background: var(--primary-accent-color);
+  text-transform: capitalize; }
+
+.yz-uploader-item .yz-delete-photo:hover {
+  color: #ff5e3a;
+  color: var(--primary-accent-color); }
+
+.yz-delete-account-item #delete-account-button {
+  font-weight: 700;
+  background-color: #f8483e; }
+
+.yz-uploader-change-item h2 {
+  color: #515365;
+  color: var(--heading-font-color);
+  font-size: 14px;
+  font-weight: 700; }
+
+.yz-uploader-change-item p a {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-weight: 400; }
+
+.yz-uploader-change-item p a:hover {
+  color: #ff5e3a;
+  color: var(--primary-accent-color); }
+
+.yz-uploader-change-item p {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-account-head h2 {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.yz-account-head span {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-button-item.yz-logout-button a {
+  background-image: none; }
+
+.yz-head-buttons .yz-head-buttons-inner {
+  display: -ms-flexbox;
+  display: flex; }
+
+.yz-button-item a {
+  background-image: none;
+  background-color: #38a9ff !important;
+  background-color: var(--secondary-accent-color) !important; }
+
+.yz-account-settings-menu .yz-arrow-bottom {
+  border-color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-account-settings-menu .yz-menu-head .yz-menu-title {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.yz-account-settings-menu .yz-menu-head .yz-menu-description {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.yz-settings-sidebar .yz-account-menus ul li {
+  line-height: 1.6;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  margin-bottom: 10px; }
+
+.yz-settings-sidebar .yz-account-menus ul li:last-child {
+  margin-bottom: 0; }
+
+.yz-settings-sidebar .yz-account-menus ul li i {
+  color: #9a9fbf;
+  color: var(--icon-color); }
+
+.youzer .editfield fieldset {
+  min-width: -webkit-min-content;
+  min-width: -moz-min-content;
+  min-width: min-content; }
+
+.yz-settings-sidebar .yz-account-menus ul li a {
+  color: #888da8;
+  color: var(--body-font-color);
+  transition: all .3s ease; }
+
+.yz-settings-sidebar .yz-account-menus ul li a:hover {
+  color: #38a9ff;
+  color: var(--secondary-accent-color);
+  padding-left: 4px; }
+
+.yz-settings-sidebar .yz-account-menus .yz-active-menu {
+  color: #38a9ff;
+  color: var(--secondary-accent-color); }
+
+.settings-inner-content .options-section-title h2 {
+  color: #515365;
+  color: var(--heading-font-color); }
+
+.settings-inner-content .options-section-title h2 i {
+  color: #9a9fbf;
+  color: var(--icon-color);
+  background: #edf2f6;
+  vertical-align: middle; }
+
+.youzer .editfield {
+  border-bottom: 1px solid #e6ecf5; }
+
+#youzer .editfield fieldset legend {
+  border: none;
+  margin-bottom: .5rem;
+  font-size: 1.5rem;
+  line-height: inherit;
+  white-space: normal;
+  width: auto;
+  padding: 0 15px;
+  font-weight: 400;
+  color: #888da8;
+  color: var(--body-font-color); }
+
+#youzer .editfield legend .bp-required-field-label,
+#youzer .editfield label .bp-required-field-label {
+  color: #fff;
+  background-color: #ff5e3a;
+  background-color: var(--primary-accent-color);
+  vertical-align: middle;
+  text-transform: capitalize; }
+
+.youzer .editfield label[for*="adminsonly"] .field-visibility-text:before,
+.yza-profile-settings {
+  background: #ff5e3a;
+  background: var(--primary-accent-color); }
+
+.youzer .editfield label[for*="loggedin"] .field-visibility-text:before,
+.yza-account-settings {
+  background: #38a9ff;
+  background: var(--secondary-accent-color); }
+
+.yza-widgets-settings {
+  background: #7c5ac2;
+  background: var(--third-accent-color); }
+
+.youzer .editfield label[for*="public"] .field-visibility-text:before,
+.yza-view-profile {
+  background-image: none; }
+
+.youzer .editfield label[for*="friends"] .field-visibility-text:before {
+  background-color: #fa6d9d; }
+
+.yza-logout {
+  background: #FF512F; }
+
+#youzer .editfield input:not([type=radio]):not([type=checkbox]):not([type=button]) {
+  width: 70%;
+  color: #515365;
+  color: var(--heading-font-color);
+  border: 1px solid #e6ecf5; }
+
+.youzer .editfield select {
+  border-radius: 0;
+  padding: 5px 12px;
+  border: 1px solid #e6ecf5;
+  background-color: #fff; }
+
+.youzer .editfield .input-options label {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-weight: 400; }
+
+.youzer .wp-editor-container {
+  border: 1px solid #e6ecf5; }
+
+.youzer .editfield .description {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.youzer .editfield .field-visibility-settings .radio label {
+  display: block;
+  margin-bottom: 20px; }
+
+.youzer .editfield .field-visibility-settings fieldset {
+  border: 1px solid #e6ecf5; }
+
+.youzer .editfield label .field-visibility-text:before {
+  vertical-align: middle; }
+
+.youzer .editfield label .field-visibility-text {
+  color: #888da8;
+  color: var(--body-font-color);
+  position: relative;
+  left: auto; }
+
+.youzer .editfield .field-visibility-settings-notoggle,
+.youzer .editfield .field-visibility-settings-toggle {
+  color: #888da8;
+  color: var(--body-font-color);
+  font-size: 14px;
+  border-left: 5px solid #38a9ff;
+  border-left: 5px solid var(--secondary-accent-color); }
+
+.youzer .editfield .field-visibility-settings-notoggle .current-visibility-level,
+.youzer .editfield .field-visibility-settings-toggle .current-visibility-level {
+  border: 1px solid #e6ecf5; }
+
+.youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link,
+.youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color); }
+
+.youzer .editfield .clear-value,
+.youzer .editfield .field-visibility-settings-toggle .visibility-toggle-link,
+.youzer .editfield .field-visibility-settings-notoggle .visibility-toggle-link,
+.youzer .editfield .field-visibility-settings .field-visibility-settings-close {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color);
+  background-image: linear-gradient(to left, var(--secondary-accent-color) 0%, var(--secondary-accent-color) 100%);
+  background-image: -webkit-linear-gradient(right, var(--secondary-accent-color) 0%, var(--secondary-accent-color) 100%); }
+
+.youzer .editfield .field-visibility-settings .field-visibility-settings-close {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.yz-copyright p {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+#yz-skill-button {
+  background-color: #38a9ff;
+  background-color: var(--secondary-accent-color); }
+
+#yz-portfolio-button {
+  background-color: #7c5ac2;
+  background-color: var(--third-accent-color); }
+
+#yz-slideshow-button {
+  background-color: #1ed760; }
+
+#yz-service-button,
+#yz-portfolio-button,
+#yz-slideshow-button,
+#yz-skill-button {
+  color: #fff;
+  font-weight: 700; }
+
+.yz-no-content {
+  background: #edf2f6;
+  border-left-color: var(--icon-color); }
+
+.youzer .yz-no-content {
+  color: #888da8;
+  color: var(--body-font-color); }
+
+.youzer .yz-connect-btn.yz-connect-btn-instagram a {
+  display: inline-block; }
+
+.youzer.yz-account-page .nice-select .option {
+  white-space: nowrap; }
+
+/**
+ * Media Queries
+ */
+@media screen and (min-width: 769px) and (max-width: 1400px) {
+  /* Sidebar Menu */
+  .settings-sidebar .account-menus h2 {
+    padding-left: 25px; }
+  .settings-sidebar .account-menus ul {
+    padding: 15px 25px 18px; }
+  .yz-page-main-content {
+    padding: 25px 25px 0 25px; }
+  .yz-account-page #message,
+  .settings-main-content .settings-inner-content {
+    margin-left: 25px; }
+  .settings-sidebar .account-infos,
+  .settings-sidebar .account-menus,
+  .youzer .settings-main-content,
+  .yz-account-header {
+    margin-bottom: 25px; } }
+
+@media screen and (max-width: 1300px) {
+  .yz-button-item a {
+    padding: 8px 4px; } }
+
+@media screen and (max-width: 1024px) {
+  .yz-account-header ul li a {
+    margin: 0; }
+  .yz-account-page #message,
+  .settings-main-content .settings-inner-content {
+    margin-left: 0; } }
+
+@media screen and (max-width: 768px) {
+  .youzer.yz-account-page .nice-select {
+    width: 100%;
+    margin-bottom: 15px; } }
+
+@media screen and (max-width: 475px) {
+  .youzer .editfield fieldset {
+    padding: 15px 0; }
+  .youzer .editfield .field-visibility-settings label {
+    padding: 0 0 0 35px; }
+  #yz-export-data .youzer-section-content, .youzer-section-content > .uk-option-item {
+    padding: 25px; }
+  .option-content,
+  .option-infos {
+    width: 100%; } }

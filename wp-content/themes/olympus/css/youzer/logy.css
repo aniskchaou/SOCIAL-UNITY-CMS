@@ -1,0 +1,31 @@
+.logy-social-buttons ul {
+  padding-left: 0;
+  list-style: none; }
+
+.logy-social-buttons ul > li {
+  margin-bottom: 10px; }
+
+.logy-social-buttons ul > li > a {
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff; }
+
+.logy-social-buttons.logy-icons-right ul > li > a {
+  -ms-flex-direction: row-reverse;
+      flex-direction: row-reverse; }
+  .logy-social-buttons.logy-icons-right ul > li > a .logy-button-icon {
+    margin-left: auto; }
+
+.logy-submit-item .logy-item-inner button[type="submit"] {
+  padding: 0;
+  display: inline-block; }
+
+.logy-social-buttons li a {
+  padding: 0;
+  color: #fff;
+  border: none;
+  display: block;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 600;
+  position: relative; }

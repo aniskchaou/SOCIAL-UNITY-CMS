@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle>
+    <domain name="olympus">
+        <project>
+            <source>
+                <exclude>
+                    <directory>.</directory>
+                </exclude>
+            </source>
+            <target>
+                <directory>languages/theme</directory>
+            </target>
+            <template>
+                <file>languages/theme/olympus.pot</file>
+            </template>
+        </project>
+    </domain>
+    <domain name="crum-ext-sign-form">
+        <project name="Sign in Form">
+            <source>
+                <directory>../../plugins/unyson/framework/extensions/sign-form</directory>
+            </source>
+            <target>
+                <directory>languages/ext/sign-form/</directory>
+            </target>
+            <template>
+                <file>languages/ext/sign-form/crum-ext-sign-form.pot</file>
+            </template>
+        </project>
+    </domain>
+    <domain name="crum-ext-ajax-blog">
+        <project name="Ajax Blog">
+            <source>
+                <directory>../../plugins/unyson/framework/extensions/ajax-blog</directory>
+            </source>
+            <target>
+                <directory>languages/ext/ajax-blog/</directory>
+            </target>
+            <template>
+                <file>languages/ext/ajax-blog/crum-ext-ajax-blog.pot</file>
+            </template>
+        </project>
+    </domain>
+    <domain name="crum-ext-post-share">
+        <project name="Post Share Buttons">
+            <source>
+                <directory>../../plugins/unyson/framework/extensions/post-share</directory>
+            </source>
+            <target>
+                <directory>languages/ext/post-share/</directory>
+            </target>
+            <template>
+                <file>languages/ext/post-share/crum-ext-post-share.pot</file>
+            </template>
+        </project>
+    </domain>
+    <domain name="crum-ext-post-reaction">
+        <project name="Post Reactions">
+            <source>
+                <directory>../../plugins/unyson/framework/extensions/post-reaction</directory>
+            </source>
+            <target>
+                <directory>languages/ext/post-reaction/</directory>
+            </target>
+            <template>
+                <file>languages/ext/post-share/crum-ext-post-reaction.pot</file>
+            </template>
+        </project>
+    </domain>
+   <domain name="crum-ext-extended-search">
+        <project name="Extended Search">
+            <source>
+                <directory>../../plugins/unyson/framework/extensions/extended-search</directory>
+            </source>
+            <target>
+                <directory>languages/ext/extended-search/</directory>
+            </target>
+            <template>
+                <file>languages/ext/extended-search/crum-ext-extended-search.pot</file>
+            </template>
+        </project>
+    </domain>
+</bundle>

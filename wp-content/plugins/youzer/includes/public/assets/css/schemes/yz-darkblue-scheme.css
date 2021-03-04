@@ -1,0 +1,158 @@
+/**
+ * dark Blue Scheme
+ */
+
+.yz-darkblue-scheme .youzer div.item-list-tabs li.yz-activity-show-search .yz-activity-show-search-form i,
+.yz-darkblue-scheme #yz-wall-nav .item-list-tabs li#activity-filter-select label,
+.yz-darkblue-scheme .yz-media-filter .yz-filter-item .yz-current-filter,
+.yz-darkblue-scheme .yz-community-hashtags .yz-hashtag-item:hover,
+.yz-darkblue-scheme .youzer table tfoot tr,
+.yz-darkblue-scheme .youzer table thead tr,
+.yz-darkblue-scheme #yz-group-body h1:before,
+.yz-darkblue-scheme .youzer .yz-attachment-file-icon,
+.yz-darkblue-scheme .yz-product-actions .yz-addtocart,
+.yz-darkblue-scheme .youzer .checkout_coupon,
+.yz-darkblue-scheme .youzer .yzwc-box-title h3,
+.yz-darkblue-scheme .youzer .woocommerce-customer-details h2,
+.yz-darkblue-scheme .youzer .yzwc-main-content .track_order .form-row button,
+.yz-darkblue-scheme .yz-view-order .yzwc-main-content > p mark.order-status,
+.yz-darkblue-scheme .youzer .yzwc-main-content button[type="submit"],
+.yz-darkblue-scheme .youzer .yzwc-main-content #payment #place_order,
+.yz-darkblue-scheme .youzer .yzwc-main-content h3,
+.yz-darkblue-scheme .youzer .wc-proceed-to-checkout a.checkout-button,
+.yz-darkblue-scheme .youzer .wc-proceed-to-checkout a.checkout-button:hover,
+.yz-darkblue-scheme .youzer .yzwc-main-content .woocommerce-checkout-review-order table.shop_table tfoot .order-total,
+.yz-darkblue-scheme .youzer .yzwc-main-content .woocommerce-checkout-review-order table.shop_table thead,
+.yz-darkblue-scheme .youzer .yzwc-main-content table.shop_table td a.woocommerce-MyAccount-downloads-file:before,
+.yz-darkblue-scheme .youzer .yzwc-main-content table.shop_table td a.view:before,
+.yz-darkblue-scheme .youzer table.shop_table.order_details tfoot tr:last-child,
+.yz-darkblue-scheme .youzer .yzwc-main-content table.shop_table td.actions .coupon button,
+.yz-darkblue-scheme .youzer .yzwc-main-content table.shop_table td.woocommerce-orders-table__cell-order-number a,
+.yz-darkblue-scheme .youzer .yzwc-main-content table.shop_table thead,
+.yz-darkblue-scheme .yz-forums-topic-item .yz-forums-topic-icon i,
+.yz-darkblue-scheme .yz-forums-forum-item .yz-forums-forum-icon i,
+.yz-darkblue-scheme div.bbp-submit-wrapper button,
+.yz-darkblue-scheme #bbpress-forums li.bbp-header, 
+.yz-darkblue-scheme #bbpress-forums .bbp-search-form #bbp_search_submit,
+.yz-darkblue-scheme #bbpress-forums #bbp-search-form #bbp_search_submit,
+.yz-darkblue-scheme .widget_display_search #bbp_search_submit,
+.yz-darkblue-scheme .widget_display_forums li a:before,
+.yz-darkblue-scheme .widget_display_views li .bbp-view-title:before,
+.yz-darkblue-scheme .widget_display_topics li:before,
+.yz-darkblue-scheme #bbpress-forums li.bbp-footer,
+.yz-darkblue-scheme .bbp-pagination .page-numbers.current,
+.yz-darkblue-scheme .yz-items-list-widget .yz-list-item .yz-item-action .yz-add-button i,
+.yz-darkblue-scheme #yz-members-list .yzm-user-actions .friendship-button .requested,
+.yz-darkblue-scheme .yz-wall-embed .yz-embed-action .friendship-button a.requested,
+.yz-darkblue-scheme .yz-widget .yz-user-tags .yz-utag-values .yz-utag-value-item,
+.yz-darkblue-scheme .item-list-tabs #search-message-form #messages_search_submit,
+.yz-darkblue-scheme #yz-groups-list .action .group-button .membership-requested,
+.yz-darkblue-scheme #yz-members-list .yzm-user-actions .friendship-button a,
+.yz-darkblue-scheme #yz-groups-list .action .group-button .request-membership,
+.yz-darkblue-scheme .yz-wall-embed .yz-embed-action .friendship-button a,
+.yz-darkblue-scheme .yz-group-manage-members-search #members_search_submit,
+.yz-darkblue-scheme #yz-groups-list .action .group-button .accept-invite,
+.yz-darkblue-scheme .notifications-options-nav #notification-bulk-manage,
+.yz-darkblue-scheme .notifications .notification-actions .mark-read span,
+.yz-darkblue-scheme #group-settings-form input[type="submit"],
+.yz-darkblue-scheme .yz-group-settings-tab input[type="submit"],
+.yz-darkblue-scheme .sitewide-notices .thread-options .activate-notice,
+.yz-darkblue-scheme #yz-groups-list .action .group-button .join-group,
+.yz-darkblue-scheme .yz-social-buttons .friendship-button a.requested,
+.yz-darkblue-scheme #yz-directory-search-box form input[type=submit],
+.yz-darkblue-scheme .yzm-user-actions .friendship-button a.requested,
+.yz-darkblue-scheme .yz-wall-embed .yz-embed-action .group-button a,
+.yz-darkblue-scheme #yz-group-buttons .group-button a.join-group,
+.yz-darkblue-scheme .messages-notices .thread-options .read span,
+.yz-darkblue-scheme .yz-social-buttons .friendship-button a,
+.yz-darkblue-scheme #search-members-form #members_search_submit,
+.yz-darkblue-scheme .messages-options-nav #messages-bulk-manage,
+.yz-darkblue-scheme .yzm-user-actions .friendship-button a,
+.my-friends.yz-darkblue-scheme #friend-list .action a.accept,
+.yz-darkblue-scheme .yz-wall-new-post .yz-post-more-button,
+.yz-darkblue-scheme .group-request-list .action .accept a,
+.yz-darkblue-scheme #message-recipients .highlight-icon i,
+.yz-darkblue-scheme .yz-pagination .page-numbers.current,
+.yz-darkblue-scheme .yz-project-content .yz-project-type,
+.yz-darkblue-scheme .yzb-author .yzb-account-settings,
+.yz-darkblue-scheme .group-button.request-membership,
+.yz-darkblue-scheme #send_message_form .submit #send,
+.yz-darkblue-scheme #send-invite-form .submit input,
+.yz-darkblue-scheme #send-reply #send_reply_button,
+.yz-darkblue-scheme .yz-wall-actions .yz-wall-post,
+.yz-darkblue-scheme .yz-post-content .yz-post-type,
+.yz-darkblue-scheme .yz-nav-effect .yz-menu-border,
+.yz-darkblue-scheme #group-create-tabs li.current,
+.yz-darkblue-scheme .group-button.accept-invite,
+.yz-darkblue-scheme .yz-tab-post .yz-read-more,
+.yz-darkblue-scheme .group-button.join-group,
+.yz-darkblue-scheme .yz-service-icon i:hover,
+.yz-darkblue-scheme .yz-loading .youzer_msg,
+.yz-darkblue-scheme .yz-scrolltotop i:hover,
+.yz-darkblue-scheme .yz-post .yz-read-more,
+.yz-darkblue-scheme .yzb-author .yzb-login,
+.yz-darkblue-scheme .pagination .current,
+.yz-darkblue-scheme .yz-tab-title-box,
+.yz-darkblue-scheme .yzw-file-post,
+.yz-darkblue-scheme .button.accept  {
+    background: #5798b7;
+    color: #fff;
+}
+
+@media screen and ( max-width: 768px ) {
+	.yz-darkblue-scheme #youzer .yz-group div.item-list-tabs li.last label,
+	.yz-darkblue-scheme #youzer .yz-profile div.item-list-tabs li.last label,
+	.yz-darkblue-scheme #youzer .yz-directory-filter .item-list-tabs li#groups-order-select label,
+	.yz-darkblue-scheme #youzer .yz-directory-filter .item-list-tabs li#members-order-select label {
+		background: #5798b7;
+    	color: #fff;
+	}
+}
+
+.yz-darkblue-scheme .yz-product-price.yz-variable-price,
+.yz-darkblue-scheme .yz-product-price ins .amount,
+.yz-darkblue-scheme .yz-product-price .yz-product-new-price,
+.yz-darkblue-scheme .yz-bbp-topic-head-meta .yz-bbp-head-meta-last-updated a:not(.bbp-author-name),
+.yz-darkblue-scheme .widget_display_replies li a.bbp-author-name,
+.yz-darkblue-scheme .widget_display_topics li .topic-author a.bbp-author-name,
+.yz-darkblue-scheme #message-recipients .highlight .highlight-meta a,
+.yz-darkblue-scheme .thread-sender .thread-from .from .thread-count,
+.yz-darkblue-scheme .yz-profile-navmenu .yz-navbar-item a:hover i,
+.yz-darkblue-scheme .yz-profile-navmenu .yz-navbar-item a:hover,
+.yz-darkblue-scheme .yz-link-main-content .yz-link-url:hover,
+.yz-darkblue-scheme .yz-wall-new-post .yz-post-title a:hover,
+.yz-darkblue-scheme .yz-recent-posts .yz-post-title a:hover,
+.yz-darkblue-scheme .yz-post-content .yz-post-title a:hover,
+.yz-darkblue-scheme .yz-group-settings-tab fieldset legend,
+.yz-darkblue-scheme .yz-wall-link-data .yz-wall-link-url,
+.yz-darkblue-scheme .activity-header .activity-head p a,
+.yz-darkblue-scheme .yz-tab-post .yz-post-title a:hover,
+.yz-darkblue-scheme .yz-project-tags .yz-tag-symbole,
+.yz-darkblue-scheme .yz-post-tags .yz-tag-symbole,
+.yz-darkblue-scheme .yz-group-navmenu li a:hover {
+	color: #5798b7;
+}
+
+.yz-darkblue-scheme .youzer .yzwc-main-content address .yz-bullet,
+.yz-darkblue-scheme .youzer ul.woocommerce-thankyou-order-details  + p,
+.yz-darkblue-scheme .yz-view-order .yzwc-main-content > p,
+.yz-darkblue-scheme .yz-bbp-topic-head,
+.yz-darkblue-scheme .yz-profile-navmenu .yz-navbar-item.yz-active-menu,
+.yz-darkblue-scheme .yz-group-navmenu ul li.current {
+	border-color: #5798b7;
+}
+
+.yz-darkblue-scheme .yz-profile-login {
+	background: #26D0CE;
+	background: url(../../images/geopattern.png),linear-gradient(to right, #3F51B5 , #26D0CE);
+	background: url(../../images/geopattern.png),-webkit-linear-gradient(left, #3F51B5 , #26D0CE);
+}
+
+.yz-darkblue-scheme .quote-with-img:before,
+.yz-darkblue-scheme a.yz-settings-widget,
+.yz-darkblue-scheme .yz-no-thumbnail,
+.yz-darkblue-scheme .yz-link-content {
+	background: #26D0CE;
+	background: url(../../images/dotted-bg.png),linear-gradient(to right, #3F51B5 , #26D0CE);
+	background: url(../../images/dotted-bg.png),-webkit-linear-gradient(left, #3F51B5 , #26D0CE);
+}

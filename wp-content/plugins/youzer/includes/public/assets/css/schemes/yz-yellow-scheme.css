@@ -1,0 +1,197 @@
+/**
+ * Yellow Scheme
+ */
+.yz-yellow-scheme .youzer div.item-list-tabs li.yz-activity-show-search .yz-activity-show-search-form i,
+.yz-yellow-scheme #yz-wall-nav .item-list-tabs li#activity-filter-select label,
+.yz-yellow-scheme .yz-media-filter .yz-filter-item .yz-current-filter,
+.yz-yellow-scheme .yz-community-hashtags .yz-hashtag-item:hover,
+.yz-yellow-scheme .youzer table tfoot tr,
+.yz-yellow-scheme .youzer table thead tr,
+.yz-yellow-scheme #yz-group-body h1:before,
+.yz-yellow-scheme .yz-product-actions .yz-addtocart,
+.yz-yellow-scheme .youzer .checkout_coupon,
+.yz-yellow-scheme .youzer .yzwc-box-title h3,
+.yz-yellow-scheme .youzer .woocommerce-customer-details h2,
+.yz-yellow-scheme .youzer .yzwc-main-content .track_order .form-row button,
+.yz-yellow-scheme .yz-view-order .yzwc-main-content > p mark.order-status,
+.yz-yellow-scheme .youzer .yzwc-main-content button[type="submit"],
+.yz-yellow-scheme .youzer .yzwc-main-content #payment #place_order,
+.yz-yellow-scheme .youzer .yzwc-main-content h3,
+.yz-yellow-scheme .youzer .wc-proceed-to-checkout a.checkout-button,
+.yz-yellow-scheme .youzer .wc-proceed-to-checkout a.checkout-button:hover,
+.yz-yellow-scheme .youzer .yzwc-main-content .woocommerce-checkout-review-order table.shop_table tfoot .order-total,
+.yz-yellow-scheme .youzer .yzwc-main-content .woocommerce-checkout-review-order table.shop_table thead,
+.yz-yellow-scheme .youzer .yzwc-main-content table.shop_table td a.woocommerce-MyAccount-downloads-file:before,
+.yz-yellow-scheme .youzer .yzwc-main-content table.shop_table td a.view:before,
+.yz-yellow-scheme .youzer table.shop_table.order_details tfoot tr:last-child,
+.yz-yellow-scheme .youzer .yzwc-main-content table.shop_table td.actions .coupon button,
+.yz-yellow-scheme .youzer .yzwc-main-content table.shop_table td.woocommerce-orders-table__cell-order-number a,
+.yz-yellow-scheme .youzer .yzwc-main-content table.shop_table thead,
+.yz-yellow-scheme .yz-forums-topic-item .yz-forums-topic-icon i,
+.yz-yellow-scheme .yz-forums-forum-item .yz-forums-forum-icon i,
+.yz-yellow-scheme div.bbp-submit-wrapper button,
+.yz-yellow-scheme #bbpress-forums li.bbp-header, 
+.yz-yellow-scheme #bbpress-forums .bbp-search-form #bbp_search_submit,
+.yz-yellow-scheme #bbpress-forums #bbp-search-form #bbp_search_submit,
+.yz-yellow-scheme .widget_display_search #bbp_search_submit,
+.yz-yellow-scheme .widget_display_forums li a:before,
+.yz-yellow-scheme .widget_display_views li .bbp-view-title:before,
+.yz-yellow-scheme .widget_display_topics li:before,
+.yz-yellow-scheme #bbpress-forums li.bbp-footer,
+.yz-yellow-scheme .bbp-pagination .page-numbers.current,
+.yz-yellow-scheme .yz-items-list-widget .yz-list-item .yz-item-action .yz-add-button i,
+.yz-yellow-scheme #yz-members-list .yzm-user-actions .friendship-button .requested,
+.yz-yellow-scheme .yz-wall-embed .yz-embed-action .friendship-button a.requested,
+.yz-yellow-scheme .item-list-tabs #search-message-form #messages_search_submit,
+.yz-yellow-scheme .yz-widget .yz-user-tags .yz-utag-values .yz-utag-value-item,
+.yz-yellow-scheme #yz-groups-list .action .group-button .membership-requested,
+.yz-yellow-scheme #yz-members-list .yzm-user-actions .friendship-button a,
+.yz-yellow-scheme #yz-groups-list .action .group-button .request-membership,
+.yz-yellow-scheme .yz-wall-embed .yz-embed-action .friendship-button a,
+.yz-yellow-scheme .yz-group-manage-members-search #members_search_submit,
+.yz-yellow-scheme #yz-groups-list .action .group-button .accept-invite,
+.yz-yellow-scheme .notifications-options-nav #notification-bulk-manage,
+.yz-yellow-scheme .notifications .notification-actions .mark-read span,
+.yz-yellow-scheme #group-settings-form input[type="submit"],
+.yz-yellow-scheme .yz-group-settings-tab input[type="submit"],
+.yz-yellow-scheme .sitewide-notices .thread-options .activate-notice,
+.yz-yellow-scheme #yz-groups-list .action .group-button .join-group,
+.yz-yellow-scheme .yz-pagination .page-numbers.current .yz-page-nbr,
+.yz-yellow-scheme .yz-social-buttons .friendship-button a.requested,
+.yz-yellow-scheme #yz-directory-search-box form input[type=submit],
+.yz-yellow-scheme .yzm-user-actions .friendship-button a.requested,
+.yz-yellow-scheme .yz-wall-embed .yz-embed-action .group-button a,
+.yz-yellow-scheme #yz-group-buttons .group-button a.join-group,
+.yz-yellow-scheme .messages-notices .thread-options .read span,
+.yz-yellow-scheme .yz-social-buttons .friendship-button a,
+.yz-yellow-scheme #search-members-form #members_search_submit,
+.yz-yellow-scheme .messages-options-nav #messages-bulk-manage,
+.yz-yellow-scheme .yzm-user-actions .friendship-button a,
+.my-friends.yz-yellow-scheme #friend-list .action a.accept,
+.yz-yellow-scheme .yz-wall-new-post .yz-post-more-button,
+.yz-yellow-scheme .group-request-list .action .accept a,
+.yz-yellow-scheme #message-recipients .highlight-icon i,
+.yz-yellow-scheme .yz-pagination .page-numbers.current,
+.yz-yellow-scheme .yz-project-content .yz-project-type,
+.yz-yellow-scheme .yzb-author .yzb-account-settings,
+.yz-yellow-scheme .group-button.request-membership,
+.yz-yellow-scheme #send_message_form .submit #send,
+.yz-yellow-scheme #send-invite-form .submit input,
+.yz-yellow-scheme .youzer .yz-attachment-file-icon,
+.yz-yellow-scheme #send-reply #send_reply_button,
+.yz-yellow-scheme .yz-wall-actions .yz-wall-post,
+.yz-yellow-scheme .yz-post-content .yz-post-type,
+.yz-yellow-scheme .yz-nav-effect .yz-menu-border,
+.yz-yellow-scheme #group-create-tabs li.current,
+.yz-yellow-scheme .group-button.accept-invite,
+.yz-yellow-scheme .yz-tab-post .yz-read-more,
+.yz-yellow-scheme .group-button.join-group,
+.yz-yellow-scheme .yz-service-icon i:hover,
+.yz-yellow-scheme .yz-loading .youzer_msg,
+.yz-yellow-scheme .yz-scrolltotop i:hover,
+.yz-yellow-scheme .yz-post .yz-read-more,
+.yz-yellow-scheme .yzb-author .yzb-login,
+.yz-yellow-scheme .pagination .current,
+.yz-yellow-scheme .yz-tab-title-box,
+.yz-yellow-scheme .yzw-file-post,
+.yz-yellow-scheme .button.accept {
+	background: #fff952;
+	color: #757575;
+}
+
+@media screen and ( max-width: 768px ) {
+	.yz-yellow-scheme #youzer .yz-group div.item-list-tabs li.last label,
+	.yz-yellow-scheme #youzer .yz-profile div.item-list-tabs li.last label,
+	.yz-yellow-scheme #youzer .yz-directory-filter .item-list-tabs li#groups-order-select label,
+	.yz-yellow-scheme #youzer .yz-directory-filter .item-list-tabs li#members-order-select label {
+		background: #fff952;
+    	color: #fff;
+	}
+}
+
+
+.yz-yellow-scheme .youzer .yzwc-main-content address .yz-bullet,
+.yz-yellow-scheme .youzer ul.woocommerce-thankyou-order-details  + p,
+.yz-yellow-scheme .yz-view-order .yzwc-main-content > p,
+.yz-yellow-scheme .yz-bbp-topic-head,
+.yz-yellow-scheme .yz-profile-navmenu .yz-navbar-item.yz-active-menu,
+.yz-yellow-scheme .yz-group-navmenu ul li.current {
+	border-color: #a7a6a6;
+}
+
+.yz-yellow-scheme .yz-tab-post .yz-read-more,
+.yz-yellow-scheme .yz-post .yz-read-more {
+    background-color: #7d7d7d;
+    color: #fff;
+}
+
+.yz-yellow-scheme .bbp-header .bbp-reply-content #favorite-toggle a,
+.yz-yellow-scheme .bbp-header .bbp-reply-content #subscription-toggle a {
+	background-color: #fff;
+}
+
+.yz-yellow-scheme .yz-product-price.yz-variable-price,
+.yz-yellow-scheme .yz-product-price ins .amount,
+.yz-yellow-scheme .yz-product-price .yz-product-new-price,
+.yz-yellow-scheme .youzer .checkout_coupon p,
+.yz-yellow-scheme .youzer table.order_details tfoot tr:last-child th,
+.yz-yellow-scheme .youzer table.order_details tfoot tr:last-child td,
+.yz-yellow-scheme .youzer .yzwc-main-content table.shop_table td.actions .coupon button,
+.yz-yellow-scheme .youzer .yzwc-main-content table.shop_table td.woocommerce-orders-table__cell-order-number a,
+.yz-yellow-scheme .youzer .yzwc-main-content table.shop_table thead th,
+.yz-yellow-scheme #bbpress-forums li.bbp-header .bbp-reply-author,
+.yz-yellow-scheme .bbp-header .bbp-reply-content #favorite-toggle a,
+.yz-yellow-scheme .bbp-header .bbp-reply-content #subscription-toggle a,
+.yz-yellow-scheme #bbpress-forums li.bbp-footer .bbp-forum-content,
+.yz-yellow-scheme #bbpress-forums li.bbp-footer .bbp-reply-content,
+.yz-yellow-scheme #bbpress-forums li.bbp-footer .bbp-search-content,
+.yz-yellow-scheme #bbpress-forums li.bbp-footer .bbp-topic-content,
+.yz-yellow-scheme #bbpress-forums li.bbp-header .bbp-forum-content,
+.yz-yellow-scheme #bbpress-forums li.bbp-header .bbp-reply-content,
+.yz-yellow-scheme #bbpress-forums li.bbp-header .bbp-search-content,
+.yz-yellow-scheme #bbpress-forums li.bbp-header .bbp-topic-content,
+.yz-yellow-scheme .bbp-header .forum-titles li,
+.yz-yellow-scheme .yz-bbp-topic-head-meta .yz-bbp-head-meta-last-updated a:not(.bbp-author-name),
+.yz-yellow-scheme .widget_display_replies li a.bbp-author-name,
+.yz-yellow-scheme .widget_display_topics li .topic-author a.bbp-author-name,
+.yz-yellow-scheme .yz-widget .yz-user-tags .yz-utag-values .yz-utag-value-item a,
+.yz-yellow-scheme .yz-widget .yz-user-tags .yz-utag-values .yz-utag-value-item,
+.yz-yellow-scheme #message-recipients .highlight .highlight-meta a,
+.yz-yellow-scheme .thread-sender .thread-from .from .thread-count,
+.yz-yellow-scheme .yz-link-main-content .yz-link-url:hover,
+.yz-yellow-scheme .yz-wall-new-post .yz-post-title a:hover,
+.yz-yellow-scheme .yz-recent-posts .yz-post-title a:hover,
+.yz-yellow-scheme .yz-post-content .yz-post-title a:hover,
+.yz-yellow-scheme .yz-group-settings-tab fieldset legend,
+.yz-yellow-scheme .yz-wall-link-data .yz-wall-link-url,
+.yz-yellow-scheme .activity-header .activity-head p a,
+.yz-yellow-scheme .yz-tab-post .yz-post-title a:hover,
+.yz-yellow-scheme .yz-project-tags .yz-tag-symbole,
+.yz-yellow-scheme .yz-post-tags .yz-tag-symbole,
+.yz-yellow-scheme .yz-group-navmenu li a:hover {
+	color: #828181;
+}
+
+.yz-yellow-scheme .yzw-file-post .yzw-file-icon,
+.yz-yellow-scheme .yzw-file-post .yzw-file-size,
+.yz-yellow-scheme .yzw-file-post .yzw-file-title,
+.yz-yellow-scheme #group-create-tabs li.current a,
+.yz-yellow-scheme .yz-profile-navmenu .yz-navbar-item a:hover i,
+.yz-yellow-scheme .yz-profile-navmenu .yz-navbar-item a:hover {
+	color: #888787;
+}
+
+.yz-yellow-scheme .yz-profile-login {
+	background: #FF4E50;
+	background: url(../../images/geopattern.png),linear-gradient(to left, #FF4E50 , #F9D423);
+	background: url(../../images/geopattern.png),-webkit-linear-gradient(right, #FF4E50 , #F9D423);
+}
+
+.yz-yellow-scheme .quote-with-img:before,
+.yz-yellow-scheme a.yz-settings-widget,
+.yz-yellow-scheme .yz-no-thumbnail,
+.yz-yellow-scheme .yz-link-content {
+	background: #FF4E50;
+	background: url(../../images/dotted-bg.png),linear-gradient(to left, #FF4E50 , #F9D423);
+	background: url(../../images/dotted-bg.png),-webkit-linear-gradient(right, #FF4E50 , #F9D423);
+}
